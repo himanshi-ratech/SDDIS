@@ -1,0 +1,2161 @@
+Product_Name,Region,Year_Month,Quantity_Sold,Avg_Price,Avg_Temperature,Festival_Names,Festival_Day_Count,Num_Days,Festival_Indicator,Holiday_Indicator
+Butter (500g),Central,2021-01,6706,247.61,17.6,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Butter (500g),Central,2021-02,6203,251.42,20.8,No_Festival,0,21,No,No
+Butter (500g),Central,2021-03,5626,248.59,27.2,No_Festival,0,23,No,No
+Butter (500g),Central,2021-04,5180,249.63,33.4,Baisakhi,1,20,Yes,Yes
+Butter (500g),Central,2021-05,5776,250.91,37.8,No_Festival,0,23,No,No
+Butter (500g),Central,2021-06,5646,248.9,36.8,No_Festival,0,23,No,No
+Butter (500g),Central,2021-07,6753,250.28,30.8,No_Festival,0,23,No,Yes
+Butter (500g),Central,2021-08,7330,249.9,29.8,Independence Day,1,26,Yes,Yes
+Butter (500g),Central,2021-09,6131,250.61,29.4,No_Festival,0,23,No,No
+Butter (500g),Central,2021-10,4360,248.81,27.9,No_Festival,0,19,No,No
+Butter (500g),Central,2021-11,6780,251.43,22.6,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Butter (500g),Central,2021-12,6058,249.62,18.1,Christmas,1,23,Yes,Yes
+Butter (500g),Central,2022-01,5836,260.48,17.6,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Butter (500g),Central,2022-02,5549,261.56,21.4,No_Festival,0,23,No,No
+Butter (500g),Central,2022-03,6630,263.75,26.8,Holi,1,26,Yes,Yes
+Butter (500g),Central,2022-04,5291,261.77,33.2,Baisakhi,1,22,Yes,Yes
+Butter (500g),Central,2022-05,7084,262.78,38.0,No_Festival,0,25,No,Yes
+Butter (500g),Central,2022-06,6528,262.13,36.1,No_Festival,0,26,No,No
+Butter (500g),Central,2022-07,6430,262.01,31.1,No_Festival,0,24,No,Yes
+Butter (500g),Central,2022-08,7164,262.27,30.3,"Raksha Bandhan, Independence Day",2,23,Yes,Yes
+Butter (500g),Central,2022-09,5760,261.82,30.8,No_Festival,0,21,No,No
+Butter (500g),Central,2022-10,6834,262.85,28.2,"Gandhi Jayanti, Diwali",2,26,Yes,Yes
+Butter (500g),Central,2022-11,5606,263.96,22.5,Guru Nanak Jayanti,1,22,Yes,Yes
+Butter (500g),Central,2022-12,6340,264.27,17.9,Christmas,1,25,Yes,Yes
+Butter (500g),Central,2023-01,6292,276.44,17.7,Republic Day,1,25,Yes,Yes
+Butter (500g),Central,2023-02,4377,275.54,21.1,No_Festival,0,16,No,No
+Butter (500g),Central,2023-03,6014,273.02,26.5,Holi,1,23,Yes,Yes
+Butter (500g),Central,2023-04,5536,275.56,33.1,Baisakhi,1,20,Yes,Yes
+Butter (500g),Central,2023-05,6231,275.76,38.6,No_Festival,0,23,No,No
+Butter (500g),Central,2023-06,6082,275.4,36.0,No_Festival,0,22,No,Yes
+Butter (500g),Central,2023-07,6104,277.84,31.6,No_Festival,0,25,No,No
+Butter (500g),Central,2023-08,6643,274.34,29.8,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Butter (500g),Central,2023-09,5801,275.18,30.0,No_Festival,0,23,No,No
+Butter (500g),Central,2023-10,6043,274.14,27.9,Gandhi Jayanti,1,21,Yes,Yes
+Butter (500g),Central,2023-11,7335,275.51,22.4,Diwali,1,26,Yes,Yes
+Butter (500g),Central,2023-12,5259,275.03,19.0,No_Festival,0,23,No,No
+Butter (500g),East,2021-01,5641,250.2,18.6,Makar Sankranti,1,21,Yes,Yes
+Butter (500g),East,2021-02,4914,251.3,21.2,No_Festival,0,22,No,No
+Butter (500g),East,2021-03,6201,250.4,26.4,Holi,1,23,Yes,Yes
+Butter (500g),East,2021-04,4894,248.97,32.0,Baisakhi,1,19,Yes,Yes
+Butter (500g),East,2021-05,7180,249.27,34.6,No_Festival,0,24,No,Yes
+Butter (500g),East,2021-06,5610,250.15,32.3,No_Festival,0,24,No,No
+Butter (500g),East,2021-07,5531,249.19,29.7,No_Festival,0,22,No,Yes
+Butter (500g),East,2021-08,5585,249.1,29.9,"Independence Day, Raksha Bandhan",2,20,Yes,Yes
+Butter (500g),East,2021-09,5412,247.62,29.1,No_Festival,0,20,No,No
+Butter (500g),East,2021-10,5891,249.91,27.1,"Gandhi Jayanti, Navratri",2,23,Yes,Yes
+Butter (500g),East,2021-11,5740,250.78,22.3,Guru Nanak Jayanti,1,23,Yes,Yes
+Butter (500g),East,2021-12,4619,251.4,16.6,Christmas,1,19,Yes,Yes
+Butter (500g),East,2022-01,6209,261.84,18.4,Makar Sankranti,1,25,Yes,Yes
+Butter (500g),East,2022-02,5718,260.75,21.5,No_Festival,0,22,No,No
+Butter (500g),East,2022-03,5786,263.09,27.1,No_Festival,0,22,No,No
+Butter (500g),East,2022-04,5682,264.04,32.1,Baisakhi,1,20,Yes,Yes
+Butter (500g),East,2022-05,4629,260.95,34.4,No_Festival,0,20,No,Yes
+Butter (500g),East,2022-06,5871,263.38,32.4,No_Festival,0,21,No,No
+Butter (500g),East,2022-07,5916,263.97,29.9,No_Festival,0,21,No,No
+Butter (500g),East,2022-08,6686,261.28,30.5,"Raksha Bandhan, Janmashtami",2,25,Yes,Yes
+Butter (500g),East,2022-09,6534,261.97,29.4,No_Festival,0,25,No,No
+Butter (500g),East,2022-10,5001,261.08,27.0,Gandhi Jayanti,1,21,Yes,Yes
+Butter (500g),East,2022-11,5914,263.07,22.2,Guru Nanak Jayanti,1,22,Yes,Yes
+Butter (500g),East,2022-12,7316,264.85,17.0,Christmas,1,26,Yes,Yes
+Butter (500g),East,2023-01,7005,274.7,18.6,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Butter (500g),East,2023-02,5450,275.17,20.5,No_Festival,0,21,No,No
+Butter (500g),East,2023-03,6760,274.4,27.4,Holi,1,24,Yes,Yes
+Butter (500g),East,2023-04,4793,276.2,32.1,Baisakhi,1,21,Yes,Yes
+Butter (500g),East,2023-05,6287,274.44,34.2,No_Festival,0,25,No,No
+Butter (500g),East,2023-06,6598,275.22,31.8,No_Festival,0,25,No,Yes
+Butter (500g),East,2023-07,4468,275.44,29.3,No_Festival,0,19,No,No
+Butter (500g),East,2023-08,7638,276.45,30.1,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Butter (500g),East,2023-09,6445,274.44,28.8,Janmashtami,1,25,Yes,Yes
+Butter (500g),East,2023-10,5890,274.75,26.7,Gandhi Jayanti,1,22,Yes,Yes
+Butter (500g),East,2023-11,6917,273.66,21.9,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Butter (500g),East,2023-12,5973,275.5,16.6,Christmas,1,23,Yes,Yes
+Butter (500g),North,2021-01,6576,249.99,14.2,Republic Day,1,24,Yes,Yes
+Butter (500g),North,2021-02,6409,250.25,16.6,No_Festival,0,23,No,No
+Butter (500g),North,2021-03,5980,249.45,23.9,Holi,1,25,Yes,Yes
+Butter (500g),North,2021-04,7065,249.44,32.5,Baisakhi,1,25,Yes,Yes
+Butter (500g),North,2021-05,7333,251.17,38.7,No_Festival,0,28,No,Yes
+Butter (500g),North,2021-06,5928,247.16,39.8,No_Festival,0,23,No,No
+Butter (500g),North,2021-07,5054,249.38,35.5,No_Festival,0,21,No,Yes
+Butter (500g),North,2021-08,7258,250.87,33.6,Raksha Bandhan,1,25,Yes,Yes
+Butter (500g),North,2021-09,6108,250.5,32.2,No_Festival,0,22,No,No
+Butter (500g),North,2021-10,6436,250.12,26.8,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Butter (500g),North,2021-11,6839,250.35,18.7,Guru Nanak Jayanti,1,25,Yes,Yes
+Butter (500g),North,2021-12,5952,250.33,14.3,Christmas,1,24,Yes,Yes
+Butter (500g),North,2022-01,6254,261.87,14.5,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Butter (500g),North,2022-02,5532,262.12,16.8,No_Festival,0,22,No,No
+Butter (500g),North,2022-03,5900,261.32,24.6,Holi,1,22,Yes,Yes
+Butter (500g),North,2022-04,5793,263.95,31.7,Baisakhi,1,21,Yes,Yes
+Butter (500g),North,2022-05,6205,263.34,38.7,No_Festival,0,23,No,Yes
+Butter (500g),North,2022-06,6147,262.56,39.6,No_Festival,0,24,No,No
+Butter (500g),North,2022-07,4051,263.77,35.9,No_Festival,0,18,No,No
+Butter (500g),North,2022-08,6696,264.08,35.0,"Raksha Bandhan, Independence Day",2,23,Yes,Yes
+Butter (500g),North,2022-09,4704,262.75,32.0,No_Festival,0,18,No,No
+Butter (500g),North,2022-10,6170,262.26,25.8,"Gandhi Jayanti, Diwali",2,20,Yes,Yes
+Butter (500g),North,2022-11,6103,262.46,19.5,Guru Nanak Jayanti,1,23,Yes,Yes
+Butter (500g),North,2022-12,6122,263.0,14.6,Christmas,1,23,Yes,Yes
+Butter (500g),North,2023-01,6028,275.68,13.8,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Butter (500g),North,2023-02,5454,275.54,16.7,No_Festival,0,22,No,No
+Butter (500g),North,2023-03,6610,274.45,24.2,Holi,1,25,Yes,Yes
+Butter (500g),North,2023-04,5688,276.09,32.3,Baisakhi,1,22,Yes,Yes
+Butter (500g),North,2023-05,6524,274.13,37.6,No_Festival,0,25,No,No
+Butter (500g),North,2023-06,4935,275.16,39.3,No_Festival,0,21,No,Yes
+Butter (500g),North,2023-07,5260,275.48,36.5,No_Festival,0,22,No,No
+Butter (500g),North,2023-08,5782,275.96,33.9,Raksha Bandhan,1,22,Yes,Yes
+Butter (500g),North,2023-09,5527,276.96,31.9,Janmashtami,1,21,Yes,Yes
+Butter (500g),North,2023-10,6325,272.34,25.9,Gandhi Jayanti,1,22,Yes,Yes
+Butter (500g),North,2023-11,5547,277.35,18.7,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Butter (500g),North,2023-12,6467,274.75,14.3,Christmas,1,25,Yes,Yes
+Butter (500g),South,2021-01,6100,251.3,25.6,Republic Day,1,23,Yes,Yes
+Butter (500g),South,2021-02,5504,250.62,26.8,No_Festival,0,21,No,No
+Butter (500g),South,2021-03,6478,248.04,29.5,Holi,1,23,Yes,Yes
+Butter (500g),South,2021-04,7105,249.75,32.2,Baisakhi,1,27,Yes,Yes
+Butter (500g),South,2021-05,5654,250.61,34.6,No_Festival,0,23,No,Yes
+Butter (500g),South,2021-06,5686,250.11,29.7,No_Festival,0,23,No,No
+Butter (500g),South,2021-07,5441,249.13,28.0,No_Festival,0,23,No,Yes
+Butter (500g),South,2021-08,6673,249.56,27.9,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Butter (500g),South,2021-09,6705,250.64,28.1,Janmashtami,1,28,Yes,Yes
+Butter (500g),South,2021-10,7111,249.84,27.9,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Butter (500g),South,2021-11,4820,249.2,25.3,No_Festival,0,18,No,No
+Butter (500g),South,2021-12,6430,249.74,24.6,Christmas,1,24,Yes,Yes
+Butter (500g),South,2022-01,7350,261.95,26.0,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Butter (500g),South,2022-02,5414,262.46,26.6,No_Festival,0,21,No,No
+Butter (500g),South,2022-03,6163,262.53,28.6,Holi,1,22,Yes,Yes
+Butter (500g),South,2022-04,7491,261.57,32.6,Baisakhi,1,27,Yes,Yes
+Butter (500g),South,2022-05,5439,262.54,34.7,No_Festival,0,22,No,Yes
+Butter (500g),South,2022-06,5783,262.9,29.6,No_Festival,0,24,No,No
+Butter (500g),South,2022-07,5457,261.99,28.2,No_Festival,0,23,No,Yes
+Butter (500g),South,2022-08,6424,262.34,27.6,"Raksha Bandhan, Janmashtami",2,25,Yes,Yes
+Butter (500g),South,2022-09,6670,261.91,28.9,No_Festival,0,23,No,No
+Butter (500g),South,2022-10,6384,263.1,28.6,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Butter (500g),South,2022-11,4971,263.0,25.6,Guru Nanak Jayanti,1,23,Yes,Yes
+Butter (500g),South,2022-12,7145,261.84,25.4,No_Festival,0,27,No,No
+Butter (500g),South,2023-01,6629,275.64,25.8,Republic Day,1,25,Yes,Yes
+Butter (500g),South,2023-02,4208,276.24,26.4,No_Festival,0,18,No,No
+Butter (500g),South,2023-03,4863,275.81,28.7,Holi,1,19,Yes,Yes
+Butter (500g),South,2023-04,4944,275.03,32.4,Baisakhi,1,20,Yes,Yes
+Butter (500g),South,2023-05,7738,274.22,34.0,No_Festival,0,25,No,No
+Butter (500g),South,2023-06,5708,275.01,30.3,No_Festival,0,24,No,Yes
+Butter (500g),South,2023-07,7253,273.77,27.6,No_Festival,0,24,No,No
+Butter (500g),South,2023-08,6288,276.08,27.9,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Butter (500g),South,2023-09,7613,274.94,28.6,Janmashtami,1,27,Yes,Yes
+Butter (500g),South,2023-10,3480,273.19,27.9,Gandhi Jayanti,1,14,Yes,Yes
+Butter (500g),South,2023-11,6427,275.28,26.4,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Butter (500g),South,2023-12,7135,275.14,25.5,No_Festival,0,24,No,No
+Butter (500g),West,2021-01,6295,252.0,22.0,Makar Sankranti,1,23,Yes,Yes
+Butter (500g),West,2021-02,6054,250.6,23.0,No_Festival,0,24,No,No
+Butter (500g),West,2021-03,6864,249.51,27.7,Holi,1,25,Yes,Yes
+Butter (500g),West,2021-04,5671,250.37,31.8,Baisakhi,1,22,Yes,Yes
+Butter (500g),West,2021-05,6597,249.43,35.7,No_Festival,0,26,No,No
+Butter (500g),West,2021-06,4881,249.8,31.9,No_Festival,0,19,No,No
+Butter (500g),West,2021-07,5230,249.95,28.7,No_Festival,0,21,No,Yes
+Butter (500g),West,2021-08,5933,252.09,28.1,Independence Day,1,22,Yes,Yes
+Butter (500g),West,2021-09,4471,249.78,29.2,Janmashtami,1,18,Yes,Yes
+Butter (500g),West,2021-10,5873,250.22,30.1,Gandhi Jayanti,1,22,Yes,Yes
+Butter (500g),West,2021-11,7098,250.78,25.7,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Butter (500g),West,2021-12,6492,249.31,21.8,Christmas,1,24,Yes,Yes
+Butter (500g),West,2022-01,6654,263.25,21.8,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Butter (500g),West,2022-02,6638,262.91,24.6,No_Festival,0,23,No,No
+Butter (500g),West,2022-03,8187,261.42,27.6,Holi,1,25,Yes,Yes
+Butter (500g),West,2022-04,6051,263.29,31.3,Baisakhi,1,23,Yes,Yes
+Butter (500g),West,2022-05,5999,261.19,36.2,No_Festival,0,23,No,Yes
+Butter (500g),West,2022-06,5550,262.22,31.6,No_Festival,0,22,No,No
+Butter (500g),West,2022-07,5142,262.04,28.5,No_Festival,0,24,No,Yes
+Butter (500g),West,2022-08,5122,263.63,27.3,"Raksha Bandhan, Independence Day, Janmashtami",3,21,Yes,Yes
+Butter (500g),West,2022-09,4909,261.42,28.6,No_Festival,0,22,No,No
+Butter (500g),West,2022-10,6814,261.18,30.0,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Butter (500g),West,2022-11,6311,263.19,27.0,Guru Nanak Jayanti,1,24,Yes,Yes
+Butter (500g),West,2022-12,5487,264.88,22.5,Christmas,1,17,Yes,Yes
+Butter (500g),West,2023-01,8329,274.93,22.4,"Makar Sankranti, Republic Day",2,28,Yes,Yes
+Butter (500g),West,2023-02,6567,275.8,24.5,No_Festival,0,23,No,No
+Butter (500g),West,2023-03,6054,276.05,27.6,No_Festival,0,26,No,No
+Butter (500g),West,2023-04,5442,274.01,31.8,No_Festival,0,20,No,Yes
+Butter (500g),West,2023-05,6288,275.2,35.9,No_Festival,0,26,No,No
+Butter (500g),West,2023-06,5321,274.92,31.8,No_Festival,0,21,No,Yes
+Butter (500g),West,2023-07,6669,274.46,28.7,No_Festival,0,25,No,No
+Butter (500g),West,2023-08,5956,275.17,28.9,"Independence Day, Raksha Bandhan",2,21,Yes,Yes
+Butter (500g),West,2023-09,6366,273.87,28.8,Janmashtami,1,23,Yes,Yes
+Butter (500g),West,2023-10,5711,274.42,30.5,Gandhi Jayanti,1,23,Yes,Yes
+Butter (500g),West,2023-11,5392,276.86,26.0,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Butter (500g),West,2023-12,5646,275.65,21.9,Christmas,1,23,Yes,Yes
+Buttermilk (1L),Central,2021-01,5821,34.81,17.8,Makar Sankranti,1,23,Yes,Yes
+Buttermilk (1L),Central,2021-02,5322,35.04,20.6,No_Festival,0,20,No,No
+Buttermilk (1L),Central,2021-03,13534,34.98,27.5,Holi,1,22,Yes,Yes
+Buttermilk (1L),Central,2021-04,14965,34.91,32.6,Baisakhi,1,23,Yes,Yes
+Buttermilk (1L),Central,2021-05,16514,35.07,38.2,No_Festival,0,26,No,Yes
+Buttermilk (1L),Central,2021-06,13536,35.03,36.8,No_Festival,0,22,No,No
+Buttermilk (1L),Central,2021-07,7572,35.2,31.0,No_Festival,0,19,No,Yes
+Buttermilk (1L),Central,2021-08,9139,34.98,29.4,"Independence Day, Raksha Bandhan",2,22,Yes,Yes
+Buttermilk (1L),Central,2021-09,10060,34.8,29.8,Janmashtami,1,24,Yes,Yes
+Buttermilk (1L),Central,2021-10,7648,34.86,28.5,Navratri,1,20,Yes,Yes
+Buttermilk (1L),Central,2021-11,9995,34.97,22.5,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Buttermilk (1L),Central,2021-12,5897,34.84,18.2,Christmas,1,23,Yes,Yes
+Buttermilk (1L),Central,2022-01,6043,36.75,17.4,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Buttermilk (1L),Central,2022-02,5460,36.71,21.1,No_Festival,0,23,No,No
+Buttermilk (1L),Central,2022-03,13233,37.06,27.0,No_Festival,0,21,No,No
+Buttermilk (1L),Central,2022-04,14428,37.1,33.0,Baisakhi,1,22,Yes,Yes
+Buttermilk (1L),Central,2022-05,17798,36.9,38.1,No_Festival,0,28,No,Yes
+Buttermilk (1L),Central,2022-06,15417,36.82,36.2,No_Festival,0,27,No,No
+Buttermilk (1L),Central,2022-07,11224,36.71,31.3,No_Festival,0,26,No,No
+Buttermilk (1L),Central,2022-08,11230,36.83,30.5,"Raksha Bandhan, Independence Day",2,25,Yes,Yes
+Buttermilk (1L),Central,2022-09,9725,36.82,30.5,No_Festival,0,25,No,No
+Buttermilk (1L),Central,2022-10,10157,36.71,27.9,"Gandhi Jayanti, Diwali",2,26,Yes,Yes
+Buttermilk (1L),Central,2022-11,11950,36.91,22.5,Guru Nanak Jayanti,1,28,Yes,Yes
+Buttermilk (1L),Central,2022-12,5957,36.64,18.4,Christmas,1,23,Yes,Yes
+Buttermilk (1L),Central,2023-01,5783,38.57,17.6,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Buttermilk (1L),Central,2023-02,4285,38.32,21.7,No_Festival,0,18,No,No
+Buttermilk (1L),Central,2023-03,12506,38.38,27.1,No_Festival,0,22,No,No
+Buttermilk (1L),Central,2023-04,16155,38.37,33.4,Baisakhi,1,25,Yes,Yes
+Buttermilk (1L),Central,2023-05,16128,38.49,38.9,No_Festival,0,26,No,No
+Buttermilk (1L),Central,2023-06,13137,38.42,36.0,No_Festival,0,20,No,Yes
+Buttermilk (1L),Central,2023-07,9850,38.34,31.1,No_Festival,0,23,No,No
+Buttermilk (1L),Central,2023-08,8303,38.37,30.1,"Independence Day, Raksha Bandhan",2,19,Yes,Yes
+Buttermilk (1L),Central,2023-09,7861,38.81,30.1,Janmashtami,1,20,Yes,Yes
+Buttermilk (1L),Central,2023-10,11965,38.41,27.9,Gandhi Jayanti,1,27,Yes,Yes
+Buttermilk (1L),Central,2023-11,12077,38.56,22.4,"Diwali, Guru Nanak Jayanti",2,28,Yes,Yes
+Buttermilk (1L),Central,2023-12,5918,38.55,18.9,Christmas,1,24,Yes,Yes
+Buttermilk (1L),East,2021-01,6244,35.06,18.5,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Buttermilk (1L),East,2021-02,6402,34.81,21.2,No_Festival,0,25,No,No
+Buttermilk (1L),East,2021-03,14544,35.2,26.3,Holi,1,21,Yes,Yes
+Buttermilk (1L),East,2021-04,15249,34.95,31.8,No_Festival,0,26,No,No
+Buttermilk (1L),East,2021-05,16509,35.23,34.5,No_Festival,0,25,No,Yes
+Buttermilk (1L),East,2021-06,12003,34.93,32.0,No_Festival,0,19,No,No
+Buttermilk (1L),East,2021-07,10740,35.27,29.8,No_Festival,0,25,No,Yes
+Buttermilk (1L),East,2021-08,9845,35.2,29.9,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Buttermilk (1L),East,2021-09,8960,35.1,29.3,Janmashtami,1,22,Yes,Yes
+Buttermilk (1L),East,2021-10,8782,34.87,27.6,Navratri,1,21,Yes,Yes
+Buttermilk (1L),East,2021-11,9947,35.31,22.5,"Diwali, Guru Nanak Jayanti",2,21,Yes,Yes
+Buttermilk (1L),East,2021-12,5228,34.84,16.7,No_Festival,0,23,No,No
+Buttermilk (1L),East,2022-01,5870,36.72,18.3,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Buttermilk (1L),East,2022-02,6038,36.93,21.4,No_Festival,0,22,No,No
+Buttermilk (1L),East,2022-03,16629,36.73,27.0,Holi,1,25,Yes,Yes
+Buttermilk (1L),East,2022-04,15292,36.51,32.3,Baisakhi,1,23,Yes,Yes
+Buttermilk (1L),East,2022-05,12084,36.72,34.1,No_Festival,0,22,No,Yes
+Buttermilk (1L),East,2022-06,13955,36.64,31.8,No_Festival,0,24,No,No
+Buttermilk (1L),East,2022-07,10907,36.82,30.0,No_Festival,0,25,No,Yes
+Buttermilk (1L),East,2022-08,9209,36.82,30.6,"Raksha Bandhan, Independence Day, Janmashtami",3,22,Yes,Yes
+Buttermilk (1L),East,2022-09,8931,36.78,29.6,No_Festival,0,23,No,No
+Buttermilk (1L),East,2022-10,9436,37.0,27.0,"Gandhi Jayanti, Diwali",2,24,Yes,Yes
+Buttermilk (1L),East,2022-11,8637,36.81,22.4,Guru Nanak Jayanti,1,21,Yes,Yes
+Buttermilk (1L),East,2022-12,5991,36.72,16.7,Christmas,1,24,Yes,Yes
+Buttermilk (1L),East,2023-01,6715,38.31,18.7,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Buttermilk (1L),East,2023-02,4361,38.65,21.4,No_Festival,0,20,No,No
+Buttermilk (1L),East,2023-03,14868,38.6,27.4,Holi,1,23,Yes,Yes
+Buttermilk (1L),East,2023-04,12626,38.4,31.5,No_Festival,0,23,No,No
+Buttermilk (1L),East,2023-05,16839,38.33,34.0,No_Festival,0,27,No,No
+Buttermilk (1L),East,2023-06,13419,38.58,31.2,No_Festival,0,23,No,No
+Buttermilk (1L),East,2023-07,8765,38.41,29.5,No_Festival,0,21,No,No
+Buttermilk (1L),East,2023-08,11492,38.48,29.8,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Buttermilk (1L),East,2023-09,12079,38.47,29.0,Janmashtami,1,26,Yes,Yes
+Buttermilk (1L),East,2023-10,9453,38.45,27.2,Gandhi Jayanti,1,24,Yes,Yes
+Buttermilk (1L),East,2023-11,10193,38.6,22.0,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Buttermilk (1L),East,2023-12,5550,38.38,16.6,No_Festival,0,21,No,No
+Buttermilk (1L),North,2021-01,6685,35.15,14.0,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Buttermilk (1L),North,2021-02,4414,34.8,16.4,No_Festival,0,19,No,No
+Buttermilk (1L),North,2021-03,13760,35.05,23.8,Holi,1,23,Yes,Yes
+Buttermilk (1L),North,2021-04,11341,35.11,32.2,No_Festival,0,20,No,No
+Buttermilk (1L),North,2021-05,17674,35.01,38.5,No_Festival,0,26,No,Yes
+Buttermilk (1L),North,2021-06,13454,34.89,39.9,No_Festival,0,23,No,No
+Buttermilk (1L),North,2021-07,7971,35.36,36.0,No_Festival,0,19,No,Yes
+Buttermilk (1L),North,2021-08,11005,34.84,33.1,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Buttermilk (1L),North,2021-09,9086,35.05,32.2,Janmashtami,1,22,Yes,Yes
+Buttermilk (1L),North,2021-10,10721,34.88,26.4,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Buttermilk (1L),North,2021-11,8342,34.9,18.3,Guru Nanak Jayanti,1,23,Yes,Yes
+Buttermilk (1L),North,2021-12,5892,34.99,14.7,Christmas,1,23,Yes,Yes
+Buttermilk (1L),North,2022-01,4604,36.49,14.2,Makar Sankranti,1,20,Yes,Yes
+Buttermilk (1L),North,2022-02,4954,36.58,16.7,No_Festival,0,23,No,No
+Buttermilk (1L),North,2022-03,14308,36.99,25.0,Holi,1,23,Yes,Yes
+Buttermilk (1L),North,2022-04,13480,36.68,31.6,No_Festival,0,22,No,No
+Buttermilk (1L),North,2022-05,11890,36.84,38.1,No_Festival,0,19,No,No
+Buttermilk (1L),North,2022-06,14201,36.53,39.6,No_Festival,0,24,No,No
+Buttermilk (1L),North,2022-07,12502,36.72,36.0,No_Festival,0,28,No,Yes
+Buttermilk (1L),North,2022-08,9020,36.95,35.0,"Raksha Bandhan, Independence Day",2,21,Yes,Yes
+Buttermilk (1L),North,2022-09,9253,36.63,32.1,No_Festival,0,24,No,No
+Buttermilk (1L),North,2022-10,9726,36.48,26.2,Gandhi Jayanti,1,22,Yes,Yes
+Buttermilk (1L),North,2022-11,9933,36.87,19.3,Guru Nanak Jayanti,1,25,Yes,Yes
+Buttermilk (1L),North,2022-12,6720,36.62,14.7,No_Festival,0,27,No,No
+Buttermilk (1L),North,2023-01,6367,38.32,14.0,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Buttermilk (1L),North,2023-02,3640,38.45,17.1,No_Festival,0,15,No,No
+Buttermilk (1L),North,2023-03,15157,38.51,24.0,Holi,1,27,Yes,Yes
+Buttermilk (1L),North,2023-04,17662,38.99,32.3,Baisakhi,1,25,Yes,Yes
+Buttermilk (1L),North,2023-05,14622,38.71,37.7,No_Festival,0,23,No,No
+Buttermilk (1L),North,2023-06,15312,38.34,39.6,No_Festival,0,23,No,Yes
+Buttermilk (1L),North,2023-07,9047,38.63,36.3,No_Festival,0,21,No,No
+Buttermilk (1L),North,2023-08,12750,38.39,34.0,Raksha Bandhan,1,27,Yes,Yes
+Buttermilk (1L),North,2023-09,7756,38.52,31.7,Janmashtami,1,21,Yes,Yes
+Buttermilk (1L),North,2023-10,10859,38.38,25.6,Gandhi Jayanti,1,26,Yes,Yes
+Buttermilk (1L),North,2023-11,10565,38.46,18.5,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Buttermilk (1L),North,2023-12,4747,38.44,14.6,No_Festival,0,18,No,No
+Buttermilk (1L),South,2021-01,6352,34.98,25.6,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Buttermilk (1L),South,2021-02,4532,35.01,26.6,No_Festival,0,18,No,No
+Buttermilk (1L),South,2021-03,15617,35.14,29.9,Holi,1,25,Yes,Yes
+Buttermilk (1L),South,2021-04,13246,34.96,32.2,Baisakhi,1,22,Yes,Yes
+Buttermilk (1L),South,2021-05,14444,35.12,34.9,No_Festival,0,22,No,No
+Buttermilk (1L),South,2021-06,12644,34.88,29.6,No_Festival,0,21,No,No
+Buttermilk (1L),South,2021-07,10477,35.0,28.0,No_Festival,0,26,No,Yes
+Buttermilk (1L),South,2021-08,10321,34.85,28.3,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Buttermilk (1L),South,2021-09,8561,34.89,28.0,No_Festival,0,20,No,No
+Buttermilk (1L),South,2021-10,11534,35.15,28.2,"Gandhi Jayanti, Navratri",2,27,Yes,Yes
+Buttermilk (1L),South,2021-11,9854,34.82,25.3,Guru Nanak Jayanti,1,22,Yes,Yes
+Buttermilk (1L),South,2021-12,4889,34.99,24.7,Christmas,1,22,Yes,Yes
+Buttermilk (1L),South,2022-01,4913,36.7,25.6,Republic Day,1,18,Yes,Yes
+Buttermilk (1L),South,2022-02,4695,36.82,27.1,No_Festival,0,20,No,No
+Buttermilk (1L),South,2022-03,12369,36.65,28.5,No_Festival,0,18,No,No
+Buttermilk (1L),South,2022-04,14682,36.6,32.4,Baisakhi,1,21,Yes,Yes
+Buttermilk (1L),South,2022-05,14568,36.61,34.5,No_Festival,0,25,No,Yes
+Buttermilk (1L),South,2022-06,12822,36.75,29.5,No_Festival,0,21,No,No
+Buttermilk (1L),South,2022-07,10192,36.6,28.1,No_Festival,0,25,No,Yes
+Buttermilk (1L),South,2022-08,9875,36.71,27.6,"Raksha Bandhan, Independence Day, Janmashtami",3,24,Yes,Yes
+Buttermilk (1L),South,2022-09,8968,37.0,28.6,No_Festival,0,22,No,No
+Buttermilk (1L),South,2022-10,10556,36.89,28.9,"Gandhi Jayanti, Diwali",2,22,Yes,Yes
+Buttermilk (1L),South,2022-11,8420,36.84,26.2,No_Festival,0,20,No,No
+Buttermilk (1L),South,2022-12,5601,36.7,25.3,No_Festival,0,24,No,No
+Buttermilk (1L),South,2023-01,6581,38.61,25.6,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Buttermilk (1L),South,2023-02,5414,38.29,27.0,No_Festival,0,20,No,No
+Buttermilk (1L),South,2023-03,11674,38.66,29.2,No_Festival,0,20,No,No
+Buttermilk (1L),South,2023-04,16059,38.62,32.6,Baisakhi,1,25,Yes,Yes
+Buttermilk (1L),South,2023-05,15545,38.56,33.9,No_Festival,0,28,No,No
+Buttermilk (1L),South,2023-06,14178,38.69,30.0,No_Festival,0,23,No,No
+Buttermilk (1L),South,2023-07,7759,38.54,27.0,No_Festival,0,20,No,No
+Buttermilk (1L),South,2023-08,10638,38.36,27.7,Independence Day,1,24,Yes,Yes
+Buttermilk (1L),South,2023-09,9368,38.37,28.8,Janmashtami,1,22,Yes,Yes
+Buttermilk (1L),South,2023-10,8389,38.55,27.4,No_Festival,0,21,No,No
+Buttermilk (1L),South,2023-11,9890,38.67,26.8,Diwali,1,20,Yes,Yes
+Buttermilk (1L),South,2023-12,5893,38.49,25.4,Christmas,1,22,Yes,Yes
+Buttermilk (1L),West,2021-01,5208,35.01,21.9,"Makar Sankranti, Republic Day",2,20,Yes,Yes
+Buttermilk (1L),West,2021-02,4828,34.88,23.3,No_Festival,0,21,No,No
+Buttermilk (1L),West,2021-03,15723,35.02,27.6,Holi,1,24,Yes,Yes
+Buttermilk (1L),West,2021-04,14145,35.04,31.5,Baisakhi,1,24,Yes,Yes
+Buttermilk (1L),West,2021-05,15215,35.14,35.5,No_Festival,0,23,No,No
+Buttermilk (1L),West,2021-06,12258,35.12,31.4,No_Festival,0,21,No,No
+Buttermilk (1L),West,2021-07,10235,34.76,29.0,No_Festival,0,24,No,Yes
+Buttermilk (1L),West,2021-08,9774,35.14,28.5,Independence Day,1,22,Yes,Yes
+Buttermilk (1L),West,2021-09,11499,34.99,29.3,Janmashtami,1,25,Yes,Yes
+Buttermilk (1L),West,2021-10,7427,35.1,31.0,"Gandhi Jayanti, Navratri",2,18,Yes,Yes
+Buttermilk (1L),West,2021-11,10733,34.9,25.5,Guru Nanak Jayanti,1,24,Yes,Yes
+Buttermilk (1L),West,2021-12,7021,34.89,21.6,Christmas,1,26,Yes,Yes
+Buttermilk (1L),West,2022-01,5784,36.94,22.2,No_Festival,0,21,No,No
+Buttermilk (1L),West,2022-02,6161,36.24,24.2,No_Festival,0,25,No,No
+Buttermilk (1L),West,2022-03,12634,36.54,28.0,Holi,1,22,Yes,Yes
+Buttermilk (1L),West,2022-04,13553,36.63,31.8,Baisakhi,1,23,Yes,Yes
+Buttermilk (1L),West,2022-05,16474,36.66,36.5,No_Festival,0,27,No,No
+Buttermilk (1L),West,2022-06,13827,37.02,31.8,No_Festival,0,23,No,No
+Buttermilk (1L),West,2022-07,12140,36.8,28.4,No_Festival,0,26,No,Yes
+Buttermilk (1L),West,2022-08,13288,36.81,27.7,"Raksha Bandhan, Janmashtami",2,29,Yes,Yes
+Buttermilk (1L),West,2022-09,10158,36.56,28.9,No_Festival,0,27,No,No
+Buttermilk (1L),West,2022-10,10431,36.58,29.8,"Gandhi Jayanti, Diwali",2,22,Yes,Yes
+Buttermilk (1L),West,2022-11,11514,36.59,26.8,Guru Nanak Jayanti,1,27,Yes,Yes
+Buttermilk (1L),West,2022-12,6800,36.8,22.5,No_Festival,0,27,No,No
+Buttermilk (1L),West,2023-01,5835,38.66,22.4,Republic Day,1,21,Yes,Yes
+Buttermilk (1L),West,2023-02,4395,38.74,24.8,No_Festival,0,18,No,No
+Buttermilk (1L),West,2023-03,15397,38.44,27.7,Holi,1,25,Yes,Yes
+Buttermilk (1L),West,2023-04,15468,38.28,32.0,Baisakhi,1,26,Yes,Yes
+Buttermilk (1L),West,2023-05,11788,38.68,36.1,No_Festival,0,19,No,No
+Buttermilk (1L),West,2023-06,15393,38.64,32.1,No_Festival,0,26,No,Yes
+Buttermilk (1L),West,2023-07,8414,38.44,28.9,No_Festival,0,21,No,No
+Buttermilk (1L),West,2023-08,11612,38.52,28.8,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Buttermilk (1L),West,2023-09,10227,38.83,28.7,Janmashtami,1,23,Yes,Yes
+Buttermilk (1L),West,2023-10,10167,38.56,30.2,Gandhi Jayanti,1,23,Yes,Yes
+Buttermilk (1L),West,2023-11,11312,38.37,25.8,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Buttermilk (1L),West,2023-12,6823,38.37,21.8,Christmas,1,26,Yes,Yes
+Cheese Slices (200g),Central,2021-01,5421,109.85,17.6,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Cheese Slices (200g),Central,2021-02,5331,109.66,20.9,No_Festival,0,23,No,No
+Cheese Slices (200g),Central,2021-03,5398,109.76,27.5,Holi,1,22,Yes,Yes
+Cheese Slices (200g),Central,2021-04,5696,110.1,33.1,Baisakhi,1,23,Yes,Yes
+Cheese Slices (200g),Central,2021-05,4956,109.55,37.9,No_Festival,0,23,No,Yes
+Cheese Slices (200g),Central,2021-06,5121,109.92,36.5,No_Festival,0,22,No,No
+Cheese Slices (200g),Central,2021-07,5021,110.87,30.4,No_Festival,0,23,No,Yes
+Cheese Slices (200g),Central,2021-08,5879,109.41,29.9,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Cheese Slices (200g),Central,2021-09,5583,108.92,29.7,Janmashtami,1,25,Yes,Yes
+Cheese Slices (200g),Central,2021-10,5406,109.33,28.3,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Cheese Slices (200g),Central,2021-11,5039,109.71,22.7,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Cheese Slices (200g),Central,2021-12,6803,109.66,17.5,Christmas,1,24,Yes,Yes
+Cheese Slices (200g),Central,2022-01,5859,114.96,17.4,Makar Sankranti,1,25,Yes,Yes
+Cheese Slices (200g),Central,2022-02,5017,115.68,21.2,No_Festival,0,23,No,No
+Cheese Slices (200g),Central,2022-03,5488,116.06,26.9,Holi,1,24,Yes,Yes
+Cheese Slices (200g),Central,2022-04,5443,115.61,33.1,Baisakhi,1,23,Yes,Yes
+Cheese Slices (200g),Central,2022-05,5008,114.9,37.9,No_Festival,0,22,No,No
+Cheese Slices (200g),Central,2022-06,6067,115.56,36.0,No_Festival,0,25,No,No
+Cheese Slices (200g),Central,2022-07,4670,115.44,31.6,No_Festival,0,22,No,Yes
+Cheese Slices (200g),Central,2022-08,5953,115.59,30.5,"Raksha Bandhan, Janmashtami",2,25,Yes,Yes
+Cheese Slices (200g),Central,2022-09,6271,115.89,29.9,No_Festival,0,24,No,No
+Cheese Slices (200g),Central,2022-10,5747,115.67,28.0,Gandhi Jayanti,1,25,Yes,Yes
+Cheese Slices (200g),Central,2022-11,3823,115.34,22.3,No_Festival,0,19,No,No
+Cheese Slices (200g),Central,2022-12,7222,114.65,18.1,Christmas,1,28,Yes,Yes
+Cheese Slices (200g),Central,2023-01,5962,121.55,17.6,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Cheese Slices (200g),Central,2023-02,4439,121.37,21.6,No_Festival,0,21,No,No
+Cheese Slices (200g),Central,2023-03,7103,121.69,26.7,Holi,1,27,Yes,Yes
+Cheese Slices (200g),Central,2023-04,4938,120.59,33.3,Baisakhi,1,21,Yes,Yes
+Cheese Slices (200g),Central,2023-05,5696,120.83,38.5,No_Festival,0,26,No,No
+Cheese Slices (200g),Central,2023-06,5174,121.05,36.6,No_Festival,0,23,No,No
+Cheese Slices (200g),Central,2023-07,5781,121.88,31.4,No_Festival,0,25,No,No
+Cheese Slices (200g),Central,2023-08,5549,120.37,29.8,Independence Day,1,23,Yes,Yes
+Cheese Slices (200g),Central,2023-09,5407,120.92,30.0,Janmashtami,1,25,Yes,Yes
+Cheese Slices (200g),Central,2023-10,4952,121.19,27.8,Gandhi Jayanti,1,23,Yes,Yes
+Cheese Slices (200g),Central,2023-11,5429,121.17,22.1,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Cheese Slices (200g),Central,2023-12,5904,120.71,18.9,Christmas,1,25,Yes,Yes
+Cheese Slices (200g),East,2021-01,6055,110.59,18.9,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Cheese Slices (200g),East,2021-02,3722,109.71,21.5,No_Festival,0,18,No,No
+Cheese Slices (200g),East,2021-03,4943,109.85,26.5,No_Festival,0,23,No,No
+Cheese Slices (200g),East,2021-04,4687,110.73,32.1,Baisakhi,1,22,Yes,Yes
+Cheese Slices (200g),East,2021-05,5157,110.25,34.3,No_Festival,0,21,No,No
+Cheese Slices (200g),East,2021-06,6538,110.03,32.2,No_Festival,0,27,No,No
+Cheese Slices (200g),East,2021-07,5822,110.46,29.7,No_Festival,0,24,No,Yes
+Cheese Slices (200g),East,2021-08,6911,110.2,29.9,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Cheese Slices (200g),East,2021-09,6674,109.81,29.5,Janmashtami,1,27,Yes,Yes
+Cheese Slices (200g),East,2021-10,4831,109.77,27.0,"Gandhi Jayanti, Navratri",2,21,Yes,Yes
+Cheese Slices (200g),East,2021-11,4595,109.98,22.3,"Diwali, Guru Nanak Jayanti",2,21,Yes,Yes
+Cheese Slices (200g),East,2021-12,5620,110.04,16.9,Christmas,1,24,Yes,Yes
+Cheese Slices (200g),East,2022-01,5677,115.11,18.5,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Cheese Slices (200g),East,2022-02,5840,115.36,21.5,No_Festival,0,23,No,No
+Cheese Slices (200g),East,2022-03,5945,115.19,27.0,Holi,1,22,Yes,Yes
+Cheese Slices (200g),East,2022-04,6213,114.9,32.4,Baisakhi,1,25,Yes,Yes
+Cheese Slices (200g),East,2022-05,5243,116.39,34.3,No_Festival,0,23,No,Yes
+Cheese Slices (200g),East,2022-06,5424,115.58,31.9,No_Festival,0,25,No,No
+Cheese Slices (200g),East,2022-07,5486,115.45,30.2,No_Festival,0,23,No,No
+Cheese Slices (200g),East,2022-08,5138,115.31,30.3,"Raksha Bandhan, Independence Day, Janmashtami",3,25,Yes,Yes
+Cheese Slices (200g),East,2022-09,5546,115.7,29.5,No_Festival,0,25,No,No
+Cheese Slices (200g),East,2022-10,5945,115.25,26.9,"Gandhi Jayanti, Diwali",2,24,Yes,Yes
+Cheese Slices (200g),East,2022-11,6150,114.8,22.5,Guru Nanak Jayanti,1,25,Yes,Yes
+Cheese Slices (200g),East,2022-12,5718,114.76,16.8,Christmas,1,25,Yes,Yes
+Cheese Slices (200g),East,2023-01,5702,121.12,18.3,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Cheese Slices (200g),East,2023-02,4291,120.34,20.7,No_Festival,0,18,No,No
+Cheese Slices (200g),East,2023-03,5087,120.92,27.5,Holi,1,25,Yes,Yes
+Cheese Slices (200g),East,2023-04,4539,121.24,31.9,No_Festival,0,22,No,Yes
+Cheese Slices (200g),East,2023-05,4355,120.53,34.2,No_Festival,0,20,No,No
+Cheese Slices (200g),East,2023-06,5173,121.55,31.8,No_Festival,0,22,No,Yes
+Cheese Slices (200g),East,2023-07,4901,120.5,29.4,No_Festival,0,21,No,No
+Cheese Slices (200g),East,2023-08,5328,121.42,30.5,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Cheese Slices (200g),East,2023-09,5466,122.06,28.8,Janmashtami,1,24,Yes,Yes
+Cheese Slices (200g),East,2023-10,5517,121.19,26.6,Gandhi Jayanti,1,23,Yes,Yes
+Cheese Slices (200g),East,2023-11,4896,120.43,21.9,Guru Nanak Jayanti,1,21,Yes,Yes
+Cheese Slices (200g),East,2023-12,5645,120.82,16.7,Christmas,1,27,Yes,Yes
+Cheese Slices (200g),North,2021-01,4257,109.65,14.2,Makar Sankranti,1,20,Yes,Yes
+Cheese Slices (200g),North,2021-02,4530,110.43,16.5,No_Festival,0,20,No,No
+Cheese Slices (200g),North,2021-03,5895,110.39,23.7,Holi,1,24,Yes,Yes
+Cheese Slices (200g),North,2021-04,4695,109.85,32.4,Baisakhi,1,19,Yes,Yes
+Cheese Slices (200g),North,2021-05,5761,110.38,38.9,No_Festival,0,25,No,Yes
+Cheese Slices (200g),North,2021-06,5370,110.05,40.0,No_Festival,0,23,No,No
+Cheese Slices (200g),North,2021-07,5588,109.56,36.0,No_Festival,0,23,No,Yes
+Cheese Slices (200g),North,2021-08,4734,110.3,33.3,Raksha Bandhan,1,21,Yes,Yes
+Cheese Slices (200g),North,2021-09,6081,109.57,32.7,Janmashtami,1,25,Yes,Yes
+Cheese Slices (200g),North,2021-10,5928,110.17,26.2,"Gandhi Jayanti, Navratri",2,26,Yes,Yes
+Cheese Slices (200g),North,2021-11,4362,109.93,18.8,"Diwali, Guru Nanak Jayanti",2,21,Yes,Yes
+Cheese Slices (200g),North,2021-12,6088,109.21,14.8,Christmas,1,24,Yes,Yes
+Cheese Slices (200g),North,2022-01,5053,115.23,14.1,Republic Day,1,23,Yes,Yes
+Cheese Slices (200g),North,2022-02,5310,115.32,17.3,No_Festival,0,20,No,No
+Cheese Slices (200g),North,2022-03,5646,115.24,24.4,No_Festival,0,23,No,No
+Cheese Slices (200g),North,2022-04,6101,115.7,31.8,Baisakhi,1,27,Yes,Yes
+Cheese Slices (200g),North,2022-05,5728,115.81,38.4,No_Festival,0,23,No,Yes
+Cheese Slices (200g),North,2022-06,5365,114.94,39.5,No_Festival,0,22,No,No
+Cheese Slices (200g),North,2022-07,5802,115.47,35.6,No_Festival,0,26,No,Yes
+Cheese Slices (200g),North,2022-08,5227,115.27,34.8,"Raksha Bandhan, Independence Day, Janmashtami",3,21,Yes,Yes
+Cheese Slices (200g),North,2022-09,4491,115.89,32.0,No_Festival,0,22,No,No
+Cheese Slices (200g),North,2022-10,6845,115.26,26.0,"Gandhi Jayanti, Diwali",2,26,Yes,Yes
+Cheese Slices (200g),North,2022-11,5461,114.65,19.5,Guru Nanak Jayanti,1,24,Yes,Yes
+Cheese Slices (200g),North,2022-12,6648,115.34,14.6,Christmas,1,25,Yes,Yes
+Cheese Slices (200g),North,2023-01,5434,120.99,14.2,Republic Day,1,23,Yes,Yes
+Cheese Slices (200g),North,2023-02,5859,120.97,16.9,No_Festival,0,24,No,No
+Cheese Slices (200g),North,2023-03,6077,120.65,24.2,Holi,1,27,Yes,Yes
+Cheese Slices (200g),North,2023-04,6322,121.23,32.4,Baisakhi,1,24,Yes,Yes
+Cheese Slices (200g),North,2023-05,5471,121.98,37.3,No_Festival,0,24,No,No
+Cheese Slices (200g),North,2023-06,5836,120.86,39.2,No_Festival,0,24,No,Yes
+Cheese Slices (200g),North,2023-07,6016,120.61,36.3,No_Festival,0,25,No,No
+Cheese Slices (200g),North,2023-08,5103,121.32,33.7,Independence Day,1,24,Yes,Yes
+Cheese Slices (200g),North,2023-09,5811,120.97,31.8,Janmashtami,1,21,Yes,Yes
+Cheese Slices (200g),North,2023-10,5456,121.15,25.9,No_Festival,0,23,No,No
+Cheese Slices (200g),North,2023-11,6291,120.77,18.6,"Diwali, Guru Nanak Jayanti",2,27,Yes,Yes
+Cheese Slices (200g),North,2023-12,4736,120.28,14.1,Christmas,1,22,Yes,Yes
+Cheese Slices (200g),South,2021-01,5430,110.2,25.4,Republic Day,1,24,Yes,Yes
+Cheese Slices (200g),South,2021-02,4892,109.97,26.6,No_Festival,0,21,No,No
+Cheese Slices (200g),South,2021-03,5480,109.79,30.0,Holi,1,24,Yes,Yes
+Cheese Slices (200g),South,2021-04,4878,109.8,32.4,Baisakhi,1,23,Yes,Yes
+Cheese Slices (200g),South,2021-05,5159,110.59,34.8,No_Festival,0,23,No,No
+Cheese Slices (200g),South,2021-06,5558,110.12,30.1,No_Festival,0,25,No,No
+Cheese Slices (200g),South,2021-07,5224,110.19,28.1,No_Festival,0,22,No,Yes
+Cheese Slices (200g),South,2021-08,6240,109.96,28.0,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Cheese Slices (200g),South,2021-09,4831,109.69,28.1,Janmashtami,1,22,Yes,Yes
+Cheese Slices (200g),South,2021-10,6461,109.9,28.2,Gandhi Jayanti,1,27,Yes,Yes
+Cheese Slices (200g),South,2021-11,4977,109.97,25.5,"Diwali, Guru Nanak Jayanti",2,21,Yes,Yes
+Cheese Slices (200g),South,2021-12,5215,109.87,24.9,Christmas,1,21,Yes,Yes
+Cheese Slices (200g),South,2022-01,6187,115.61,25.9,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Cheese Slices (200g),South,2022-02,5019,114.95,26.7,No_Festival,0,21,No,No
+Cheese Slices (200g),South,2022-03,4407,115.32,28.5,Holi,1,22,Yes,Yes
+Cheese Slices (200g),South,2022-04,5817,115.76,32.5,Baisakhi,1,23,Yes,Yes
+Cheese Slices (200g),South,2022-05,5173,115.66,34.4,No_Festival,0,22,No,No
+Cheese Slices (200g),South,2022-06,5773,115.38,29.5,No_Festival,0,24,No,No
+Cheese Slices (200g),South,2022-07,5365,115.14,28.3,No_Festival,0,23,No,Yes
+Cheese Slices (200g),South,2022-08,5329,115.0,27.6,"Raksha Bandhan, Independence Day, Janmashtami",3,22,Yes,Yes
+Cheese Slices (200g),South,2022-09,4763,115.13,29.1,No_Festival,0,20,No,No
+Cheese Slices (200g),South,2022-10,6319,115.51,28.7,"Gandhi Jayanti, Diwali",2,28,Yes,Yes
+Cheese Slices (200g),South,2022-11,4299,115.33,25.6,No_Festival,0,20,No,No
+Cheese Slices (200g),South,2022-12,6063,115.53,25.1,Christmas,1,24,Yes,Yes
+Cheese Slices (200g),South,2023-01,5746,121.15,25.7,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Cheese Slices (200g),South,2023-02,4718,121.05,26.8,No_Festival,0,22,No,No
+Cheese Slices (200g),South,2023-03,4953,120.84,28.7,Holi,1,23,Yes,Yes
+Cheese Slices (200g),South,2023-04,4118,121.38,32.6,Baisakhi,1,19,Yes,Yes
+Cheese Slices (200g),South,2023-05,5395,120.43,34.0,No_Festival,0,26,No,No
+Cheese Slices (200g),South,2023-06,5280,121.44,30.2,No_Festival,0,23,No,No
+Cheese Slices (200g),South,2023-07,5692,121.04,27.6,No_Festival,0,22,No,No
+Cheese Slices (200g),South,2023-08,5458,121.91,28.0,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Cheese Slices (200g),South,2023-09,6097,120.44,28.7,Janmashtami,1,26,Yes,Yes
+Cheese Slices (200g),South,2023-10,6045,121.36,27.8,Gandhi Jayanti,1,26,Yes,Yes
+Cheese Slices (200g),South,2023-11,4820,120.83,26.6,Guru Nanak Jayanti,1,22,Yes,Yes
+Cheese Slices (200g),South,2023-12,5817,121.13,25.4,Christmas,1,25,Yes,Yes
+Cheese Slices (200g),West,2021-01,4352,109.49,22.3,Makar Sankranti,1,18,Yes,Yes
+Cheese Slices (200g),West,2021-02,5672,109.56,23.6,No_Festival,0,24,No,No
+Cheese Slices (200g),West,2021-03,6681,110.08,27.6,Holi,1,27,Yes,Yes
+Cheese Slices (200g),West,2021-04,5136,109.37,31.5,Baisakhi,1,23,Yes,Yes
+Cheese Slices (200g),West,2021-05,5905,109.16,35.4,No_Festival,0,26,No,Yes
+Cheese Slices (200g),West,2021-06,4492,109.83,31.6,No_Festival,0,22,No,No
+Cheese Slices (200g),West,2021-07,5796,109.65,29.2,No_Festival,0,24,No,Yes
+Cheese Slices (200g),West,2021-08,5544,109.84,28.2,No_Festival,0,25,No,No
+Cheese Slices (200g),West,2021-09,5017,109.36,29.1,Janmashtami,1,22,Yes,Yes
+Cheese Slices (200g),West,2021-10,5133,110.25,30.7,"Gandhi Jayanti, Navratri",2,22,Yes,Yes
+Cheese Slices (200g),West,2021-11,5395,109.49,25.9,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Cheese Slices (200g),West,2021-12,5687,110.21,21.9,Christmas,1,24,Yes,Yes
+Cheese Slices (200g),West,2022-01,4618,115.09,21.7,Republic Day,1,21,Yes,Yes
+Cheese Slices (200g),West,2022-02,4832,115.68,24.4,No_Festival,0,21,No,No
+Cheese Slices (200g),West,2022-03,4041,114.18,27.6,No_Festival,0,16,No,No
+Cheese Slices (200g),West,2022-04,5516,115.82,31.2,Baisakhi,1,24,Yes,Yes
+Cheese Slices (200g),West,2022-05,5136,115.1,36.4,No_Festival,0,23,No,No
+Cheese Slices (200g),West,2022-06,5852,114.87,31.9,No_Festival,0,26,No,No
+Cheese Slices (200g),West,2022-07,5642,115.95,28.5,No_Festival,0,25,No,Yes
+Cheese Slices (200g),West,2022-08,6092,116.0,27.6,"Raksha Bandhan, Independence Day",2,26,Yes,Yes
+Cheese Slices (200g),West,2022-09,3992,114.65,29.0,No_Festival,0,17,No,No
+Cheese Slices (200g),West,2022-10,5047,116.31,30.3,Gandhi Jayanti,1,22,Yes,Yes
+Cheese Slices (200g),West,2022-11,5289,115.72,26.7,Guru Nanak Jayanti,1,25,Yes,Yes
+Cheese Slices (200g),West,2022-12,5204,115.85,22.7,Christmas,1,22,Yes,Yes
+Cheese Slices (200g),West,2023-01,6048,121.29,22.5,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Cheese Slices (200g),West,2023-02,4380,120.72,24.8,No_Festival,0,19,No,No
+Cheese Slices (200g),West,2023-03,5201,120.77,27.6,Holi,1,24,Yes,Yes
+Cheese Slices (200g),West,2023-04,5676,121.35,32.3,Baisakhi,1,24,Yes,Yes
+Cheese Slices (200g),West,2023-05,6178,120.87,36.1,No_Festival,0,28,No,No
+Cheese Slices (200g),West,2023-06,5221,121.18,31.6,No_Festival,0,24,No,Yes
+Cheese Slices (200g),West,2023-07,6294,121.32,28.8,No_Festival,0,28,No,No
+Cheese Slices (200g),West,2023-08,6642,120.2,28.5,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Cheese Slices (200g),West,2023-09,5519,121.65,29.1,Janmashtami,1,23,Yes,Yes
+Cheese Slices (200g),West,2023-10,5776,120.82,30.5,Gandhi Jayanti,1,22,Yes,Yes
+Cheese Slices (200g),West,2023-11,5444,120.31,25.7,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Cheese Slices (200g),West,2023-12,6095,120.45,22.0,Christmas,1,27,Yes,Yes
+Dahi / Curd (500g),Central,2021-01,18478,44.86,17.6,Makar Sankranti,1,22,Yes,Yes
+Dahi / Curd (500g),Central,2021-02,15624,45.05,21.1,No_Festival,0,20,No,No
+Dahi / Curd (500g),Central,2021-03,16102,44.95,27.3,Holi,1,22,Yes,Yes
+Dahi / Curd (500g),Central,2021-04,21462,45.12,33.1,No_Festival,0,24,No,No
+Dahi / Curd (500g),Central,2021-05,16145,44.54,38.3,No_Festival,0,20,No,No
+Dahi / Curd (500g),Central,2021-06,20972,44.92,36.7,No_Festival,0,26,No,No
+Dahi / Curd (500g),Central,2021-07,19374,45.13,30.7,No_Festival,0,24,No,No
+Dahi / Curd (500g),Central,2021-08,25666,44.97,29.8,Raksha Bandhan,1,29,Yes,Yes
+Dahi / Curd (500g),Central,2021-09,19364,45.13,29.8,No_Festival,0,24,No,No
+Dahi / Curd (500g),Central,2021-10,18955,44.96,27.9,Gandhi Jayanti,1,22,Yes,Yes
+Dahi / Curd (500g),Central,2021-11,25294,45.35,22.8,"Diwali, Guru Nanak Jayanti",2,27,Yes,Yes
+Dahi / Curd (500g),Central,2021-12,17426,44.65,18.0,Christmas,1,23,Yes,Yes
+Dahi / Curd (500g),Central,2022-01,17774,47.17,17.9,"Makar Sankranti, Republic Day",2,19,Yes,Yes
+Dahi / Curd (500g),Central,2022-02,20015,47.59,21.4,No_Festival,0,22,No,No
+Dahi / Curd (500g),Central,2022-03,19044,47.56,26.9,No_Festival,0,22,No,No
+Dahi / Curd (500g),Central,2022-04,14128,47.34,33.2,No_Festival,0,17,No,No
+Dahi / Curd (500g),Central,2022-05,19403,47.39,37.8,No_Festival,0,23,No,Yes
+Dahi / Curd (500g),Central,2022-06,16169,47.32,36.5,No_Festival,0,21,No,No
+Dahi / Curd (500g),Central,2022-07,21711,47.22,31.3,No_Festival,0,24,No,Yes
+Dahi / Curd (500g),Central,2022-08,22625,47.39,30.6,"Independence Day, Janmashtami",2,28,Yes,Yes
+Dahi / Curd (500g),Central,2022-09,19418,47.36,30.4,No_Festival,0,24,No,No
+Dahi / Curd (500g),Central,2022-10,18868,47.17,28.3,No_Festival,0,23,No,No
+Dahi / Curd (500g),Central,2022-11,18372,47.6,22.4,No_Festival,0,20,No,No
+Dahi / Curd (500g),Central,2022-12,18615,47.24,18.5,Christmas,1,22,Yes,Yes
+Dahi / Curd (500g),Central,2023-01,18874,49.65,17.6,Republic Day,1,21,Yes,Yes
+Dahi / Curd (500g),Central,2023-02,17622,49.55,21.7,No_Festival,0,21,No,No
+Dahi / Curd (500g),Central,2023-03,22164,49.09,27.0,Holi,1,25,Yes,Yes
+Dahi / Curd (500g),Central,2023-04,22526,49.45,33.3,Baisakhi,1,26,Yes,Yes
+Dahi / Curd (500g),Central,2023-05,19295,49.21,38.6,No_Festival,0,24,No,No
+Dahi / Curd (500g),Central,2023-06,22195,49.73,36.5,No_Festival,0,27,No,Yes
+Dahi / Curd (500g),Central,2023-07,13979,49.45,31.7,No_Festival,0,19,No,No
+Dahi / Curd (500g),Central,2023-08,23584,49.58,29.9,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Dahi / Curd (500g),Central,2023-09,19880,49.45,30.0,Janmashtami,1,25,Yes,Yes
+Dahi / Curd (500g),Central,2023-10,18804,49.5,27.9,No_Festival,0,23,No,No
+Dahi / Curd (500g),Central,2023-11,17918,49.55,22.6,Guru Nanak Jayanti,1,24,Yes,Yes
+Dahi / Curd (500g),Central,2023-12,15024,49.81,19.0,No_Festival,0,22,No,No
+Dahi / Curd (500g),East,2021-01,18743,45.22,18.7,Republic Day,1,23,Yes,Yes
+Dahi / Curd (500g),East,2021-02,22824,45.12,21.2,No_Festival,0,25,No,No
+Dahi / Curd (500g),East,2021-03,21554,44.9,26.6,No_Festival,0,26,No,No
+Dahi / Curd (500g),East,2021-04,20784,44.96,32.1,Baisakhi,1,26,Yes,Yes
+Dahi / Curd (500g),East,2021-05,21275,45.03,34.4,No_Festival,0,26,No,Yes
+Dahi / Curd (500g),East,2021-06,20468,45.17,32.2,No_Festival,0,25,No,No
+Dahi / Curd (500g),East,2021-07,21804,45.1,29.7,No_Festival,0,26,No,Yes
+Dahi / Curd (500g),East,2021-08,23190,44.91,30.0,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Dahi / Curd (500g),East,2021-09,19801,45.34,29.4,Janmashtami,1,24,Yes,Yes
+Dahi / Curd (500g),East,2021-10,19032,44.95,27.2,"Gandhi Jayanti, Navratri",2,24,Yes,Yes
+Dahi / Curd (500g),East,2021-11,17828,44.89,22.4,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Dahi / Curd (500g),East,2021-12,17900,44.93,16.7,No_Festival,0,23,No,No
+Dahi / Curd (500g),East,2022-01,20212,47.2,18.3,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Dahi / Curd (500g),East,2022-02,19396,47.23,21.8,No_Festival,0,26,No,No
+Dahi / Curd (500g),East,2022-03,19959,47.48,27.0,Holi,1,24,Yes,Yes
+Dahi / Curd (500g),East,2022-04,16923,47.18,32.4,Baisakhi,1,22,Yes,Yes
+Dahi / Curd (500g),East,2022-05,17224,47.19,34.3,No_Festival,0,22,No,Yes
+Dahi / Curd (500g),East,2022-06,21445,47.27,32.0,No_Festival,0,26,No,No
+Dahi / Curd (500g),East,2022-07,20348,47.14,30.2,No_Festival,0,24,No,No
+Dahi / Curd (500g),East,2022-08,17711,47.39,30.3,"Raksha Bandhan, Janmashtami",2,22,Yes,Yes
+Dahi / Curd (500g),East,2022-09,21244,47.54,29.7,No_Festival,0,24,No,No
+Dahi / Curd (500g),East,2022-10,16788,47.39,26.8,"Gandhi Jayanti, Diwali",2,22,Yes,Yes
+Dahi / Curd (500g),East,2022-11,20578,47.15,22.5,Guru Nanak Jayanti,1,24,Yes,Yes
+Dahi / Curd (500g),East,2022-12,22207,47.61,16.8,No_Festival,0,26,No,No
+Dahi / Curd (500g),East,2023-01,22699,49.65,18.6,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Dahi / Curd (500g),East,2023-02,19251,49.46,20.8,No_Festival,0,22,No,No
+Dahi / Curd (500g),East,2023-03,15966,49.25,27.1,No_Festival,0,19,No,No
+Dahi / Curd (500g),East,2023-04,19859,49.55,32.1,Baisakhi,1,23,Yes,Yes
+Dahi / Curd (500g),East,2023-05,22598,49.35,33.9,No_Festival,0,24,No,No
+Dahi / Curd (500g),East,2023-06,18373,49.34,31.5,No_Festival,0,21,No,Yes
+Dahi / Curd (500g),East,2023-07,17251,49.41,29.7,No_Festival,0,21,No,No
+Dahi / Curd (500g),East,2023-08,19674,49.41,30.1,Raksha Bandhan,1,22,Yes,Yes
+Dahi / Curd (500g),East,2023-09,24195,49.63,28.7,No_Festival,0,25,No,No
+Dahi / Curd (500g),East,2023-10,22764,49.6,26.6,Gandhi Jayanti,1,25,Yes,Yes
+Dahi / Curd (500g),East,2023-11,19443,49.7,22.1,Guru Nanak Jayanti,1,23,Yes,Yes
+Dahi / Curd (500g),East,2023-12,17714,49.16,16.3,No_Festival,0,21,No,No
+Dahi / Curd (500g),North,2021-01,20950,44.95,14.3,Republic Day,1,26,Yes,Yes
+Dahi / Curd (500g),North,2021-02,19976,45.15,16.5,No_Festival,0,25,No,No
+Dahi / Curd (500g),North,2021-03,20892,44.92,23.6,Holi,1,25,Yes,Yes
+Dahi / Curd (500g),North,2021-04,22716,44.99,32.2,Baisakhi,1,25,Yes,Yes
+Dahi / Curd (500g),North,2021-05,19579,45.15,38.7,No_Festival,0,23,No,Yes
+Dahi / Curd (500g),North,2021-06,15157,45.07,39.7,No_Festival,0,20,No,No
+Dahi / Curd (500g),North,2021-07,18459,44.91,35.9,No_Festival,0,23,No,Yes
+Dahi / Curd (500g),North,2021-08,22871,45.08,33.2,"Independence Day, Raksha Bandhan",2,28,Yes,Yes
+Dahi / Curd (500g),North,2021-09,23535,45.16,32.3,Janmashtami,1,27,Yes,Yes
+Dahi / Curd (500g),North,2021-10,23066,44.87,26.5,"Gandhi Jayanti, Navratri",2,26,Yes,Yes
+Dahi / Curd (500g),North,2021-11,21777,44.97,18.2,Diwali,1,24,Yes,Yes
+Dahi / Curd (500g),North,2021-12,15367,45.14,14.4,Christmas,1,17,Yes,Yes
+Dahi / Curd (500g),North,2022-01,13629,47.09,14.0,Republic Day,1,18,Yes,Yes
+Dahi / Curd (500g),North,2022-02,16192,46.88,16.9,No_Festival,0,18,No,No
+Dahi / Curd (500g),North,2022-03,23273,47.36,24.7,Holi,1,28,Yes,Yes
+Dahi / Curd (500g),North,2022-04,15430,47.35,31.7,No_Festival,0,18,No,No
+Dahi / Curd (500g),North,2022-05,22201,47.22,38.5,No_Festival,0,26,No,Yes
+Dahi / Curd (500g),North,2022-06,19160,47.34,39.6,No_Festival,0,24,No,No
+Dahi / Curd (500g),North,2022-07,22238,47.04,36.0,No_Festival,0,26,No,Yes
+Dahi / Curd (500g),North,2022-08,18430,47.52,34.7,Janmashtami,1,21,Yes,Yes
+Dahi / Curd (500g),North,2022-09,12996,47.04,31.9,No_Festival,0,15,No,No
+Dahi / Curd (500g),North,2022-10,24800,47.2,26.0,"Gandhi Jayanti, Diwali",2,27,Yes,Yes
+Dahi / Curd (500g),North,2022-11,22926,47.38,19.3,Guru Nanak Jayanti,1,28,Yes,Yes
+Dahi / Curd (500g),North,2022-12,20863,47.69,14.5,Christmas,1,25,Yes,Yes
+Dahi / Curd (500g),North,2023-01,21567,49.56,14.2,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Dahi / Curd (500g),North,2023-02,16977,49.81,16.9,No_Festival,0,20,No,No
+Dahi / Curd (500g),North,2023-03,18607,49.45,24.3,No_Festival,0,22,No,No
+Dahi / Curd (500g),North,2023-04,17713,49.67,32.3,No_Festival,0,23,No,Yes
+Dahi / Curd (500g),North,2023-05,21653,49.73,37.5,No_Festival,0,26,No,No
+Dahi / Curd (500g),North,2023-06,21681,49.44,39.4,No_Festival,0,26,No,Yes
+Dahi / Curd (500g),North,2023-07,22195,49.09,36.3,No_Festival,0,26,No,No
+Dahi / Curd (500g),North,2023-08,17326,49.3,33.9,Raksha Bandhan,1,23,Yes,Yes
+Dahi / Curd (500g),North,2023-09,20264,49.5,32.0,Janmashtami,1,25,Yes,Yes
+Dahi / Curd (500g),North,2023-10,21053,49.58,26.2,Gandhi Jayanti,1,24,Yes,Yes
+Dahi / Curd (500g),North,2023-11,22036,49.57,18.4,Guru Nanak Jayanti,1,26,Yes,Yes
+Dahi / Curd (500g),North,2023-12,22469,49.69,14.0,Christmas,1,27,Yes,Yes
+Dahi / Curd (500g),South,2021-01,20129,45.13,25.5,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Dahi / Curd (500g),South,2021-02,14347,44.94,26.5,No_Festival,0,19,No,No
+Dahi / Curd (500g),South,2021-03,21384,44.94,29.9,Holi,1,26,Yes,Yes
+Dahi / Curd (500g),South,2021-04,18953,44.89,32.4,Baisakhi,1,22,Yes,Yes
+Dahi / Curd (500g),South,2021-05,20254,44.94,34.7,No_Festival,0,25,No,Yes
+Dahi / Curd (500g),South,2021-06,16522,45.02,29.9,No_Festival,0,17,No,No
+Dahi / Curd (500g),South,2021-07,16817,45.2,28.0,No_Festival,0,23,No,No
+Dahi / Curd (500g),South,2021-08,17764,44.85,28.3,"Independence Day, Raksha Bandhan",2,18,Yes,Yes
+Dahi / Curd (500g),South,2021-09,21198,45.21,28.1,Janmashtami,1,27,Yes,Yes
+Dahi / Curd (500g),South,2021-10,20944,44.61,28.1,Navratri,1,27,Yes,Yes
+Dahi / Curd (500g),South,2021-11,14157,44.95,25.2,"Diwali, Guru Nanak Jayanti",2,17,Yes,Yes
+Dahi / Curd (500g),South,2021-12,17316,44.78,24.6,Christmas,1,20,Yes,Yes
+Dahi / Curd (500g),South,2022-01,19321,47.34,26.0,Makar Sankranti,1,24,Yes,Yes
+Dahi / Curd (500g),South,2022-02,15816,47.34,27.1,No_Festival,0,19,No,No
+Dahi / Curd (500g),South,2022-03,21707,47.19,29.0,Holi,1,25,Yes,Yes
+Dahi / Curd (500g),South,2022-04,20770,47.39,32.7,Baisakhi,1,21,Yes,Yes
+Dahi / Curd (500g),South,2022-05,19462,47.2,34.7,No_Festival,0,24,No,Yes
+Dahi / Curd (500g),South,2022-06,17495,47.02,29.6,No_Festival,0,24,No,No
+Dahi / Curd (500g),South,2022-07,24576,47.29,28.0,No_Festival,0,28,No,Yes
+Dahi / Curd (500g),South,2022-08,21293,47.02,27.9,No_Festival,0,24,No,No
+Dahi / Curd (500g),South,2022-09,16689,47.37,28.8,No_Festival,0,22,No,No
+Dahi / Curd (500g),South,2022-10,22632,47.32,28.8,Diwali,1,26,Yes,Yes
+Dahi / Curd (500g),South,2022-11,21681,47.26,26.1,Guru Nanak Jayanti,1,25,Yes,Yes
+Dahi / Curd (500g),South,2022-12,20018,46.98,25.0,Christmas,1,22,Yes,Yes
+Dahi / Curd (500g),South,2023-01,17199,49.18,25.5,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Dahi / Curd (500g),South,2023-02,15831,49.62,26.8,No_Festival,0,20,No,No
+Dahi / Curd (500g),South,2023-03,21274,49.2,29.4,No_Festival,0,22,No,No
+Dahi / Curd (500g),South,2023-04,19362,49.4,32.9,No_Festival,0,23,No,Yes
+Dahi / Curd (500g),South,2023-05,15937,49.18,34.3,No_Festival,0,20,No,No
+Dahi / Curd (500g),South,2023-06,22391,49.29,30.6,No_Festival,0,26,No,Yes
+Dahi / Curd (500g),South,2023-07,12280,49.53,27.8,No_Festival,0,15,No,No
+Dahi / Curd (500g),South,2023-08,20934,49.52,27.8,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Dahi / Curd (500g),South,2023-09,22397,49.75,28.3,No_Festival,0,24,No,No
+Dahi / Curd (500g),South,2023-10,19568,49.55,28.0,Gandhi Jayanti,1,22,Yes,Yes
+Dahi / Curd (500g),South,2023-11,18234,49.25,26.7,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Dahi / Curd (500g),South,2023-12,21165,49.78,25.4,Christmas,1,25,Yes,Yes
+Dahi / Curd (500g),West,2021-01,22245,44.84,22.2,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Dahi / Curd (500g),West,2021-02,15458,44.89,22.9,No_Festival,0,18,No,No
+Dahi / Curd (500g),West,2021-03,19012,45.15,27.6,Holi,1,24,Yes,Yes
+Dahi / Curd (500g),West,2021-04,20587,44.94,31.8,No_Festival,0,26,No,No
+Dahi / Curd (500g),West,2021-05,19134,45.24,35.6,No_Festival,0,26,No,No
+Dahi / Curd (500g),West,2021-06,16172,44.84,31.9,No_Festival,0,21,No,No
+Dahi / Curd (500g),West,2021-07,19109,44.72,28.9,No_Festival,0,23,No,No
+Dahi / Curd (500g),West,2021-08,17042,45.05,27.6,"Independence Day, Raksha Bandhan",2,20,Yes,Yes
+Dahi / Curd (500g),West,2021-09,23393,44.99,29.1,Janmashtami,1,27,Yes,Yes
+Dahi / Curd (500g),West,2021-10,18596,45.07,30.2,No_Festival,0,20,No,No
+Dahi / Curd (500g),West,2021-11,16320,45.09,25.5,No_Festival,0,21,No,No
+Dahi / Curd (500g),West,2021-12,17908,45.19,22.2,No_Festival,0,22,No,No
+Dahi / Curd (500g),West,2022-01,23854,47.03,22.1,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Dahi / Curd (500g),West,2022-02,16375,47.24,24.4,No_Festival,0,20,No,No
+Dahi / Curd (500g),West,2022-03,19811,46.97,27.8,No_Festival,0,25,No,No
+Dahi / Curd (500g),West,2022-04,18963,47.37,31.6,Baisakhi,1,24,Yes,Yes
+Dahi / Curd (500g),West,2022-05,19433,47.08,36.1,No_Festival,0,24,No,Yes
+Dahi / Curd (500g),West,2022-06,22448,47.06,31.5,No_Festival,0,26,No,No
+Dahi / Curd (500g),West,2022-07,15070,47.39,28.3,No_Festival,0,19,No,No
+Dahi / Curd (500g),West,2022-08,21292,47.22,27.5,"Raksha Bandhan, Independence Day, Janmashtami",3,24,Yes,Yes
+Dahi / Curd (500g),West,2022-09,16784,47.37,28.7,No_Festival,0,19,No,No
+Dahi / Curd (500g),West,2022-10,20769,47.32,30.0,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Dahi / Curd (500g),West,2022-11,19022,47.25,26.9,No_Festival,0,23,No,No
+Dahi / Curd (500g),West,2022-12,21101,47.18,22.6,No_Festival,0,23,No,No
+Dahi / Curd (500g),West,2023-01,21971,49.49,22.6,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Dahi / Curd (500g),West,2023-02,13041,49.84,24.4,No_Festival,0,17,No,No
+Dahi / Curd (500g),West,2023-03,14859,49.49,27.3,No_Festival,0,19,No,No
+Dahi / Curd (500g),West,2023-04,17230,49.69,32.0,Baisakhi,1,23,Yes,Yes
+Dahi / Curd (500g),West,2023-05,20548,49.58,36.1,No_Festival,0,24,No,No
+Dahi / Curd (500g),West,2023-06,15539,49.58,31.9,No_Festival,0,21,No,Yes
+Dahi / Curd (500g),West,2023-07,17714,49.27,28.7,No_Festival,0,21,No,No
+Dahi / Curd (500g),West,2023-08,19640,49.6,28.7,"Independence Day, Raksha Bandhan",2,22,Yes,Yes
+Dahi / Curd (500g),West,2023-09,15285,49.47,28.8,No_Festival,0,18,No,No
+Dahi / Curd (500g),West,2023-10,16990,49.37,30.8,No_Festival,0,19,No,No
+Dahi / Curd (500g),West,2023-11,21249,49.17,26.0,Guru Nanak Jayanti,1,23,Yes,Yes
+Dahi / Curd (500g),West,2023-12,21920,49.78,21.9,Christmas,1,26,Yes,Yes
+Flavoured Milk (200ml),Central,2021-01,12582,29.94,18.2,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Flavoured Milk (200ml),Central,2021-02,11523,30.18,21.0,No_Festival,0,19,No,No
+Flavoured Milk (200ml),Central,2021-03,14450,29.9,27.3,Holi,1,24,Yes,Yes
+Flavoured Milk (200ml),Central,2021-04,13768,30.16,32.5,Baisakhi,1,21,Yes,Yes
+Flavoured Milk (200ml),Central,2021-05,15273,30.03,38.0,No_Festival,0,24,No,Yes
+Flavoured Milk (200ml),Central,2021-06,14469,29.85,36.8,No_Festival,0,21,No,No
+Flavoured Milk (200ml),Central,2021-07,11991,30.03,30.5,No_Festival,0,21,No,Yes
+Flavoured Milk (200ml),Central,2021-08,15879,30.08,29.5,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Flavoured Milk (200ml),Central,2021-09,13643,30.02,29.8,Janmashtami,1,23,Yes,Yes
+Flavoured Milk (200ml),Central,2021-10,14238,29.86,28.1,Gandhi Jayanti,1,25,Yes,Yes
+Flavoured Milk (200ml),Central,2021-11,17933,30.04,22.8,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Flavoured Milk (200ml),Central,2021-12,14857,30.02,17.9,Christmas,1,24,Yes,Yes
+Flavoured Milk (200ml),Central,2022-01,15570,31.4,18.0,No_Festival,0,23,No,No
+Flavoured Milk (200ml),Central,2022-02,13129,31.45,21.2,No_Festival,0,23,No,No
+Flavoured Milk (200ml),Central,2022-03,12874,31.39,27.1,Holi,1,22,Yes,Yes
+Flavoured Milk (200ml),Central,2022-04,15706,31.52,33.0,Baisakhi,1,26,Yes,Yes
+Flavoured Milk (200ml),Central,2022-05,16481,31.64,38.1,No_Festival,0,26,No,Yes
+Flavoured Milk (200ml),Central,2022-06,16580,31.61,36.3,No_Festival,0,23,No,No
+Flavoured Milk (200ml),Central,2022-07,13466,31.53,31.1,No_Festival,0,22,No,No
+Flavoured Milk (200ml),Central,2022-08,15454,31.28,30.6,"Raksha Bandhan, Independence Day, Janmashtami",3,26,Yes,Yes
+Flavoured Milk (200ml),Central,2022-09,12434,31.46,30.5,No_Festival,0,22,No,No
+Flavoured Milk (200ml),Central,2022-10,15207,31.7,28.0,Diwali,1,22,Yes,Yes
+Flavoured Milk (200ml),Central,2022-11,15567,31.38,22.5,Guru Nanak Jayanti,1,24,Yes,Yes
+Flavoured Milk (200ml),Central,2022-12,15082,31.58,18.0,Christmas,1,23,Yes,Yes
+Flavoured Milk (200ml),Central,2023-01,14756,33.08,17.9,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Flavoured Milk (200ml),Central,2023-02,12703,33.08,21.2,No_Festival,0,20,No,No
+Flavoured Milk (200ml),Central,2023-03,14897,32.99,27.1,Holi,1,24,Yes,Yes
+Flavoured Milk (200ml),Central,2023-04,12482,33.18,33.8,Baisakhi,1,19,Yes,Yes
+Flavoured Milk (200ml),Central,2023-05,13629,33.09,38.7,No_Festival,0,22,No,No
+Flavoured Milk (200ml),Central,2023-06,15307,32.96,36.7,No_Festival,0,25,No,Yes
+Flavoured Milk (200ml),Central,2023-07,11263,32.94,31.8,No_Festival,0,19,No,No
+Flavoured Milk (200ml),Central,2023-08,16335,33.09,30.2,Raksha Bandhan,1,23,Yes,Yes
+Flavoured Milk (200ml),Central,2023-09,15347,32.93,30.2,Janmashtami,1,25,Yes,Yes
+Flavoured Milk (200ml),Central,2023-10,12388,32.88,27.3,Gandhi Jayanti,1,20,Yes,Yes
+Flavoured Milk (200ml),Central,2023-11,14415,32.88,22.3,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Flavoured Milk (200ml),Central,2023-12,15881,33.16,18.9,No_Festival,0,24,No,No
+Flavoured Milk (200ml),East,2021-01,16101,29.99,18.6,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Flavoured Milk (200ml),East,2021-02,12838,30.02,20.8,No_Festival,0,21,No,No
+Flavoured Milk (200ml),East,2021-03,14601,30.0,26.7,No_Festival,0,23,No,No
+Flavoured Milk (200ml),East,2021-04,13758,30.14,31.9,No_Festival,0,21,No,No
+Flavoured Milk (200ml),East,2021-05,17013,30.17,34.7,No_Festival,0,25,No,Yes
+Flavoured Milk (200ml),East,2021-06,16913,29.93,32.4,No_Festival,0,24,No,No
+Flavoured Milk (200ml),East,2021-07,13534,29.92,29.6,No_Festival,0,22,No,Yes
+Flavoured Milk (200ml),East,2021-08,19233,30.11,30.0,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Flavoured Milk (200ml),East,2021-09,13821,30.09,29.6,Janmashtami,1,21,Yes,Yes
+Flavoured Milk (200ml),East,2021-10,13678,29.97,27.2,"Gandhi Jayanti, Navratri",2,24,Yes,Yes
+Flavoured Milk (200ml),East,2021-11,16050,30.17,22.4,Guru Nanak Jayanti,1,26,Yes,Yes
+Flavoured Milk (200ml),East,2021-12,13536,29.96,17.0,Christmas,1,22,Yes,Yes
+Flavoured Milk (200ml),East,2022-01,14344,31.71,18.3,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Flavoured Milk (200ml),East,2022-02,13466,31.57,21.8,No_Festival,0,24,No,No
+Flavoured Milk (200ml),East,2022-03,12955,31.47,27.0,Holi,1,20,Yes,Yes
+Flavoured Milk (200ml),East,2022-04,12282,31.49,32.6,No_Festival,0,20,No,No
+Flavoured Milk (200ml),East,2022-05,15467,31.54,34.3,No_Festival,0,23,No,No
+Flavoured Milk (200ml),East,2022-06,16015,31.34,32.0,No_Festival,0,26,No,No
+Flavoured Milk (200ml),East,2022-07,10366,31.45,30.7,No_Festival,0,18,No,No
+Flavoured Milk (200ml),East,2022-08,15475,31.45,30.5,"Raksha Bandhan, Independence Day, Janmashtami",3,23,Yes,Yes
+Flavoured Milk (200ml),East,2022-09,12341,31.6,29.6,No_Festival,0,20,No,No
+Flavoured Milk (200ml),East,2022-10,14185,31.68,27.2,"Gandhi Jayanti, Diwali",2,23,Yes,Yes
+Flavoured Milk (200ml),East,2022-11,15605,31.43,22.3,Guru Nanak Jayanti,1,23,Yes,Yes
+Flavoured Milk (200ml),East,2022-12,14388,31.54,16.7,Christmas,1,24,Yes,Yes
+Flavoured Milk (200ml),East,2023-01,15440,32.89,18.2,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Flavoured Milk (200ml),East,2023-02,13141,33.15,20.8,No_Festival,0,22,No,No
+Flavoured Milk (200ml),East,2023-03,13439,33.08,27.5,Holi,1,24,Yes,Yes
+Flavoured Milk (200ml),East,2023-04,8426,33.25,32.2,Baisakhi,1,16,Yes,Yes
+Flavoured Milk (200ml),East,2023-05,13784,32.99,33.8,No_Festival,0,23,No,No
+Flavoured Milk (200ml),East,2023-06,12931,32.94,32.1,No_Festival,0,21,No,Yes
+Flavoured Milk (200ml),East,2023-07,12613,33.1,29.6,No_Festival,0,24,No,No
+Flavoured Milk (200ml),East,2023-08,17388,32.86,30.3,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Flavoured Milk (200ml),East,2023-09,14673,33.0,28.6,No_Festival,0,24,No,No
+Flavoured Milk (200ml),East,2023-10,11385,33.11,26.9,No_Festival,0,21,No,No
+Flavoured Milk (200ml),East,2023-11,13146,33.07,22.3,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Flavoured Milk (200ml),East,2023-12,11998,32.97,16.8,Christmas,1,20,Yes,Yes
+Flavoured Milk (200ml),North,2021-01,17271,30.04,14.1,Republic Day,1,25,Yes,Yes
+Flavoured Milk (200ml),North,2021-02,13337,29.87,16.3,No_Festival,0,20,No,No
+Flavoured Milk (200ml),North,2021-03,16553,30.09,23.6,Holi,1,26,Yes,Yes
+Flavoured Milk (200ml),North,2021-04,15176,30.17,32.1,Baisakhi,1,22,Yes,Yes
+Flavoured Milk (200ml),North,2021-05,16082,29.91,38.4,No_Festival,0,28,No,No
+Flavoured Milk (200ml),North,2021-06,13458,29.97,40.2,No_Festival,0,21,No,No
+Flavoured Milk (200ml),North,2021-07,15465,30.15,36.1,No_Festival,0,25,No,Yes
+Flavoured Milk (200ml),North,2021-08,14986,30.04,33.2,Raksha Bandhan,1,26,Yes,Yes
+Flavoured Milk (200ml),North,2021-09,15632,30.02,32.6,No_Festival,0,22,No,No
+Flavoured Milk (200ml),North,2021-10,12602,30.12,26.4,Navratri,1,22,Yes,Yes
+Flavoured Milk (200ml),North,2021-11,17522,29.85,18.8,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Flavoured Milk (200ml),North,2021-12,14230,30.1,14.6,Christmas,1,22,Yes,Yes
+Flavoured Milk (200ml),North,2022-01,15273,31.78,14.3,Makar Sankranti,1,25,Yes,Yes
+Flavoured Milk (200ml),North,2022-02,12869,31.54,16.9,No_Festival,0,23,No,No
+Flavoured Milk (200ml),North,2022-03,12822,31.59,24.8,Holi,1,24,Yes,Yes
+Flavoured Milk (200ml),North,2022-04,16007,31.63,31.6,Baisakhi,1,25,Yes,Yes
+Flavoured Milk (200ml),North,2022-05,14883,31.38,39.0,No_Festival,0,23,No,Yes
+Flavoured Milk (200ml),North,2022-06,16068,31.62,39.6,No_Festival,0,25,No,No
+Flavoured Milk (200ml),North,2022-07,12685,31.43,36.0,No_Festival,0,22,No,Yes
+Flavoured Milk (200ml),North,2022-08,13830,31.25,34.6,Janmashtami,1,23,Yes,Yes
+Flavoured Milk (200ml),North,2022-09,13447,31.4,31.7,No_Festival,0,22,No,No
+Flavoured Milk (200ml),North,2022-10,17326,31.34,26.2,"Gandhi Jayanti, Diwali",2,28,Yes,Yes
+Flavoured Milk (200ml),North,2022-11,15581,31.55,19.4,Guru Nanak Jayanti,1,24,Yes,Yes
+Flavoured Milk (200ml),North,2022-12,13860,31.6,14.4,Christmas,1,21,Yes,Yes
+Flavoured Milk (200ml),North,2023-01,13872,33.12,14.2,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Flavoured Milk (200ml),North,2023-02,13633,32.95,17.1,No_Festival,0,21,No,No
+Flavoured Milk (200ml),North,2023-03,13504,33.07,23.4,Holi,1,20,Yes,Yes
+Flavoured Milk (200ml),North,2023-04,12427,32.85,32.6,Baisakhi,1,17,Yes,Yes
+Flavoured Milk (200ml),North,2023-05,18429,32.97,37.6,No_Festival,0,27,No,No
+Flavoured Milk (200ml),North,2023-06,14622,32.9,39.8,No_Festival,0,25,No,Yes
+Flavoured Milk (200ml),North,2023-07,16261,33.1,36.2,No_Festival,0,26,No,No
+Flavoured Milk (200ml),North,2023-08,18812,33.08,34.0,"Independence Day, Raksha Bandhan",2,28,Yes,Yes
+Flavoured Milk (200ml),North,2023-09,16316,32.95,31.8,Janmashtami,1,27,Yes,Yes
+Flavoured Milk (200ml),North,2023-10,13847,33.01,25.7,Gandhi Jayanti,1,23,Yes,Yes
+Flavoured Milk (200ml),North,2023-11,16636,33.13,18.6,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Flavoured Milk (200ml),North,2023-12,15995,33.06,14.0,Christmas,1,25,Yes,Yes
+Flavoured Milk (200ml),South,2021-01,14540,29.95,25.8,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Flavoured Milk (200ml),South,2021-02,15044,30.02,26.8,No_Festival,0,24,No,No
+Flavoured Milk (200ml),South,2021-03,16193,30.11,29.9,Holi,1,24,Yes,Yes
+Flavoured Milk (200ml),South,2021-04,15352,29.94,32.3,Baisakhi,1,22,Yes,Yes
+Flavoured Milk (200ml),South,2021-05,15946,30.19,34.8,No_Festival,0,26,No,Yes
+Flavoured Milk (200ml),South,2021-06,16024,29.98,30.0,No_Festival,0,25,No,No
+Flavoured Milk (200ml),South,2021-07,15169,30.11,28.1,No_Festival,0,23,No,Yes
+Flavoured Milk (200ml),South,2021-08,18816,29.95,28.2,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Flavoured Milk (200ml),South,2021-09,17541,30.01,28.1,Janmashtami,1,27,Yes,Yes
+Flavoured Milk (200ml),South,2021-10,16273,30.04,28.1,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Flavoured Milk (200ml),South,2021-11,13356,30.09,25.2,No_Festival,0,22,No,No
+Flavoured Milk (200ml),South,2021-12,14496,30.07,24.6,Christmas,1,22,Yes,Yes
+Flavoured Milk (200ml),South,2022-01,13012,31.46,25.4,Republic Day,1,22,Yes,Yes
+Flavoured Milk (200ml),South,2022-02,12375,31.59,27.1,No_Festival,0,22,No,No
+Flavoured Milk (200ml),South,2022-03,14172,31.53,28.7,Holi,1,24,Yes,Yes
+Flavoured Milk (200ml),South,2022-04,14027,31.61,32.7,Baisakhi,1,22,Yes,Yes
+Flavoured Milk (200ml),South,2022-05,14306,31.38,34.5,No_Festival,0,23,No,No
+Flavoured Milk (200ml),South,2022-06,15268,31.45,29.4,No_Festival,0,25,No,No
+Flavoured Milk (200ml),South,2022-07,13889,31.52,28.2,No_Festival,0,25,No,No
+Flavoured Milk (200ml),South,2022-08,14398,31.52,28.1,Independence Day,1,23,Yes,Yes
+Flavoured Milk (200ml),South,2022-09,14935,31.57,28.6,No_Festival,0,24,No,No
+Flavoured Milk (200ml),South,2022-10,11793,31.51,28.5,Diwali,1,20,Yes,Yes
+Flavoured Milk (200ml),South,2022-11,13602,31.42,25.5,Guru Nanak Jayanti,1,21,Yes,Yes
+Flavoured Milk (200ml),South,2022-12,14613,31.73,25.4,Christmas,1,25,Yes,Yes
+Flavoured Milk (200ml),South,2023-01,14711,33.06,25.7,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Flavoured Milk (200ml),South,2023-02,12700,33.11,27.2,No_Festival,0,20,No,No
+Flavoured Milk (200ml),South,2023-03,14055,32.97,28.4,No_Festival,0,24,No,No
+Flavoured Milk (200ml),South,2023-04,15610,32.99,32.5,Baisakhi,1,25,Yes,Yes
+Flavoured Milk (200ml),South,2023-05,13304,33.04,33.9,No_Festival,0,24,No,No
+Flavoured Milk (200ml),South,2023-06,13455,33.05,30.4,No_Festival,0,24,No,Yes
+Flavoured Milk (200ml),South,2023-07,17996,33.04,27.7,No_Festival,0,27,No,No
+Flavoured Milk (200ml),South,2023-08,13878,32.95,28.2,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Flavoured Milk (200ml),South,2023-09,14698,32.94,28.4,Janmashtami,1,22,Yes,Yes
+Flavoured Milk (200ml),South,2023-10,13916,33.07,28.0,Gandhi Jayanti,1,26,Yes,Yes
+Flavoured Milk (200ml),South,2023-11,13395,33.23,26.9,"Diwali, Guru Nanak Jayanti",2,20,Yes,Yes
+Flavoured Milk (200ml),South,2023-12,11700,32.82,25.4,Christmas,1,21,Yes,Yes
+Flavoured Milk (200ml),West,2021-01,16693,30.11,22.1,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Flavoured Milk (200ml),West,2021-02,11547,30.05,23.4,No_Festival,0,21,No,No
+Flavoured Milk (200ml),West,2021-03,14257,30.02,27.5,No_Festival,0,25,No,No
+Flavoured Milk (200ml),West,2021-04,11509,30.18,32.2,Baisakhi,1,19,Yes,Yes
+Flavoured Milk (200ml),West,2021-05,13117,29.95,35.3,No_Festival,0,19,No,Yes
+Flavoured Milk (200ml),West,2021-06,12885,30.15,31.7,No_Festival,0,19,No,No
+Flavoured Milk (200ml),West,2021-07,15139,29.99,28.6,No_Festival,0,25,No,Yes
+Flavoured Milk (200ml),West,2021-08,17151,29.96,28.0,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Flavoured Milk (200ml),West,2021-09,12344,30.01,28.8,Janmashtami,1,20,Yes,Yes
+Flavoured Milk (200ml),West,2021-10,11892,29.99,30.8,No_Festival,0,22,No,No
+Flavoured Milk (200ml),West,2021-11,15497,29.86,25.8,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Flavoured Milk (200ml),West,2021-12,15344,30.11,21.8,Christmas,1,23,Yes,Yes
+Flavoured Milk (200ml),West,2022-01,15325,31.85,21.7,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Flavoured Milk (200ml),West,2022-02,12238,31.43,24.4,No_Festival,0,20,No,No
+Flavoured Milk (200ml),West,2022-03,16072,31.57,27.9,Holi,1,24,Yes,Yes
+Flavoured Milk (200ml),West,2022-04,16948,31.52,31.4,Baisakhi,1,26,Yes,Yes
+Flavoured Milk (200ml),West,2022-05,16533,31.61,36.1,No_Festival,0,27,No,Yes
+Flavoured Milk (200ml),West,2022-06,17304,31.39,31.9,No_Festival,0,28,No,No
+Flavoured Milk (200ml),West,2022-07,16418,31.22,28.5,No_Festival,0,26,No,Yes
+Flavoured Milk (200ml),West,2022-08,15296,31.49,27.3,"Raksha Bandhan, Independence Day, Janmashtami",3,23,Yes,Yes
+Flavoured Milk (200ml),West,2022-09,12029,31.39,28.7,No_Festival,0,21,No,No
+Flavoured Milk (200ml),West,2022-10,12850,31.58,30.3,Diwali,1,19,Yes,Yes
+Flavoured Milk (200ml),West,2022-11,15725,31.62,27.0,Guru Nanak Jayanti,1,26,Yes,Yes
+Flavoured Milk (200ml),West,2022-12,14068,31.47,22.4,Christmas,1,24,Yes,Yes
+Flavoured Milk (200ml),West,2023-01,14290,33.28,22.3,Republic Day,1,22,Yes,Yes
+Flavoured Milk (200ml),West,2023-02,14854,33.12,24.2,No_Festival,0,24,No,No
+Flavoured Milk (200ml),West,2023-03,13861,32.89,27.8,Holi,1,22,Yes,Yes
+Flavoured Milk (200ml),West,2023-04,13055,33.0,31.6,Baisakhi,1,20,Yes,Yes
+Flavoured Milk (200ml),West,2023-05,15310,32.77,36.2,No_Festival,0,26,No,No
+Flavoured Milk (200ml),West,2023-06,16184,32.92,31.7,No_Festival,0,24,No,Yes
+Flavoured Milk (200ml),West,2023-07,16268,33.05,28.8,No_Festival,0,25,No,No
+Flavoured Milk (200ml),West,2023-08,17855,32.85,28.7,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Flavoured Milk (200ml),West,2023-09,15396,32.92,28.6,Janmashtami,1,27,Yes,Yes
+Flavoured Milk (200ml),West,2023-10,13817,32.85,30.7,Gandhi Jayanti,1,23,Yes,Yes
+Flavoured Milk (200ml),West,2023-11,16024,32.86,25.9,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Flavoured Milk (200ml),West,2023-12,14746,32.95,21.9,Christmas,1,22,Yes,Yes
+Full Cream Milk (1L),Central,2021-01,39802,59.96,18.1,Makar Sankranti,1,25,Yes,Yes
+Full Cream Milk (1L),Central,2021-02,31914,59.88,20.7,No_Festival,0,23,No,No
+Full Cream Milk (1L),Central,2021-03,31834,60.15,27.6,No_Festival,0,23,No,No
+Full Cream Milk (1L),Central,2021-04,35714,59.72,33.1,No_Festival,0,23,No,No
+Full Cream Milk (1L),Central,2021-05,33530,59.88,38.0,No_Festival,0,24,No,Yes
+Full Cream Milk (1L),Central,2021-06,30869,59.6,36.8,No_Festival,0,20,No,No
+Full Cream Milk (1L),Central,2021-07,39071,59.96,30.4,No_Festival,0,26,No,Yes
+Full Cream Milk (1L),Central,2021-08,32380,59.96,30.0,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Full Cream Milk (1L),Central,2021-09,35018,59.48,29.7,No_Festival,0,22,No,No
+Full Cream Milk (1L),Central,2021-10,36253,59.7,28.4,"Gandhi Jayanti, Navratri",2,22,Yes,Yes
+Full Cream Milk (1L),Central,2021-11,34346,60.43,22.9,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Full Cream Milk (1L),Central,2021-12,37913,59.94,17.9,Christmas,1,26,Yes,Yes
+Full Cream Milk (1L),Central,2022-01,37706,62.72,17.5,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Full Cream Milk (1L),Central,2022-02,22511,62.97,21.9,No_Festival,0,19,No,No
+Full Cream Milk (1L),Central,2022-03,35029,63.0,27.0,No_Festival,0,22,No,No
+Full Cream Milk (1L),Central,2022-04,36035,62.66,33.4,No_Festival,0,25,No,No
+Full Cream Milk (1L),Central,2022-05,28125,62.96,37.8,No_Festival,0,21,No,Yes
+Full Cream Milk (1L),Central,2022-06,34090,63.03,36.3,No_Festival,0,23,No,No
+Full Cream Milk (1L),Central,2022-07,29043,63.12,31.2,No_Festival,0,21,No,Yes
+Full Cream Milk (1L),Central,2022-08,36182,62.89,30.4,"Independence Day, Janmashtami",2,24,Yes,Yes
+Full Cream Milk (1L),Central,2022-09,31952,63.32,30.4,No_Festival,0,22,No,No
+Full Cream Milk (1L),Central,2022-10,42383,62.95,27.8,Gandhi Jayanti,1,27,Yes,Yes
+Full Cream Milk (1L),Central,2022-11,33728,63.16,22.6,Guru Nanak Jayanti,1,23,Yes,Yes
+Full Cream Milk (1L),Central,2022-12,35130,63.33,17.9,Christmas,1,23,Yes,Yes
+Full Cream Milk (1L),Central,2023-01,29467,66.12,17.8,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Full Cream Milk (1L),Central,2023-02,25003,65.75,21.5,No_Festival,0,19,No,No
+Full Cream Milk (1L),Central,2023-03,34056,66.21,26.8,Holi,1,24,Yes,Yes
+Full Cream Milk (1L),Central,2023-04,39766,65.98,33.2,Baisakhi,1,24,Yes,Yes
+Full Cream Milk (1L),Central,2023-05,29528,66.34,38.6,No_Festival,0,20,No,No
+Full Cream Milk (1L),Central,2023-06,32294,66.25,36.7,No_Festival,0,25,No,Yes
+Full Cream Milk (1L),Central,2023-07,37292,65.93,31.5,No_Festival,0,25,No,No
+Full Cream Milk (1L),Central,2023-08,35755,66.1,30.1,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Full Cream Milk (1L),Central,2023-09,31398,65.66,30.1,Janmashtami,1,21,Yes,Yes
+Full Cream Milk (1L),Central,2023-10,39279,66.23,27.8,Gandhi Jayanti,1,27,Yes,Yes
+Full Cream Milk (1L),Central,2023-11,38556,66.25,22.7,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Full Cream Milk (1L),Central,2023-12,37310,66.18,18.9,No_Festival,0,27,No,No
+Full Cream Milk (1L),East,2021-01,33378,59.92,18.5,Makar Sankranti,1,23,Yes,Yes
+Full Cream Milk (1L),East,2021-02,33760,59.9,21.4,No_Festival,0,23,No,No
+Full Cream Milk (1L),East,2021-03,39767,59.96,26.6,Holi,1,28,Yes,Yes
+Full Cream Milk (1L),East,2021-04,36967,59.96,31.8,Baisakhi,1,24,Yes,Yes
+Full Cream Milk (1L),East,2021-05,38006,59.97,34.3,No_Festival,0,26,No,Yes
+Full Cream Milk (1L),East,2021-06,32085,60.12,32.2,No_Festival,0,22,No,No
+Full Cream Milk (1L),East,2021-07,37654,60.0,29.4,No_Festival,0,27,No,Yes
+Full Cream Milk (1L),East,2021-08,31802,59.62,30.0,Raksha Bandhan,1,21,Yes,Yes
+Full Cream Milk (1L),East,2021-09,36412,59.68,29.5,Janmashtami,1,26,Yes,Yes
+Full Cream Milk (1L),East,2021-10,40714,60.3,27.1,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Full Cream Milk (1L),East,2021-11,27897,59.74,21.9,Diwali,1,20,Yes,Yes
+Full Cream Milk (1L),East,2021-12,41964,59.98,16.8,Christmas,1,27,Yes,Yes
+Full Cream Milk (1L),East,2022-01,29649,63.24,18.3,"Makar Sankranti, Republic Day",2,20,Yes,Yes
+Full Cream Milk (1L),East,2022-02,29539,62.85,21.7,No_Festival,0,22,No,No
+Full Cream Milk (1L),East,2022-03,33354,62.9,27.1,Holi,1,25,Yes,Yes
+Full Cream Milk (1L),East,2022-04,31630,63.28,32.5,Baisakhi,1,20,Yes,Yes
+Full Cream Milk (1L),East,2022-05,27130,62.78,34.2,No_Festival,0,21,No,Yes
+Full Cream Milk (1L),East,2022-06,35148,62.86,31.7,No_Festival,0,25,No,No
+Full Cream Milk (1L),East,2022-07,32480,63.28,30.3,No_Festival,0,21,No,No
+Full Cream Milk (1L),East,2022-08,39818,63.07,30.3,"Raksha Bandhan, Independence Day, Janmashtami",3,26,Yes,Yes
+Full Cream Milk (1L),East,2022-09,35518,63.04,29.6,No_Festival,0,26,No,No
+Full Cream Milk (1L),East,2022-10,35931,63.18,27.2,"Gandhi Jayanti, Diwali",2,23,Yes,Yes
+Full Cream Milk (1L),East,2022-11,33803,63.12,22.2,Guru Nanak Jayanti,1,21,Yes,Yes
+Full Cream Milk (1L),East,2022-12,29368,63.3,16.6,No_Festival,0,20,No,No
+Full Cream Milk (1L),East,2023-01,37151,65.74,18.6,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Full Cream Milk (1L),East,2023-02,31330,65.79,20.8,No_Festival,0,22,No,No
+Full Cream Milk (1L),East,2023-03,30116,66.05,26.8,Holi,1,20,Yes,Yes
+Full Cream Milk (1L),East,2023-04,36512,65.96,31.8,Baisakhi,1,24,Yes,Yes
+Full Cream Milk (1L),East,2023-05,32369,65.86,33.9,No_Festival,0,21,No,No
+Full Cream Milk (1L),East,2023-06,25806,66.47,31.9,No_Festival,0,18,No,Yes
+Full Cream Milk (1L),East,2023-07,31560,66.11,29.3,No_Festival,0,23,No,No
+Full Cream Milk (1L),East,2023-08,30126,65.68,30.5,Raksha Bandhan,1,21,Yes,Yes
+Full Cream Milk (1L),East,2023-09,38659,65.75,29.0,Janmashtami,1,26,Yes,Yes
+Full Cream Milk (1L),East,2023-10,37456,66.0,26.6,Gandhi Jayanti,1,25,Yes,Yes
+Full Cream Milk (1L),East,2023-11,30151,66.13,21.9,Diwali,1,22,Yes,Yes
+Full Cream Milk (1L),East,2023-12,40886,66.1,16.6,No_Festival,0,25,No,No
+Full Cream Milk (1L),North,2021-01,32693,59.86,14.5,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Full Cream Milk (1L),North,2021-02,17271,60.22,16.5,No_Festival,0,13,No,No
+Full Cream Milk (1L),North,2021-03,42635,59.84,23.7,Holi,1,29,Yes,Yes
+Full Cream Milk (1L),North,2021-04,35692,59.68,32.5,Baisakhi,1,23,Yes,Yes
+Full Cream Milk (1L),North,2021-05,42251,60.03,38.6,No_Festival,0,28,No,Yes
+Full Cream Milk (1L),North,2021-06,32057,60.09,39.8,No_Festival,0,23,No,No
+Full Cream Milk (1L),North,2021-07,26592,59.92,35.4,No_Festival,0,20,No,Yes
+Full Cream Milk (1L),North,2021-08,31993,59.67,32.9,Raksha Bandhan,1,22,Yes,Yes
+Full Cream Milk (1L),North,2021-09,31873,59.96,32.8,Janmashtami,1,23,Yes,Yes
+Full Cream Milk (1L),North,2021-10,32346,60.2,26.8,Navratri,1,21,Yes,Yes
+Full Cream Milk (1L),North,2021-11,33636,60.06,18.6,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Full Cream Milk (1L),North,2021-12,35064,59.72,14.7,Christmas,1,22,Yes,Yes
+Full Cream Milk (1L),North,2022-01,33383,63.06,14.4,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Full Cream Milk (1L),North,2022-02,25339,62.88,16.9,No_Festival,0,18,No,No
+Full Cream Milk (1L),North,2022-03,28625,63.17,24.8,No_Festival,0,21,No,No
+Full Cream Milk (1L),North,2022-04,31254,63.12,31.6,Baisakhi,1,22,Yes,Yes
+Full Cream Milk (1L),North,2022-05,34633,63.2,38.2,No_Festival,0,25,No,Yes
+Full Cream Milk (1L),North,2022-06,32579,63.18,39.5,No_Festival,0,23,No,No
+Full Cream Milk (1L),North,2022-07,32536,62.55,36.0,No_Festival,0,21,No,Yes
+Full Cream Milk (1L),North,2022-08,35902,63.22,34.7,"Raksha Bandhan, Independence Day, Janmashtami",3,24,Yes,Yes
+Full Cream Milk (1L),North,2022-09,33960,63.14,32.1,No_Festival,0,24,No,No
+Full Cream Milk (1L),North,2022-10,39217,62.95,26.1,"Gandhi Jayanti, Diwali",2,26,Yes,Yes
+Full Cream Milk (1L),North,2022-11,36353,62.93,19.1,Guru Nanak Jayanti,1,23,Yes,Yes
+Full Cream Milk (1L),North,2022-12,38339,63.25,14.6,Christmas,1,27,Yes,Yes
+Full Cream Milk (1L),North,2023-01,26332,66.13,14.2,"Makar Sankranti, Republic Day",2,19,Yes,Yes
+Full Cream Milk (1L),North,2023-02,30439,66.04,17.1,No_Festival,0,22,No,No
+Full Cream Milk (1L),North,2023-03,38407,66.19,24.1,Holi,1,26,Yes,Yes
+Full Cream Milk (1L),North,2023-04,34416,65.79,32.5,Baisakhi,1,22,Yes,Yes
+Full Cream Milk (1L),North,2023-05,31389,66.11,37.5,No_Festival,0,23,No,No
+Full Cream Milk (1L),North,2023-06,31962,66.31,39.3,No_Festival,0,23,No,No
+Full Cream Milk (1L),North,2023-07,37633,65.65,36.4,No_Festival,0,25,No,No
+Full Cream Milk (1L),North,2023-08,37101,66.12,33.8,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Full Cream Milk (1L),North,2023-09,37778,66.23,31.9,Janmashtami,1,27,Yes,Yes
+Full Cream Milk (1L),North,2023-10,34392,66.01,26.1,Gandhi Jayanti,1,25,Yes,Yes
+Full Cream Milk (1L),North,2023-11,32338,66.2,18.7,"Diwali, Guru Nanak Jayanti",2,21,Yes,Yes
+Full Cream Milk (1L),North,2023-12,39084,66.31,14.2,No_Festival,0,26,No,No
+Full Cream Milk (1L),South,2021-01,35479,60.13,25.7,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Full Cream Milk (1L),South,2021-02,30173,59.93,26.7,No_Festival,0,21,No,No
+Full Cream Milk (1L),South,2021-03,33227,59.71,29.7,Holi,1,23,Yes,Yes
+Full Cream Milk (1L),South,2021-04,33379,60.32,32.2,Baisakhi,1,23,Yes,Yes
+Full Cream Milk (1L),South,2021-05,30227,60.29,35.0,No_Festival,0,20,No,Yes
+Full Cream Milk (1L),South,2021-06,30700,60.24,29.8,No_Festival,0,21,No,No
+Full Cream Milk (1L),South,2021-07,38856,59.95,28.0,No_Festival,0,24,No,Yes
+Full Cream Milk (1L),South,2021-08,32778,60.19,27.8,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Full Cream Milk (1L),South,2021-09,29898,59.95,27.9,Janmashtami,1,22,Yes,Yes
+Full Cream Milk (1L),South,2021-10,33997,60.05,27.9,Gandhi Jayanti,1,25,Yes,Yes
+Full Cream Milk (1L),South,2021-11,30534,59.48,25.2,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Full Cream Milk (1L),South,2021-12,27907,60.36,24.7,Christmas,1,20,Yes,Yes
+Full Cream Milk (1L),South,2022-01,36820,62.64,25.8,Republic Day,1,24,Yes,Yes
+Full Cream Milk (1L),South,2022-02,28508,62.76,27.2,No_Festival,0,21,No,No
+Full Cream Milk (1L),South,2022-03,35573,63.44,29.0,Holi,1,24,Yes,Yes
+Full Cream Milk (1L),South,2022-04,32001,62.71,32.7,Baisakhi,1,22,Yes,Yes
+Full Cream Milk (1L),South,2022-05,37620,63.26,34.5,No_Festival,0,26,No,Yes
+Full Cream Milk (1L),South,2022-06,34985,63.03,29.4,No_Festival,0,23,No,No
+Full Cream Milk (1L),South,2022-07,33717,62.63,28.5,No_Festival,0,24,No,No
+Full Cream Milk (1L),South,2022-08,29351,63.07,27.3,"Raksha Bandhan, Independence Day, Janmashtami",3,20,Yes,Yes
+Full Cream Milk (1L),South,2022-09,36836,62.93,28.5,No_Festival,0,25,No,No
+Full Cream Milk (1L),South,2022-10,37681,63.01,28.4,"Gandhi Jayanti, Diwali",2,24,Yes,Yes
+Full Cream Milk (1L),South,2022-11,35295,63.28,25.8,No_Festival,0,24,No,No
+Full Cream Milk (1L),South,2022-12,33161,62.96,25.3,Christmas,1,24,Yes,Yes
+Full Cream Milk (1L),South,2023-01,36544,66.09,25.6,Makar Sankranti,1,26,Yes,Yes
+Full Cream Milk (1L),South,2023-02,31613,65.75,27.0,No_Festival,0,22,No,No
+Full Cream Milk (1L),South,2023-03,41674,65.67,28.6,Holi,1,27,Yes,Yes
+Full Cream Milk (1L),South,2023-04,29523,65.8,32.9,Baisakhi,1,20,Yes,Yes
+Full Cream Milk (1L),South,2023-05,34635,66.11,33.8,No_Festival,0,25,No,No
+Full Cream Milk (1L),South,2023-06,27119,65.93,30.4,No_Festival,0,19,No,No
+Full Cream Milk (1L),South,2023-07,32587,65.88,27.6,No_Festival,0,24,No,No
+Full Cream Milk (1L),South,2023-08,28396,65.52,27.9,No_Festival,0,21,No,No
+Full Cream Milk (1L),South,2023-09,32618,65.55,28.7,No_Festival,0,22,No,No
+Full Cream Milk (1L),South,2023-10,29602,66.3,27.7,Gandhi Jayanti,1,20,Yes,Yes
+Full Cream Milk (1L),South,2023-11,26365,66.32,26.7,Diwali,1,19,Yes,Yes
+Full Cream Milk (1L),South,2023-12,42180,65.94,25.3,No_Festival,0,26,No,No
+Full Cream Milk (1L),West,2021-01,37073,59.97,22.2,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Full Cream Milk (1L),West,2021-02,36507,59.8,23.6,No_Festival,0,25,No,No
+Full Cream Milk (1L),West,2021-03,35077,60.15,27.6,Holi,1,24,Yes,Yes
+Full Cream Milk (1L),West,2021-04,35809,60.09,31.7,Baisakhi,1,25,Yes,Yes
+Full Cream Milk (1L),West,2021-05,37606,60.23,35.7,No_Festival,0,26,No,Yes
+Full Cream Milk (1L),West,2021-06,36127,59.8,32.0,No_Festival,0,23,No,No
+Full Cream Milk (1L),West,2021-07,30582,59.71,28.5,No_Festival,0,22,No,Yes
+Full Cream Milk (1L),West,2021-08,26259,60.06,28.1,Independence Day,1,19,Yes,Yes
+Full Cream Milk (1L),West,2021-09,27450,60.06,29.5,No_Festival,0,20,No,No
+Full Cream Milk (1L),West,2021-10,38010,59.97,30.2,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Full Cream Milk (1L),West,2021-11,31186,59.95,25.8,Diwali,1,21,Yes,Yes
+Full Cream Milk (1L),West,2021-12,35341,59.87,22.0,No_Festival,0,24,No,No
+Full Cream Milk (1L),West,2022-01,36611,62.48,22.2,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Full Cream Milk (1L),West,2022-02,33769,62.98,24.5,No_Festival,0,23,No,No
+Full Cream Milk (1L),West,2022-03,35235,63.08,28.1,Holi,1,23,Yes,Yes
+Full Cream Milk (1L),West,2022-04,38364,63.18,31.3,Baisakhi,1,26,Yes,Yes
+Full Cream Milk (1L),West,2022-05,30610,63.12,35.9,No_Festival,0,22,No,No
+Full Cream Milk (1L),West,2022-06,24096,63.34,31.6,No_Festival,0,18,No,No
+Full Cream Milk (1L),West,2022-07,34817,63.08,28.2,No_Festival,0,23,No,Yes
+Full Cream Milk (1L),West,2022-08,33838,62.8,27.4,Independence Day,1,22,Yes,Yes
+Full Cream Milk (1L),West,2022-09,34381,63.15,28.8,No_Festival,0,23,No,No
+Full Cream Milk (1L),West,2022-10,38300,62.8,30.0,"Gandhi Jayanti, Diwali",2,24,Yes,Yes
+Full Cream Milk (1L),West,2022-11,33737,63.36,27.0,Guru Nanak Jayanti,1,21,Yes,Yes
+Full Cream Milk (1L),West,2022-12,34596,63.13,22.1,Christmas,1,24,Yes,Yes
+Full Cream Milk (1L),West,2023-01,33389,66.43,22.4,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Full Cream Milk (1L),West,2023-02,33459,66.05,24.4,No_Festival,0,22,No,No
+Full Cream Milk (1L),West,2023-03,31912,65.89,27.6,Holi,1,23,Yes,Yes
+Full Cream Milk (1L),West,2023-04,27191,66.16,31.7,No_Festival,0,20,No,Yes
+Full Cream Milk (1L),West,2023-05,29930,66.07,35.8,No_Festival,0,21,No,No
+Full Cream Milk (1L),West,2023-06,37448,66.24,31.6,No_Festival,0,25,No,Yes
+Full Cream Milk (1L),West,2023-07,38749,65.85,28.8,No_Festival,0,25,No,No
+Full Cream Milk (1L),West,2023-08,37878,65.75,28.6,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Full Cream Milk (1L),West,2023-09,35855,65.97,28.8,No_Festival,0,24,No,No
+Full Cream Milk (1L),West,2023-10,32247,65.55,30.2,Gandhi Jayanti,1,23,Yes,Yes
+Full Cream Milk (1L),West,2023-11,35024,66.25,25.8,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Full Cream Milk (1L),West,2023-12,31234,66.13,22.2,Christmas,1,22,Yes,Yes
+Ghee (1L),Central,2021-01,4406,520.83,17.6,Republic Day,1,20,Yes,Yes
+Ghee (1L),Central,2021-02,4424,521.16,20.8,No_Festival,0,20,No,No
+Ghee (1L),Central,2021-03,5041,520.23,27.3,Holi,1,24,Yes,Yes
+Ghee (1L),Central,2021-04,4803,518.66,33.1,Baisakhi,1,24,Yes,Yes
+Ghee (1L),Central,2021-05,4371,519.65,38.1,No_Festival,0,23,No,Yes
+Ghee (1L),Central,2021-06,4014,520.96,36.5,No_Festival,0,21,No,No
+Ghee (1L),Central,2021-07,4057,517.76,30.4,No_Festival,0,20,No,Yes
+Ghee (1L),Central,2021-08,4618,520.68,29.5,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Ghee (1L),Central,2021-09,4322,521.33,29.6,Janmashtami,1,22,Yes,Yes
+Ghee (1L),Central,2021-10,6765,517.51,28.2,Gandhi Jayanti,1,23,Yes,Yes
+Ghee (1L),Central,2021-11,6907,522.11,22.6,Guru Nanak Jayanti,1,23,Yes,Yes
+Ghee (1L),Central,2021-12,6238,517.76,17.8,No_Festival,0,23,No,No
+Ghee (1L),Central,2022-01,5352,543.25,17.7,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Ghee (1L),Central,2022-02,3967,547.05,21.5,No_Festival,0,21,No,No
+Ghee (1L),Central,2022-03,4910,549.51,27.2,No_Festival,0,25,No,No
+Ghee (1L),Central,2022-04,3784,547.75,32.7,Baisakhi,1,21,Yes,Yes
+Ghee (1L),Central,2022-05,4831,546.6,37.9,No_Festival,0,25,No,Yes
+Ghee (1L),Central,2022-06,4332,547.9,35.9,No_Festival,0,22,No,No
+Ghee (1L),Central,2022-07,4396,547.64,31.4,No_Festival,0,23,No,Yes
+Ghee (1L),Central,2022-08,4780,548.19,30.7,"Raksha Bandhan, Independence Day",2,23,Yes,Yes
+Ghee (1L),Central,2022-09,4662,539.58,30.4,No_Festival,0,24,No,No
+Ghee (1L),Central,2022-10,7024,541.54,28.2,"Gandhi Jayanti, Diwali",2,24,Yes,Yes
+Ghee (1L),Central,2022-11,5485,547.95,22.6,Guru Nanak Jayanti,1,20,Yes,Yes
+Ghee (1L),Central,2022-12,6639,543.22,18.2,Christmas,1,25,Yes,Yes
+Ghee (1L),Central,2023-01,4961,572.87,17.9,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Ghee (1L),Central,2023-02,4799,573.38,21.5,No_Festival,0,22,No,No
+Ghee (1L),Central,2023-03,3995,573.96,26.5,Holi,1,19,Yes,Yes
+Ghee (1L),Central,2023-04,5519,571.67,33.0,Baisakhi,1,25,Yes,Yes
+Ghee (1L),Central,2023-05,4803,571.53,38.8,No_Festival,0,26,No,No
+Ghee (1L),Central,2023-06,5205,568.82,36.7,No_Festival,0,26,No,Yes
+Ghee (1L),Central,2023-07,4699,571.42,31.4,No_Festival,0,25,No,No
+Ghee (1L),Central,2023-08,3811,574.76,30.1,"Independence Day, Raksha Bandhan",2,21,Yes,Yes
+Ghee (1L),Central,2023-09,4589,571.58,30.2,Janmashtami,1,22,Yes,Yes
+Ghee (1L),Central,2023-10,5618,571.3,28.3,Gandhi Jayanti,1,21,Yes,Yes
+Ghee (1L),Central,2023-11,6134,573.51,22.1,Guru Nanak Jayanti,1,22,Yes,Yes
+Ghee (1L),Central,2023-12,6128,570.59,18.9,Christmas,1,21,Yes,Yes
+Ghee (1L),East,2021-01,4706,518.98,18.5,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Ghee (1L),East,2021-02,3630,525.05,21.3,No_Festival,0,19,No,No
+Ghee (1L),East,2021-03,4579,520.25,26.6,No_Festival,0,22,No,No
+Ghee (1L),East,2021-04,4048,522.61,32.4,No_Festival,0,19,No,No
+Ghee (1L),East,2021-05,4837,523.2,34.7,No_Festival,0,24,No,Yes
+Ghee (1L),East,2021-06,4311,522.0,32.1,No_Festival,0,24,No,No
+Ghee (1L),East,2021-07,4078,520.86,29.7,No_Festival,0,23,No,Yes
+Ghee (1L),East,2021-08,4694,518.31,30.0,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Ghee (1L),East,2021-09,3953,518.24,29.4,No_Festival,0,21,No,No
+Ghee (1L),East,2021-10,6806,519.12,27.3,"Gandhi Jayanti, Navratri",2,24,Yes,Yes
+Ghee (1L),East,2021-11,5414,520.5,22.7,Guru Nanak Jayanti,1,22,Yes,Yes
+Ghee (1L),East,2021-12,6511,519.87,16.8,No_Festival,0,27,No,No
+Ghee (1L),East,2022-01,5083,543.03,17.7,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Ghee (1L),East,2022-02,4557,546.42,21.6,No_Festival,0,22,No,No
+Ghee (1L),East,2022-03,4635,547.78,26.7,No_Festival,0,24,No,No
+Ghee (1L),East,2022-04,4576,547.03,32.2,Baisakhi,1,21,Yes,Yes
+Ghee (1L),East,2022-05,3662,544.66,34.6,No_Festival,0,22,No,No
+Ghee (1L),East,2022-06,4291,545.83,32.5,No_Festival,0,22,No,No
+Ghee (1L),East,2022-07,4997,545.77,30.2,No_Festival,0,25,No,Yes
+Ghee (1L),East,2022-08,4826,544.34,30.5,Raksha Bandhan,1,23,Yes,Yes
+Ghee (1L),East,2022-09,3940,546.18,29.6,No_Festival,0,21,No,No
+Ghee (1L),East,2022-10,8124,547.76,27.1,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Ghee (1L),East,2022-11,6902,544.4,22.4,Guru Nanak Jayanti,1,25,Yes,Yes
+Ghee (1L),East,2022-12,6583,545.46,17.0,No_Festival,0,25,No,No
+Ghee (1L),East,2023-01,4347,571.91,18.5,Republic Day,1,20,Yes,Yes
+Ghee (1L),East,2023-02,4100,568.35,20.9,No_Festival,0,23,No,No
+Ghee (1L),East,2023-03,5355,568.94,27.5,Holi,1,24,Yes,Yes
+Ghee (1L),East,2023-04,3896,576.99,32.2,Baisakhi,1,20,Yes,Yes
+Ghee (1L),East,2023-05,4689,570.99,34.4,No_Festival,0,24,No,No
+Ghee (1L),East,2023-06,4689,572.6,31.7,No_Festival,0,25,No,Yes
+Ghee (1L),East,2023-07,4477,572.45,29.5,No_Festival,0,25,No,No
+Ghee (1L),East,2023-08,4861,569.24,30.2,Raksha Bandhan,1,24,Yes,Yes
+Ghee (1L),East,2023-09,4653,570.54,28.5,Janmashtami,1,24,Yes,Yes
+Ghee (1L),East,2023-10,6279,570.72,26.9,Gandhi Jayanti,1,25,Yes,Yes
+Ghee (1L),East,2023-11,5443,576.78,21.8,No_Festival,0,20,No,No
+Ghee (1L),East,2023-12,6122,573.69,16.6,Christmas,1,23,Yes,Yes
+Ghee (1L),North,2021-01,3802,516.07,14.4,No_Festival,0,19,No,No
+Ghee (1L),North,2021-02,4730,516.86,16.5,No_Festival,0,23,No,No
+Ghee (1L),North,2021-03,4053,519.46,23.6,Holi,1,20,Yes,Yes
+Ghee (1L),North,2021-04,5623,522.19,32.3,Baisakhi,1,26,Yes,Yes
+Ghee (1L),North,2021-05,3432,523.71,38.7,No_Festival,0,20,No,Yes
+Ghee (1L),North,2021-06,4014,521.14,39.2,No_Festival,0,19,No,No
+Ghee (1L),North,2021-07,4753,519.33,36.0,No_Festival,0,23,No,Yes
+Ghee (1L),North,2021-08,3293,519.93,32.7,Independence Day,1,18,Yes,Yes
+Ghee (1L),North,2021-09,4015,523.99,31.9,Janmashtami,1,22,Yes,Yes
+Ghee (1L),North,2021-10,6275,519.57,26.8,Navratri,1,20,Yes,Yes
+Ghee (1L),North,2021-11,6853,520.88,18.9,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Ghee (1L),North,2021-12,7555,521.5,14.6,Christmas,1,27,Yes,Yes
+Ghee (1L),North,2022-01,4771,546.39,14.5,Republic Day,1,24,Yes,Yes
+Ghee (1L),North,2022-02,4568,547.33,17.0,No_Festival,0,22,No,No
+Ghee (1L),North,2022-03,5041,546.12,24.5,Holi,1,25,Yes,Yes
+Ghee (1L),North,2022-04,4104,546.14,31.1,Baisakhi,1,21,Yes,Yes
+Ghee (1L),North,2022-05,5206,543.5,38.2,No_Festival,0,26,No,Yes
+Ghee (1L),North,2022-06,4679,546.24,39.7,No_Festival,0,26,No,No
+Ghee (1L),North,2022-07,4125,544.12,36.0,No_Festival,0,21,No,Yes
+Ghee (1L),North,2022-08,4893,547.81,34.5,"Raksha Bandhan, Independence Day, Janmashtami",3,25,Yes,Yes
+Ghee (1L),North,2022-09,4483,545.88,31.7,No_Festival,0,24,No,No
+Ghee (1L),North,2022-10,7976,545.78,26.3,Diwali,1,26,Yes,Yes
+Ghee (1L),North,2022-11,5567,543.0,18.8,No_Festival,0,22,No,No
+Ghee (1L),North,2022-12,7740,547.07,14.6,Christmas,1,29,Yes,Yes
+Ghee (1L),North,2023-01,5153,567.77,14.3,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Ghee (1L),North,2023-02,3652,571.43,16.9,No_Festival,0,20,No,No
+Ghee (1L),North,2023-03,5284,572.95,24.2,No_Festival,0,27,No,No
+Ghee (1L),North,2023-04,4552,572.49,32.6,Baisakhi,1,25,Yes,Yes
+Ghee (1L),North,2023-05,4437,571.73,37.6,No_Festival,0,24,No,No
+Ghee (1L),North,2023-06,5321,571.26,39.6,No_Festival,0,26,No,Yes
+Ghee (1L),North,2023-07,3762,573.0,36.4,No_Festival,0,21,No,No
+Ghee (1L),North,2023-08,3670,573.07,34.0,Independence Day,1,22,Yes,Yes
+Ghee (1L),North,2023-09,4887,571.94,31.4,Janmashtami,1,22,Yes,Yes
+Ghee (1L),North,2023-10,7179,573.81,25.9,Gandhi Jayanti,1,26,Yes,Yes
+Ghee (1L),North,2023-11,6905,573.9,18.6,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Ghee (1L),North,2023-12,8034,572.54,13.9,Christmas,1,25,Yes,Yes
+Ghee (1L),South,2021-01,4581,520.63,25.3,No_Festival,0,23,No,No
+Ghee (1L),South,2021-02,5428,516.47,27.0,No_Festival,0,26,No,No
+Ghee (1L),South,2021-03,4277,519.91,29.9,No_Festival,0,21,No,No
+Ghee (1L),South,2021-04,4432,521.64,32.6,Baisakhi,1,21,Yes,Yes
+Ghee (1L),South,2021-05,4991,520.04,34.7,No_Festival,0,25,No,No
+Ghee (1L),South,2021-06,3592,520.52,29.4,No_Festival,0,23,No,No
+Ghee (1L),South,2021-07,4918,519.66,28.0,No_Festival,0,27,No,Yes
+Ghee (1L),South,2021-08,5176,522.5,28.1,Independence Day,1,26,Yes,Yes
+Ghee (1L),South,2021-09,4390,518.75,28.2,Janmashtami,1,23,Yes,Yes
+Ghee (1L),South,2021-10,5469,521.82,28.0,Navratri,1,19,Yes,Yes
+Ghee (1L),South,2021-11,5480,521.98,25.3,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Ghee (1L),South,2021-12,5542,519.81,25.1,No_Festival,0,21,No,No
+Ghee (1L),South,2022-01,4931,545.86,25.7,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Ghee (1L),South,2022-02,3753,543.5,27.3,No_Festival,0,19,No,No
+Ghee (1L),South,2022-03,3997,544.95,28.9,No_Festival,0,22,No,No
+Ghee (1L),South,2022-04,4642,540.82,32.6,Baisakhi,1,23,Yes,Yes
+Ghee (1L),South,2022-05,5031,545.39,34.4,No_Festival,0,25,No,No
+Ghee (1L),South,2022-06,5646,542.91,29.5,No_Festival,0,26,No,No
+Ghee (1L),South,2022-07,4713,548.39,28.0,No_Festival,0,25,No,Yes
+Ghee (1L),South,2022-08,4175,543.67,27.8,"Raksha Bandhan, Independence Day, Janmashtami",3,20,Yes,Yes
+Ghee (1L),South,2022-09,4270,544.23,28.9,No_Festival,0,22,No,No
+Ghee (1L),South,2022-10,8332,545.09,28.3,"Gandhi Jayanti, Diwali",2,26,Yes,Yes
+Ghee (1L),South,2022-11,8252,546.9,25.7,Guru Nanak Jayanti,1,25,Yes,Yes
+Ghee (1L),South,2022-12,5023,546.03,25.3,Christmas,1,21,Yes,Yes
+Ghee (1L),South,2023-01,5065,571.27,25.9,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Ghee (1L),South,2023-02,3761,570.39,26.9,No_Festival,0,20,No,No
+Ghee (1L),South,2023-03,4620,575.89,29.0,Holi,1,24,Yes,Yes
+Ghee (1L),South,2023-04,4968,571.05,32.4,Baisakhi,1,23,Yes,Yes
+Ghee (1L),South,2023-05,4282,574.08,34.0,No_Festival,0,24,No,No
+Ghee (1L),South,2023-06,4142,571.96,30.4,No_Festival,0,24,No,Yes
+Ghee (1L),South,2023-07,4056,572.82,27.7,No_Festival,0,21,No,No
+Ghee (1L),South,2023-08,4552,571.95,27.8,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Ghee (1L),South,2023-09,4228,571.93,28.8,No_Festival,0,23,No,No
+Ghee (1L),South,2023-10,6789,574.84,27.9,Gandhi Jayanti,1,25,Yes,Yes
+Ghee (1L),South,2023-11,6239,570.74,26.8,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Ghee (1L),South,2023-12,6903,570.24,25.1,Christmas,1,24,Yes,Yes
+Ghee (1L),West,2021-01,4523,521.51,21.7,No_Festival,0,22,No,No
+Ghee (1L),West,2021-02,5394,520.22,23.3,No_Festival,0,26,No,No
+Ghee (1L),West,2021-03,4055,521.06,28.0,Holi,1,21,Yes,Yes
+Ghee (1L),West,2021-04,5641,520.21,31.8,Baisakhi,1,26,Yes,Yes
+Ghee (1L),West,2021-05,4803,519.88,35.6,No_Festival,0,25,No,Yes
+Ghee (1L),West,2021-06,5046,519.34,31.6,No_Festival,0,25,No,No
+Ghee (1L),West,2021-07,5049,519.48,28.4,No_Festival,0,26,No,Yes
+Ghee (1L),West,2021-08,4780,521.77,28.5,Independence Day,1,24,Yes,Yes
+Ghee (1L),West,2021-09,3592,518.28,29.5,Janmashtami,1,20,Yes,Yes
+Ghee (1L),West,2021-10,6824,515.94,30.4,Navratri,1,23,Yes,Yes
+Ghee (1L),West,2021-11,5261,521.04,25.6,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Ghee (1L),West,2021-12,5001,519.45,21.7,Christmas,1,18,Yes,Yes
+Ghee (1L),West,2022-01,4690,543.93,21.8,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Ghee (1L),West,2022-02,3701,544.92,24.4,No_Festival,0,19,No,No
+Ghee (1L),West,2022-03,4997,544.87,27.7,No_Festival,0,26,No,No
+Ghee (1L),West,2022-04,5539,543.09,31.3,Baisakhi,1,22,Yes,Yes
+Ghee (1L),West,2022-05,5852,541.18,36.2,No_Festival,0,28,No,Yes
+Ghee (1L),West,2022-06,4490,544.92,32.1,No_Festival,0,24,No,No
+Ghee (1L),West,2022-07,4552,543.03,28.4,No_Festival,0,24,No,No
+Ghee (1L),West,2022-08,5667,544.93,27.4,"Independence Day, Janmashtami",2,26,Yes,Yes
+Ghee (1L),West,2022-09,4160,546.01,28.9,No_Festival,0,23,No,No
+Ghee (1L),West,2022-10,7131,545.78,30.2,"Gandhi Jayanti, Diwali",2,24,Yes,Yes
+Ghee (1L),West,2022-11,6903,546.16,27.1,Guru Nanak Jayanti,1,25,Yes,Yes
+Ghee (1L),West,2022-12,6400,546.49,22.7,Christmas,1,24,Yes,Yes
+Ghee (1L),West,2023-01,5752,573.25,22.2,"Makar Sankranti, Republic Day",2,28,Yes,Yes
+Ghee (1L),West,2023-02,3870,567.57,24.4,No_Festival,0,20,No,No
+Ghee (1L),West,2023-03,4860,571.19,27.7,No_Festival,0,23,No,No
+Ghee (1L),West,2023-04,4878,572.39,32.0,Baisakhi,1,25,Yes,Yes
+Ghee (1L),West,2023-05,3583,572.8,36.2,No_Festival,0,20,No,No
+Ghee (1L),West,2023-06,4096,568.17,32.2,No_Festival,0,23,No,Yes
+Ghee (1L),West,2023-07,5706,571.67,28.8,No_Festival,0,28,No,No
+Ghee (1L),West,2023-08,4894,572.39,28.8,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Ghee (1L),West,2023-09,5308,571.31,28.9,Janmashtami,1,27,Yes,Yes
+Ghee (1L),West,2023-10,8135,573.64,30.5,No_Festival,0,28,No,No
+Ghee (1L),West,2023-11,5456,572.51,25.9,"Diwali, Guru Nanak Jayanti",2,20,Yes,Yes
+Ghee (1L),West,2023-12,5168,571.83,21.9,No_Festival,0,19,No,No
+Ice Cream (500ml),Central,2021-01,6187,178.94,18.0,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Ice Cream (500ml),Central,2021-02,6086,179.84,20.8,No_Festival,0,26,No,No
+Ice Cream (500ml),Central,2021-03,13620,179.69,27.7,Holi,1,22,Yes,Yes
+Ice Cream (500ml),Central,2021-04,13307,180.22,32.9,Baisakhi,1,23,Yes,Yes
+Ice Cream (500ml),Central,2021-05,18484,180.09,38.1,No_Festival,0,27,No,Yes
+Ice Cream (500ml),Central,2021-06,15392,181.01,36.9,No_Festival,0,25,No,No
+Ice Cream (500ml),Central,2021-07,7930,180.06,30.5,No_Festival,0,22,No,No
+Ice Cream (500ml),Central,2021-08,10958,179.17,29.5,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Ice Cream (500ml),Central,2021-09,7574,180.8,29.8,Janmashtami,1,20,Yes,Yes
+Ice Cream (500ml),Central,2021-10,7637,179.64,28.0,Navratri,1,22,Yes,Yes
+Ice Cream (500ml),Central,2021-11,10358,179.62,22.6,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Ice Cream (500ml),Central,2021-12,5248,180.38,17.9,Christmas,1,25,Yes,Yes
+Ice Cream (500ml),Central,2022-01,5769,188.85,17.5,Republic Day,1,25,Yes,Yes
+Ice Cream (500ml),Central,2022-02,5291,188.86,21.1,No_Festival,0,22,No,No
+Ice Cream (500ml),Central,2022-03,17874,189.49,27.1,Holi,1,28,Yes,Yes
+Ice Cream (500ml),Central,2022-04,9936,188.19,33.5,No_Festival,0,20,No,No
+Ice Cream (500ml),Central,2022-05,13260,190.11,37.8,No_Festival,0,24,No,Yes
+Ice Cream (500ml),Central,2022-06,16193,189.5,36.1,No_Festival,0,26,No,No
+Ice Cream (500ml),Central,2022-07,9168,188.72,30.9,No_Festival,0,24,No,Yes
+Ice Cream (500ml),Central,2022-08,9385,188.91,30.6,Janmashtami,1,23,Yes,Yes
+Ice Cream (500ml),Central,2022-09,6949,189.82,30.1,No_Festival,0,19,No,No
+Ice Cream (500ml),Central,2022-10,9824,188.78,27.4,"Gandhi Jayanti, Diwali",2,22,Yes,Yes
+Ice Cream (500ml),Central,2022-11,7789,189.93,22.9,Guru Nanak Jayanti,1,22,Yes,Yes
+Ice Cream (500ml),Central,2022-12,4766,188.36,17.9,Christmas,1,19,Yes,Yes
+Ice Cream (500ml),Central,2023-01,4363,197.65,17.8,Republic Day,1,21,Yes,Yes
+Ice Cream (500ml),Central,2023-02,3948,197.46,21.4,No_Festival,0,18,No,No
+Ice Cream (500ml),Central,2023-03,14390,198.85,27.2,Holi,1,26,Yes,Yes
+Ice Cream (500ml),Central,2023-04,15498,197.92,33.3,Baisakhi,1,24,Yes,Yes
+Ice Cream (500ml),Central,2023-05,13072,198.03,39.1,No_Festival,0,22,No,No
+Ice Cream (500ml),Central,2023-06,13911,196.96,36.3,No_Festival,0,23,No,Yes
+Ice Cream (500ml),Central,2023-07,9967,198.11,31.4,No_Festival,0,25,No,No
+Ice Cream (500ml),Central,2023-08,9189,198.48,29.9,No_Festival,0,23,No,No
+Ice Cream (500ml),Central,2023-09,7601,196.9,29.9,Janmashtami,1,19,Yes,Yes
+Ice Cream (500ml),Central,2023-10,9588,197.89,27.7,Gandhi Jayanti,1,25,Yes,Yes
+Ice Cream (500ml),Central,2023-11,9563,196.56,22.4,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Ice Cream (500ml),Central,2023-12,6776,198.76,18.7,Christmas,1,25,Yes,Yes
+Ice Cream (500ml),East,2021-01,6365,178.98,18.6,Republic Day,1,26,Yes,Yes
+Ice Cream (500ml),East,2021-02,5483,179.88,21.3,No_Festival,0,24,No,No
+Ice Cream (500ml),East,2021-03,13398,180.65,27.0,Holi,1,20,Yes,Yes
+Ice Cream (500ml),East,2021-04,14362,179.62,32.0,No_Festival,0,24,No,No
+Ice Cream (500ml),East,2021-05,14200,180.31,34.8,No_Festival,0,25,No,Yes
+Ice Cream (500ml),East,2021-06,16238,181.02,32.4,No_Festival,0,28,No,No
+Ice Cream (500ml),East,2021-07,8676,180.32,29.5,No_Festival,0,24,No,Yes
+Ice Cream (500ml),East,2021-08,8644,180.31,30.0,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Ice Cream (500ml),East,2021-09,9627,180.38,29.2,No_Festival,0,23,No,No
+Ice Cream (500ml),East,2021-10,7713,180.17,27.2,Gandhi Jayanti,1,21,Yes,Yes
+Ice Cream (500ml),East,2021-11,9126,178.75,22.6,Guru Nanak Jayanti,1,23,Yes,Yes
+Ice Cream (500ml),East,2021-12,5484,180.19,16.5,No_Festival,0,23,No,No
+Ice Cream (500ml),East,2022-01,6476,189.15,18.4,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Ice Cream (500ml),East,2022-02,4677,189.09,21.6,No_Festival,0,17,No,No
+Ice Cream (500ml),East,2022-03,15584,189.09,27.3,Holi,1,24,Yes,Yes
+Ice Cream (500ml),East,2022-04,13978,188.64,32.6,No_Festival,0,24,No,No
+Ice Cream (500ml),East,2022-05,15009,189.13,34.4,No_Festival,0,25,No,Yes
+Ice Cream (500ml),East,2022-06,14610,188.97,31.6,No_Festival,0,25,No,No
+Ice Cream (500ml),East,2022-07,8705,189.01,30.5,No_Festival,0,23,No,Yes
+Ice Cream (500ml),East,2022-08,10358,190.08,30.6,"Raksha Bandhan, Independence Day, Janmashtami",3,25,Yes,Yes
+Ice Cream (500ml),East,2022-09,8336,188.41,29.5,No_Festival,0,24,No,No
+Ice Cream (500ml),East,2022-10,8577,188.77,27.3,Diwali,1,19,Yes,Yes
+Ice Cream (500ml),East,2022-11,10625,188.84,22.5,Guru Nanak Jayanti,1,26,Yes,Yes
+Ice Cream (500ml),East,2022-12,5435,188.73,16.7,Christmas,1,24,Yes,Yes
+Ice Cream (500ml),East,2023-01,5536,197.15,18.4,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Ice Cream (500ml),East,2023-02,4868,197.98,20.6,No_Festival,0,22,No,No
+Ice Cream (500ml),East,2023-03,10781,199.09,27.4,Holi,1,20,Yes,Yes
+Ice Cream (500ml),East,2023-04,16301,198.15,32.1,Baisakhi,1,24,Yes,Yes
+Ice Cream (500ml),East,2023-05,14075,197.87,34.0,No_Festival,0,24,No,No
+Ice Cream (500ml),East,2023-06,13600,198.09,31.7,No_Festival,0,24,No,Yes
+Ice Cream (500ml),East,2023-07,9907,197.44,29.6,No_Festival,0,27,No,No
+Ice Cream (500ml),East,2023-08,9239,197.27,30.3,Independence Day,1,25,Yes,Yes
+Ice Cream (500ml),East,2023-09,7103,198.79,28.5,Janmashtami,1,21,Yes,Yes
+Ice Cream (500ml),East,2023-10,10640,198.56,26.8,No_Festival,0,29,No,No
+Ice Cream (500ml),East,2023-11,6603,198.95,22.5,"Diwali, Guru Nanak Jayanti",2,18,Yes,Yes
+Ice Cream (500ml),East,2023-12,5946,198.21,16.8,Christmas,1,26,Yes,Yes
+Ice Cream (500ml),North,2021-01,5150,179.64,14.1,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Ice Cream (500ml),North,2021-02,4020,179.37,16.8,No_Festival,0,16,No,No
+Ice Cream (500ml),North,2021-03,15739,180.18,23.8,Holi,1,25,Yes,Yes
+Ice Cream (500ml),North,2021-04,7557,180.38,32.3,No_Festival,0,16,No,No
+Ice Cream (500ml),North,2021-05,16293,180.39,38.6,No_Festival,0,27,No,Yes
+Ice Cream (500ml),North,2021-06,12930,179.47,40.0,No_Festival,0,21,No,No
+Ice Cream (500ml),North,2021-07,9134,179.54,36.2,No_Festival,0,23,No,No
+Ice Cream (500ml),North,2021-08,8321,179.12,33.6,Independence Day,1,24,Yes,Yes
+Ice Cream (500ml),North,2021-09,10212,181.37,32.6,No_Festival,0,24,No,No
+Ice Cream (500ml),North,2021-10,9347,180.37,26.6,Navratri,1,23,Yes,Yes
+Ice Cream (500ml),North,2021-11,8323,180.57,18.4,Diwali,1,23,Yes,Yes
+Ice Cream (500ml),North,2021-12,5155,179.94,14.3,Christmas,1,23,Yes,Yes
+Ice Cream (500ml),North,2022-01,5396,188.4,13.9,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Ice Cream (500ml),North,2022-02,5649,188.52,17.2,No_Festival,0,24,No,No
+Ice Cream (500ml),North,2022-03,13763,189.95,24.5,No_Festival,0,25,No,No
+Ice Cream (500ml),North,2022-04,11878,188.25,31.7,Baisakhi,1,22,Yes,Yes
+Ice Cream (500ml),North,2022-05,14248,188.07,38.3,No_Festival,0,29,No,Yes
+Ice Cream (500ml),North,2022-06,12788,189.49,39.7,No_Festival,0,23,No,No
+Ice Cream (500ml),North,2022-07,10633,188.94,36.1,No_Festival,0,25,No,Yes
+Ice Cream (500ml),North,2022-08,10286,189.07,34.5,"Independence Day, Janmashtami",2,23,Yes,Yes
+Ice Cream (500ml),North,2022-09,8071,189.77,31.8,No_Festival,0,21,No,No
+Ice Cream (500ml),North,2022-10,9093,187.92,26.1,Gandhi Jayanti,1,23,Yes,Yes
+Ice Cream (500ml),North,2022-11,9939,189.4,19.1,Guru Nanak Jayanti,1,24,Yes,Yes
+Ice Cream (500ml),North,2022-12,6742,188.74,14.6,No_Festival,0,28,No,No
+Ice Cream (500ml),North,2023-01,5752,197.03,14.2,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Ice Cream (500ml),North,2023-02,5393,197.79,16.7,No_Festival,0,22,No,No
+Ice Cream (500ml),North,2023-03,16086,198.3,24.3,Holi,1,28,Yes,Yes
+Ice Cream (500ml),North,2023-04,11801,198.14,32.3,No_Festival,0,19,No,Yes
+Ice Cream (500ml),North,2023-05,15403,197.44,37.9,No_Festival,0,26,No,No
+Ice Cream (500ml),North,2023-06,15577,198.97,39.5,No_Festival,0,25,No,Yes
+Ice Cream (500ml),North,2023-07,9079,197.71,36.1,No_Festival,0,24,No,No
+Ice Cream (500ml),North,2023-08,7006,196.95,34.1,No_Festival,0,21,No,No
+Ice Cream (500ml),North,2023-09,7085,197.48,31.9,Janmashtami,1,16,Yes,Yes
+Ice Cream (500ml),North,2023-10,8005,197.53,25.9,Gandhi Jayanti,1,22,Yes,Yes
+Ice Cream (500ml),North,2023-11,10034,198.1,18.6,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Ice Cream (500ml),North,2023-12,5964,199.2,14.2,Christmas,1,25,Yes,Yes
+Ice Cream (500ml),South,2021-01,4983,180.22,25.8,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Ice Cream (500ml),South,2021-02,4949,180.67,27.4,No_Festival,0,22,No,No
+Ice Cream (500ml),South,2021-03,14002,179.61,29.7,Holi,1,23,Yes,Yes
+Ice Cream (500ml),South,2021-04,9758,180.21,32.1,No_Festival,0,18,No,No
+Ice Cream (500ml),South,2021-05,13799,181.02,34.8,No_Festival,0,26,No,No
+Ice Cream (500ml),South,2021-06,14128,180.39,29.7,No_Festival,0,25,No,No
+Ice Cream (500ml),South,2021-07,6717,179.44,27.8,No_Festival,0,19,No,Yes
+Ice Cream (500ml),South,2021-08,10166,180.17,28.0,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Ice Cream (500ml),South,2021-09,10013,180.73,28.1,Janmashtami,1,25,Yes,Yes
+Ice Cream (500ml),South,2021-10,11012,179.92,28.0,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Ice Cream (500ml),South,2021-11,6730,180.81,25.7,Diwali,1,16,Yes,Yes
+Ice Cream (500ml),South,2021-12,6615,179.81,24.7,Christmas,1,27,Yes,Yes
+Ice Cream (500ml),South,2022-01,5614,190.23,25.7,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Ice Cream (500ml),South,2022-02,4355,189.71,27.5,No_Festival,0,18,No,No
+Ice Cream (500ml),South,2022-03,11322,190.32,29.0,Holi,1,22,Yes,Yes
+Ice Cream (500ml),South,2022-04,13254,188.49,32.8,Baisakhi,1,24,Yes,Yes
+Ice Cream (500ml),South,2022-05,12979,189.36,34.3,No_Festival,0,20,No,Yes
+Ice Cream (500ml),South,2022-06,12288,189.36,29.3,No_Festival,0,24,No,No
+Ice Cream (500ml),South,2022-07,9849,189.56,28.3,No_Festival,0,26,No,Yes
+Ice Cream (500ml),South,2022-08,9948,189.13,27.8,"Raksha Bandhan, Independence Day, Janmashtami",3,23,Yes,Yes
+Ice Cream (500ml),South,2022-09,11185,187.99,28.7,No_Festival,0,27,No,No
+Ice Cream (500ml),South,2022-10,9055,188.79,29.0,No_Festival,0,24,No,No
+Ice Cream (500ml),South,2022-11,8376,188.71,26.5,Guru Nanak Jayanti,1,19,Yes,Yes
+Ice Cream (500ml),South,2022-12,5540,187.57,25.4,Christmas,1,24,Yes,Yes
+Ice Cream (500ml),South,2023-01,5387,196.72,25.8,Republic Day,1,22,Yes,Yes
+Ice Cream (500ml),South,2023-02,5130,197.31,26.9,No_Festival,0,23,No,No
+Ice Cream (500ml),South,2023-03,15416,196.72,29.0,Holi,1,27,Yes,Yes
+Ice Cream (500ml),South,2023-04,12868,196.89,32.4,Baisakhi,1,22,Yes,Yes
+Ice Cream (500ml),South,2023-05,12866,198.97,33.9,No_Festival,0,24,No,No
+Ice Cream (500ml),South,2023-06,15253,197.67,30.3,No_Festival,0,26,No,Yes
+Ice Cream (500ml),South,2023-07,12890,197.48,27.4,No_Festival,0,29,No,No
+Ice Cream (500ml),South,2023-08,8661,197.63,28.1,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Ice Cream (500ml),South,2023-09,9522,197.96,28.8,Janmashtami,1,22,Yes,Yes
+Ice Cream (500ml),South,2023-10,8153,196.98,27.6,No_Festival,0,21,No,No
+Ice Cream (500ml),South,2023-11,7720,198.07,26.8,Guru Nanak Jayanti,1,21,Yes,Yes
+Ice Cream (500ml),South,2023-12,6113,197.71,25.3,No_Festival,0,26,No,No
+Ice Cream (500ml),West,2021-01,5633,180.46,22.2,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Ice Cream (500ml),West,2021-02,5934,180.54,23.3,No_Festival,0,23,No,No
+Ice Cream (500ml),West,2021-03,13826,180.88,27.4,No_Festival,0,24,No,No
+Ice Cream (500ml),West,2021-04,13360,178.57,31.2,Baisakhi,1,22,Yes,Yes
+Ice Cream (500ml),West,2021-05,10740,181.01,35.5,No_Festival,0,21,No,Yes
+Ice Cream (500ml),West,2021-06,14082,180.39,32.1,No_Festival,0,24,No,No
+Ice Cream (500ml),West,2021-07,10569,179.82,28.6,No_Festival,0,26,No,Yes
+Ice Cream (500ml),West,2021-08,7972,179.03,28.4,Independence Day,1,20,Yes,Yes
+Ice Cream (500ml),West,2021-09,7384,180.05,28.8,Janmashtami,1,21,Yes,Yes
+Ice Cream (500ml),West,2021-10,12627,180.17,29.9,Gandhi Jayanti,1,27,Yes,Yes
+Ice Cream (500ml),West,2021-11,9559,179.27,25.6,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Ice Cream (500ml),West,2021-12,5312,180.62,21.8,No_Festival,0,21,No,No
+Ice Cream (500ml),West,2022-01,5169,188.79,22.2,Makar Sankranti,1,23,Yes,Yes
+Ice Cream (500ml),West,2022-02,3871,189.8,24.7,No_Festival,0,17,No,No
+Ice Cream (500ml),West,2022-03,13066,189.65,28.2,Holi,1,22,Yes,Yes
+Ice Cream (500ml),West,2022-04,12807,189.09,31.3,Baisakhi,1,21,Yes,Yes
+Ice Cream (500ml),West,2022-05,9286,188.3,36.0,No_Festival,0,19,No,Yes
+Ice Cream (500ml),West,2022-06,14506,189.25,32.0,No_Festival,0,22,No,No
+Ice Cream (500ml),West,2022-07,10208,188.87,28.2,No_Festival,0,25,No,Yes
+Ice Cream (500ml),West,2022-08,11490,187.82,27.6,"Raksha Bandhan, Janmashtami",2,28,Yes,Yes
+Ice Cream (500ml),West,2022-09,9141,189.36,29.2,No_Festival,0,22,No,No
+Ice Cream (500ml),West,2022-10,10441,189.0,30.1,"Gandhi Jayanti, Diwali",2,26,Yes,Yes
+Ice Cream (500ml),West,2022-11,11708,189.47,26.5,Guru Nanak Jayanti,1,25,Yes,Yes
+Ice Cream (500ml),West,2022-12,6038,188.18,22.3,Christmas,1,24,Yes,Yes
+Ice Cream (500ml),West,2023-01,5242,198.42,22.5,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Ice Cream (500ml),West,2023-02,4887,198.46,24.5,No_Festival,0,23,No,No
+Ice Cream (500ml),West,2023-03,15069,198.8,27.6,Holi,1,27,Yes,Yes
+Ice Cream (500ml),West,2023-04,10331,197.56,32.1,No_Festival,0,18,No,Yes
+Ice Cream (500ml),West,2023-05,12492,198.79,36.4,No_Festival,0,23,No,No
+Ice Cream (500ml),West,2023-06,12802,197.35,32.2,No_Festival,0,23,No,Yes
+Ice Cream (500ml),West,2023-07,9002,197.31,28.3,No_Festival,0,23,No,No
+Ice Cream (500ml),West,2023-08,9266,197.6,28.7,Raksha Bandhan,1,24,Yes,Yes
+Ice Cream (500ml),West,2023-09,8353,197.53,29.0,Janmashtami,1,21,Yes,Yes
+Ice Cream (500ml),West,2023-10,10630,197.59,30.6,Gandhi Jayanti,1,28,Yes,Yes
+Ice Cream (500ml),West,2023-11,12295,197.72,26.0,"Diwali, Guru Nanak Jayanti",2,28,Yes,Yes
+Ice Cream (500ml),West,2023-12,5090,197.38,22.3,No_Festival,0,21,No,No
+Lassi (200ml),Central,2021-01,5951,24.94,18.3,Republic Day,1,22,Yes,Yes
+Lassi (200ml),Central,2021-02,6157,24.84,20.8,No_Festival,0,22,No,No
+Lassi (200ml),Central,2021-03,16553,25.06,27.0,Holi,1,21,Yes,Yes
+Lassi (200ml),Central,2021-04,15499,25.03,32.6,Baisakhi,1,22,Yes,Yes
+Lassi (200ml),Central,2021-05,15459,25.12,37.9,No_Festival,0,21,No,Yes
+Lassi (200ml),Central,2021-06,16704,24.79,36.8,No_Festival,0,22,No,No
+Lassi (200ml),Central,2021-07,10867,25.03,30.5,No_Festival,0,24,No,No
+Lassi (200ml),Central,2021-08,11230,25.06,29.6,Raksha Bandhan,1,24,Yes,Yes
+Lassi (200ml),Central,2021-09,10579,25.12,29.3,Janmashtami,1,20,Yes,Yes
+Lassi (200ml),Central,2021-10,12095,25.13,28.0,Gandhi Jayanti,1,25,Yes,Yes
+Lassi (200ml),Central,2021-11,12174,24.96,23.1,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Lassi (200ml),Central,2021-12,7122,24.83,18.0,Christmas,1,26,Yes,Yes
+Lassi (200ml),Central,2022-01,6464,26.38,17.6,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Lassi (200ml),Central,2022-02,6356,26.21,21.3,No_Festival,0,26,No,No
+Lassi (200ml),Central,2022-03,16108,26.27,27.1,No_Festival,0,22,No,No
+Lassi (200ml),Central,2022-04,12613,26.31,33.5,Baisakhi,1,22,Yes,Yes
+Lassi (200ml),Central,2022-05,18054,26.33,38.3,No_Festival,0,25,No,Yes
+Lassi (200ml),Central,2022-06,15537,26.17,36.7,No_Festival,0,21,No,No
+Lassi (200ml),Central,2022-07,12755,26.13,31.3,No_Festival,0,26,No,Yes
+Lassi (200ml),Central,2022-08,11517,26.42,30.6,"Raksha Bandhan, Independence Day, Janmashtami",3,25,Yes,Yes
+Lassi (200ml),Central,2022-09,11607,26.44,30.6,No_Festival,0,25,No,No
+Lassi (200ml),Central,2022-10,13548,26.14,27.8,"Gandhi Jayanti, Diwali",2,28,Yes,Yes
+Lassi (200ml),Central,2022-11,10698,26.25,22.8,Guru Nanak Jayanti,1,21,Yes,Yes
+Lassi (200ml),Central,2022-12,7681,26.26,18.2,Christmas,1,25,Yes,Yes
+Lassi (200ml),Central,2023-01,6912,27.45,17.8,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Lassi (200ml),Central,2023-02,5731,27.44,21.5,No_Festival,0,22,No,No
+Lassi (200ml),Central,2023-03,17944,27.49,27.2,Holi,1,27,Yes,Yes
+Lassi (200ml),Central,2023-04,16915,27.56,33.0,Baisakhi,1,25,Yes,Yes
+Lassi (200ml),Central,2023-05,14768,27.44,38.4,No_Festival,0,21,No,No
+Lassi (200ml),Central,2023-06,17600,27.49,36.8,No_Festival,0,24,No,Yes
+Lassi (200ml),Central,2023-07,11982,27.64,31.5,No_Festival,0,27,No,No
+Lassi (200ml),Central,2023-08,11455,27.65,29.9,Raksha Bandhan,1,22,Yes,Yes
+Lassi (200ml),Central,2023-09,9398,27.43,30.0,Janmashtami,1,21,Yes,Yes
+Lassi (200ml),Central,2023-10,11364,27.6,27.7,Gandhi Jayanti,1,24,Yes,Yes
+Lassi (200ml),Central,2023-11,10914,27.51,22.6,Diwali,1,23,Yes,Yes
+Lassi (200ml),Central,2023-12,6632,27.67,19.0,Christmas,1,24,Yes,Yes
+Lassi (200ml),East,2021-01,6279,24.99,18.8,Makar Sankranti,1,21,Yes,Yes
+Lassi (200ml),East,2021-02,4321,25.02,21.8,No_Festival,0,17,No,No
+Lassi (200ml),East,2021-03,17904,24.96,26.6,Holi,1,25,Yes,Yes
+Lassi (200ml),East,2021-04,15031,24.87,32.0,Baisakhi,1,22,Yes,Yes
+Lassi (200ml),East,2021-05,14958,25.08,34.3,No_Festival,0,21,No,No
+Lassi (200ml),East,2021-06,19792,24.9,32.2,No_Festival,0,24,No,No
+Lassi (200ml),East,2021-07,13100,25.12,29.7,No_Festival,0,27,No,Yes
+Lassi (200ml),East,2021-08,9043,25.03,30.3,Independence Day,1,21,Yes,Yes
+Lassi (200ml),East,2021-09,11815,25.0,29.5,No_Festival,0,25,No,No
+Lassi (200ml),East,2021-10,11137,25.19,26.8,"Gandhi Jayanti, Navratri",2,24,Yes,Yes
+Lassi (200ml),East,2021-11,12481,24.99,22.6,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Lassi (200ml),East,2021-12,6310,25.11,16.8,Christmas,1,21,Yes,Yes
+Lassi (200ml),East,2022-01,6898,26.17,18.2,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Lassi (200ml),East,2022-02,5077,26.38,21.5,No_Festival,0,18,No,No
+Lassi (200ml),East,2022-03,18815,26.25,27.0,Holi,1,24,Yes,Yes
+Lassi (200ml),East,2022-04,18227,26.21,32.1,Baisakhi,1,22,Yes,Yes
+Lassi (200ml),East,2022-05,17609,26.23,33.9,No_Festival,0,25,No,Yes
+Lassi (200ml),East,2022-06,15440,26.29,32.3,No_Festival,0,23,No,No
+Lassi (200ml),East,2022-07,10811,26.15,30.4,No_Festival,0,24,No,Yes
+Lassi (200ml),East,2022-08,12039,26.14,30.8,"Raksha Bandhan, Independence Day, Janmashtami",3,24,Yes,Yes
+Lassi (200ml),East,2022-09,9597,26.33,29.5,No_Festival,0,21,No,No
+Lassi (200ml),East,2022-10,12062,26.24,27.0,Gandhi Jayanti,1,25,Yes,Yes
+Lassi (200ml),East,2022-11,12106,26.15,21.9,No_Festival,0,24,No,No
+Lassi (200ml),East,2022-12,6449,26.03,17.1,Christmas,1,23,Yes,Yes
+Lassi (200ml),East,2023-01,7665,27.35,18.5,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Lassi (200ml),East,2023-02,7705,27.71,20.8,No_Festival,0,26,No,No
+Lassi (200ml),East,2023-03,16774,27.32,27.3,Holi,1,24,Yes,Yes
+Lassi (200ml),East,2023-04,15277,27.56,31.9,Baisakhi,1,23,Yes,Yes
+Lassi (200ml),East,2023-05,15958,27.56,34.2,No_Festival,0,22,No,No
+Lassi (200ml),East,2023-06,21064,27.38,31.9,No_Festival,0,26,No,Yes
+Lassi (200ml),East,2023-07,10233,27.39,29.4,No_Festival,0,21,No,No
+Lassi (200ml),East,2023-08,10331,27.47,30.2,"Independence Day, Raksha Bandhan",2,22,Yes,Yes
+Lassi (200ml),East,2023-09,12420,27.56,28.5,Janmashtami,1,25,Yes,Yes
+Lassi (200ml),East,2023-10,11886,27.64,26.6,No_Festival,0,28,No,No
+Lassi (200ml),East,2023-11,13932,27.6,22.0,Guru Nanak Jayanti,1,26,Yes,Yes
+Lassi (200ml),East,2023-12,6103,27.43,16.6,No_Festival,0,22,No,No
+Lassi (200ml),North,2021-01,6552,25.15,14.6,Republic Day,1,22,Yes,Yes
+Lassi (200ml),North,2021-02,6671,24.93,16.5,No_Festival,0,23,No,No
+Lassi (200ml),North,2021-03,12847,25.0,23.9,No_Festival,0,18,No,No
+Lassi (200ml),North,2021-04,17478,24.9,32.5,Baisakhi,1,25,Yes,Yes
+Lassi (200ml),North,2021-05,13756,25.16,38.4,No_Festival,0,22,No,No
+Lassi (200ml),North,2021-06,10769,24.93,39.6,No_Festival,0,17,No,No
+Lassi (200ml),North,2021-07,13235,25.04,36.2,No_Festival,0,26,No,No
+Lassi (200ml),North,2021-08,11365,24.89,32.9,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Lassi (200ml),North,2021-09,11823,24.98,32.6,Janmashtami,1,25,Yes,Yes
+Lassi (200ml),North,2021-10,11870,24.95,26.3,"Gandhi Jayanti, Navratri",2,27,Yes,Yes
+Lassi (200ml),North,2021-11,9587,25.01,18.5,"Diwali, Guru Nanak Jayanti",2,20,Yes,Yes
+Lassi (200ml),North,2021-12,5667,25.19,14.6,Christmas,1,19,Yes,Yes
+Lassi (200ml),North,2022-01,6138,26.2,14.7,Republic Day,1,22,Yes,Yes
+Lassi (200ml),North,2022-02,6009,26.35,17.1,No_Festival,0,22,No,No
+Lassi (200ml),North,2022-03,15768,26.34,24.8,Holi,1,24,Yes,Yes
+Lassi (200ml),North,2022-04,14761,26.3,31.5,No_Festival,0,21,No,No
+Lassi (200ml),North,2022-05,20465,26.24,38.0,No_Festival,0,27,No,No
+Lassi (200ml),North,2022-06,15895,26.14,39.7,No_Festival,0,25,No,No
+Lassi (200ml),North,2022-07,9935,26.15,35.3,No_Festival,0,19,No,No
+Lassi (200ml),North,2022-08,11421,26.36,34.6,"Raksha Bandhan, Independence Day, Janmashtami",3,27,Yes,Yes
+Lassi (200ml),North,2022-09,8188,26.3,32.0,No_Festival,0,19,No,No
+Lassi (200ml),North,2022-10,12656,26.36,26.2,Diwali,1,27,Yes,Yes
+Lassi (200ml),North,2022-11,10650,26.32,19.2,Guru Nanak Jayanti,1,23,Yes,Yes
+Lassi (200ml),North,2022-12,6785,26.3,14.3,Christmas,1,23,Yes,Yes
+Lassi (200ml),North,2023-01,7825,27.52,14.1,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Lassi (200ml),North,2023-02,7051,27.54,16.9,No_Festival,0,25,No,No
+Lassi (200ml),North,2023-03,17647,27.61,24.2,Holi,1,24,Yes,Yes
+Lassi (200ml),North,2023-04,18997,27.58,32.3,Baisakhi,1,27,Yes,Yes
+Lassi (200ml),North,2023-05,17397,27.44,37.9,No_Festival,0,25,No,No
+Lassi (200ml),North,2023-06,17465,27.61,39.7,No_Festival,0,23,No,Yes
+Lassi (200ml),North,2023-07,11705,27.51,36.3,No_Festival,0,25,No,No
+Lassi (200ml),North,2023-08,12139,27.58,34.0,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Lassi (200ml),North,2023-09,12111,27.64,31.6,Janmashtami,1,24,Yes,Yes
+Lassi (200ml),North,2023-10,9762,27.31,25.5,Gandhi Jayanti,1,22,Yes,Yes
+Lassi (200ml),North,2023-11,11693,27.55,18.7,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Lassi (200ml),North,2023-12,7488,27.39,13.9,Christmas,1,26,Yes,Yes
+Lassi (200ml),South,2021-01,6879,25.04,25.8,No_Festival,0,22,No,No
+Lassi (200ml),South,2021-02,5034,24.96,26.9,No_Festival,0,18,No,No
+Lassi (200ml),South,2021-03,20346,24.96,29.6,Holi,1,28,Yes,Yes
+Lassi (200ml),South,2021-04,14081,24.9,32.0,No_Festival,0,20,No,No
+Lassi (200ml),South,2021-05,16863,25.09,34.7,No_Festival,0,23,No,No
+Lassi (200ml),South,2021-06,15020,25.03,29.7,No_Festival,0,25,No,No
+Lassi (200ml),South,2021-07,12828,24.98,28.2,No_Festival,0,26,No,Yes
+Lassi (200ml),South,2021-08,12150,25.02,27.9,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Lassi (200ml),South,2021-09,9828,25.12,28.2,Janmashtami,1,19,Yes,Yes
+Lassi (200ml),South,2021-10,9607,25.09,28.3,Navratri,1,22,Yes,Yes
+Lassi (200ml),South,2021-11,12718,24.94,25.3,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Lassi (200ml),South,2021-12,7003,24.96,24.8,Christmas,1,23,Yes,Yes
+Lassi (200ml),South,2022-01,5953,26.2,26.1,Makar Sankranti,1,24,Yes,Yes
+Lassi (200ml),South,2022-02,6282,26.51,27.0,No_Festival,0,23,No,No
+Lassi (200ml),South,2022-03,15874,26.35,28.8,Holi,1,22,Yes,Yes
+Lassi (200ml),South,2022-04,13931,26.14,32.5,No_Festival,0,21,No,No
+Lassi (200ml),South,2022-05,19066,26.12,34.6,No_Festival,0,25,No,Yes
+Lassi (200ml),South,2022-06,12195,26.11,29.5,No_Festival,0,19,No,No
+Lassi (200ml),South,2022-07,9373,26.21,28.6,No_Festival,0,21,No,Yes
+Lassi (200ml),South,2022-08,12453,26.05,27.8,Raksha Bandhan,1,24,Yes,Yes
+Lassi (200ml),South,2022-09,8778,26.25,28.2,No_Festival,0,18,No,No
+Lassi (200ml),South,2022-10,9639,26.21,28.3,"Gandhi Jayanti, Diwali",2,20,Yes,Yes
+Lassi (200ml),South,2022-11,11789,26.41,25.3,Guru Nanak Jayanti,1,24,Yes,Yes
+Lassi (200ml),South,2022-12,6767,26.35,25.4,Christmas,1,24,Yes,Yes
+Lassi (200ml),South,2023-01,5756,27.52,25.9,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Lassi (200ml),South,2023-02,6314,27.56,26.9,No_Festival,0,19,No,No
+Lassi (200ml),South,2023-03,19222,27.4,28.9,No_Festival,0,27,No,No
+Lassi (200ml),South,2023-04,16946,27.39,32.2,No_Festival,0,20,No,Yes
+Lassi (200ml),South,2023-05,19770,27.48,34.3,No_Festival,0,25,No,No
+Lassi (200ml),South,2023-06,17387,27.52,30.2,No_Festival,0,25,No,Yes
+Lassi (200ml),South,2023-07,11396,27.65,27.2,No_Festival,0,23,No,No
+Lassi (200ml),South,2023-08,8639,27.61,28.1,Independence Day,1,18,Yes,Yes
+Lassi (200ml),South,2023-09,10876,27.39,28.8,Janmashtami,1,21,Yes,Yes
+Lassi (200ml),South,2023-10,10011,27.42,28.1,Gandhi Jayanti,1,22,Yes,Yes
+Lassi (200ml),South,2023-11,11393,27.43,26.7,Guru Nanak Jayanti,1,25,Yes,Yes
+Lassi (200ml),South,2023-12,7413,27.44,25.4,Christmas,1,24,Yes,Yes
+Lassi (200ml),West,2021-01,8296,24.88,22.3,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Lassi (200ml),West,2021-02,5526,24.92,23.4,No_Festival,0,20,No,No
+Lassi (200ml),West,2021-03,17023,24.96,27.5,Holi,1,24,Yes,Yes
+Lassi (200ml),West,2021-04,17951,24.98,31.8,No_Festival,0,25,No,No
+Lassi (200ml),West,2021-05,16180,24.98,35.5,No_Festival,0,21,No,Yes
+Lassi (200ml),West,2021-06,13909,25.19,31.4,No_Festival,0,23,No,No
+Lassi (200ml),West,2021-07,11051,25.06,28.8,No_Festival,0,24,No,Yes
+Lassi (200ml),West,2021-08,11014,24.93,28.2,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Lassi (200ml),West,2021-09,8164,24.92,29.0,No_Festival,0,21,No,No
+Lassi (200ml),West,2021-10,11753,24.83,30.2,Gandhi Jayanti,1,24,Yes,Yes
+Lassi (200ml),West,2021-11,10374,25.18,25.5,Diwali,1,23,Yes,Yes
+Lassi (200ml),West,2021-12,6657,24.94,21.9,Christmas,1,24,Yes,Yes
+Lassi (200ml),West,2022-01,7360,26.34,22.4,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Lassi (200ml),West,2022-02,5734,26.35,24.3,No_Festival,0,22,No,No
+Lassi (200ml),West,2022-03,15993,26.23,27.6,Holi,1,24,Yes,Yes
+Lassi (200ml),West,2022-04,15135,26.25,31.6,Baisakhi,1,23,Yes,Yes
+Lassi (200ml),West,2022-05,15235,26.24,36.8,No_Festival,0,23,No,No
+Lassi (200ml),West,2022-06,16644,26.23,32.0,No_Festival,0,22,No,No
+Lassi (200ml),West,2022-07,12769,26.28,28.3,No_Festival,0,28,No,Yes
+Lassi (200ml),West,2022-08,10698,26.14,27.7,"Raksha Bandhan, Janmashtami",2,20,Yes,Yes
+Lassi (200ml),West,2022-09,10410,26.16,29.0,No_Festival,0,23,No,No
+Lassi (200ml),West,2022-10,11306,26.26,30.3,Diwali,1,24,Yes,Yes
+Lassi (200ml),West,2022-11,9200,26.17,26.6,No_Festival,0,20,No,No
+Lassi (200ml),West,2022-12,6391,26.18,22.3,No_Festival,0,21,No,No
+Lassi (200ml),West,2023-01,6905,27.47,22.7,Republic Day,1,24,Yes,Yes
+Lassi (200ml),West,2023-02,7228,27.42,24.4,No_Festival,0,25,No,No
+Lassi (200ml),West,2023-03,16818,27.46,27.6,Holi,1,26,Yes,Yes
+Lassi (200ml),West,2023-04,17342,27.42,32.1,Baisakhi,1,25,Yes,Yes
+Lassi (200ml),West,2023-05,16460,27.44,36.3,No_Festival,0,25,No,No
+Lassi (200ml),West,2023-06,18072,27.42,32.0,No_Festival,0,24,No,Yes
+Lassi (200ml),West,2023-07,10513,27.39,28.9,No_Festival,0,22,No,No
+Lassi (200ml),West,2023-08,11007,27.44,28.7,"Independence Day, Raksha Bandhan",2,22,Yes,Yes
+Lassi (200ml),West,2023-09,11144,27.35,28.4,No_Festival,0,25,No,No
+Lassi (200ml),West,2023-10,10263,27.42,31.0,Gandhi Jayanti,1,20,Yes,Yes
+Lassi (200ml),West,2023-11,10334,27.45,25.7,Guru Nanak Jayanti,1,23,Yes,Yes
+Lassi (200ml),West,2023-12,5942,27.59,21.8,Christmas,1,22,Yes,Yes
+Paneer (200g),Central,2021-01,11159,90.04,17.9,Makar Sankranti,1,26,Yes,Yes
+Paneer (200g),Central,2021-02,7978,89.61,20.9,No_Festival,0,20,No,No
+Paneer (200g),Central,2021-03,8277,89.46,27.1,Holi,1,20,Yes,Yes
+Paneer (200g),Central,2021-04,8246,89.47,32.7,No_Festival,0,22,No,No
+Paneer (200g),Central,2021-05,8831,89.62,37.9,No_Festival,0,22,No,No
+Paneer (200g),Central,2021-06,11003,90.4,36.6,No_Festival,0,24,No,No
+Paneer (200g),Central,2021-07,8049,90.04,30.7,No_Festival,0,23,No,Yes
+Paneer (200g),Central,2021-08,8784,89.25,29.6,Independence Day,1,21,Yes,Yes
+Paneer (200g),Central,2021-09,10067,89.94,30.0,No_Festival,0,22,No,No
+Paneer (200g),Central,2021-10,14606,89.93,27.7,Navratri,1,24,Yes,Yes
+Paneer (200g),Central,2021-11,12360,90.09,22.9,"Diwali, Guru Nanak Jayanti",2,18,Yes,Yes
+Paneer (200g),Central,2021-12,16124,89.85,18.1,Christmas,1,25,Yes,Yes
+Paneer (200g),Central,2022-01,8608,94.72,17.7,Republic Day,1,20,Yes,Yes
+Paneer (200g),Central,2022-02,10175,94.8,21.2,No_Festival,0,21,No,No
+Paneer (200g),Central,2022-03,8001,93.9,27.1,Holi,1,19,Yes,Yes
+Paneer (200g),Central,2022-04,7934,94.63,32.9,Baisakhi,1,23,Yes,Yes
+Paneer (200g),Central,2022-05,6755,95.27,38.5,No_Festival,0,19,No,Yes
+Paneer (200g),Central,2022-06,8490,93.84,36.3,No_Festival,0,25,No,No
+Paneer (200g),Central,2022-07,10333,95.08,30.9,No_Festival,0,23,No,No
+Paneer (200g),Central,2022-08,9695,93.96,30.7,"Raksha Bandhan, Independence Day, Janmashtami",3,24,Yes,Yes
+Paneer (200g),Central,2022-09,7774,94.88,30.6,No_Festival,0,20,No,No
+Paneer (200g),Central,2022-10,12949,94.46,28.2,"Gandhi Jayanti, Diwali",2,20,Yes,Yes
+Paneer (200g),Central,2022-11,13038,94.75,22.5,No_Festival,0,25,No,No
+Paneer (200g),Central,2022-12,12725,94.52,18.1,Christmas,1,20,Yes,Yes
+Paneer (200g),Central,2023-01,9946,99.17,18.2,Makar Sankranti,1,24,Yes,Yes
+Paneer (200g),Central,2023-02,9055,98.89,21.9,No_Festival,0,23,No,No
+Paneer (200g),Central,2023-03,8987,98.76,27.2,Holi,1,21,Yes,Yes
+Paneer (200g),Central,2023-04,10377,99.2,33.2,Baisakhi,1,26,Yes,Yes
+Paneer (200g),Central,2023-05,9005,99.13,38.2,No_Festival,0,20,No,No
+Paneer (200g),Central,2023-06,11504,99.5,36.4,No_Festival,0,27,No,Yes
+Paneer (200g),Central,2023-07,9176,99.41,31.2,No_Festival,0,21,No,No
+Paneer (200g),Central,2023-08,11499,98.73,29.9,"Independence Day, Raksha Bandhan",2,28,Yes,Yes
+Paneer (200g),Central,2023-09,9208,98.81,30.5,Janmashtami,1,23,Yes,Yes
+Paneer (200g),Central,2023-10,11282,98.82,27.7,No_Festival,0,22,No,No
+Paneer (200g),Central,2023-11,10673,98.62,22.0,Guru Nanak Jayanti,1,18,Yes,Yes
+Paneer (200g),Central,2023-12,13878,99.06,18.9,Christmas,1,24,Yes,Yes
+Paneer (200g),East,2021-01,9925,90.14,18.4,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Paneer (200g),East,2021-02,9259,89.37,21.3,No_Festival,0,22,No,No
+Paneer (200g),East,2021-03,9057,89.89,26.5,Holi,1,20,Yes,Yes
+Paneer (200g),East,2021-04,11708,90.07,32.2,Baisakhi,1,27,Yes,Yes
+Paneer (200g),East,2021-05,8831,89.66,34.6,No_Festival,0,20,No,Yes
+Paneer (200g),East,2021-06,10291,89.94,32.0,No_Festival,0,23,No,No
+Paneer (200g),East,2021-07,11432,90.25,29.7,No_Festival,0,28,No,No
+Paneer (200g),East,2021-08,9889,89.91,30.6,"Independence Day, Raksha Bandhan",2,19,Yes,Yes
+Paneer (200g),East,2021-09,10990,90.21,29.4,Janmashtami,1,24,Yes,Yes
+Paneer (200g),East,2021-10,14471,89.44,27.2,"Gandhi Jayanti, Navratri",2,23,Yes,Yes
+Paneer (200g),East,2021-11,14620,90.27,22.4,"Diwali, Guru Nanak Jayanti",2,27,Yes,Yes
+Paneer (200g),East,2021-12,13233,89.82,16.9,Christmas,1,22,Yes,Yes
+Paneer (200g),East,2022-01,11878,94.62,18.5,"Makar Sankranti, Republic Day",2,28,Yes,Yes
+Paneer (200g),East,2022-02,7558,94.09,21.6,No_Festival,0,21,No,No
+Paneer (200g),East,2022-03,10574,94.83,27.2,Holi,1,27,Yes,Yes
+Paneer (200g),East,2022-04,9017,94.15,32.4,Baisakhi,1,21,Yes,Yes
+Paneer (200g),East,2022-05,11456,94.56,34.2,No_Festival,0,26,No,Yes
+Paneer (200g),East,2022-06,7817,94.79,32.4,No_Festival,0,19,No,No
+Paneer (200g),East,2022-07,11227,93.65,30.3,No_Festival,0,27,No,Yes
+Paneer (200g),East,2022-08,8723,94.62,30.7,"Independence Day, Janmashtami",2,19,Yes,Yes
+Paneer (200g),East,2022-09,10447,94.48,29.3,No_Festival,0,25,No,No
+Paneer (200g),East,2022-10,12016,94.7,27.4,No_Festival,0,19,No,No
+Paneer (200g),East,2022-11,13058,94.68,22.1,Guru Nanak Jayanti,1,22,Yes,Yes
+Paneer (200g),East,2022-12,12663,94.26,17.0,No_Festival,0,23,No,No
+Paneer (200g),East,2023-01,11081,98.36,18.7,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Paneer (200g),East,2023-02,7192,99.57,20.5,No_Festival,0,17,No,No
+Paneer (200g),East,2023-03,10821,98.75,27.5,Holi,1,25,Yes,Yes
+Paneer (200g),East,2023-04,9594,98.72,32.1,Baisakhi,1,24,Yes,Yes
+Paneer (200g),East,2023-05,11247,98.74,34.2,No_Festival,0,25,No,No
+Paneer (200g),East,2023-06,7492,98.75,31.8,No_Festival,0,20,No,No
+Paneer (200g),East,2023-07,10641,99.68,29.6,No_Festival,0,29,No,No
+Paneer (200g),East,2023-08,8953,99.09,29.6,Independence Day,1,23,Yes,Yes
+Paneer (200g),East,2023-09,10107,99.65,28.8,Janmashtami,1,23,Yes,Yes
+Paneer (200g),East,2023-10,16506,99.32,26.7,Gandhi Jayanti,1,26,Yes,Yes
+Paneer (200g),East,2023-11,14202,98.98,22.0,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Paneer (200g),East,2023-12,15257,98.42,16.6,Christmas,1,26,Yes,Yes
+Paneer (200g),North,2021-01,12948,90.33,14.2,"Makar Sankranti, Republic Day",2,30,Yes,Yes
+Paneer (200g),North,2021-02,7920,90.18,16.6,No_Festival,0,21,No,No
+Paneer (200g),North,2021-03,9421,89.97,23.7,Holi,1,22,Yes,Yes
+Paneer (200g),North,2021-04,9278,89.97,32.1,Baisakhi,1,22,Yes,Yes
+Paneer (200g),North,2021-05,12569,90.12,38.6,No_Festival,0,30,No,Yes
+Paneer (200g),North,2021-06,8464,90.43,39.6,No_Festival,0,20,No,No
+Paneer (200g),North,2021-07,9414,89.67,35.8,No_Festival,0,21,No,Yes
+Paneer (200g),North,2021-08,9398,90.12,33.2,Raksha Bandhan,1,24,Yes,Yes
+Paneer (200g),North,2021-09,10480,90.33,32.6,Janmashtami,1,25,Yes,Yes
+Paneer (200g),North,2021-10,13726,90.05,26.5,"Gandhi Jayanti, Navratri",2,24,Yes,Yes
+Paneer (200g),North,2021-11,13708,89.68,18.7,Diwali,1,23,Yes,Yes
+Paneer (200g),North,2021-12,15274,89.75,14.5,Christmas,1,24,Yes,Yes
+Paneer (200g),North,2022-01,10732,94.29,14.0,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Paneer (200g),North,2022-02,7260,95.18,17.0,No_Festival,0,18,No,No
+Paneer (200g),North,2022-03,11197,94.92,24.7,Holi,1,26,Yes,Yes
+Paneer (200g),North,2022-04,9502,94.79,31.0,No_Festival,0,23,No,No
+Paneer (200g),North,2022-05,7788,94.13,38.9,No_Festival,0,18,No,Yes
+Paneer (200g),North,2022-06,11094,94.36,39.3,No_Festival,0,23,No,No
+Paneer (200g),North,2022-07,8827,93.82,36.2,No_Festival,0,25,No,Yes
+Paneer (200g),North,2022-08,10212,94.33,34.7,"Raksha Bandhan, Independence Day",2,24,Yes,Yes
+Paneer (200g),North,2022-09,7017,94.49,32.0,No_Festival,0,16,No,No
+Paneer (200g),North,2022-10,15710,94.51,26.1,"Gandhi Jayanti, Diwali",2,26,Yes,Yes
+Paneer (200g),North,2022-11,16004,95.05,19.2,No_Festival,0,27,No,No
+Paneer (200g),North,2022-12,12432,94.8,14.3,Christmas,1,22,Yes,Yes
+Paneer (200g),North,2023-01,8475,99.23,13.8,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Paneer (200g),North,2023-02,8906,99.09,16.9,No_Festival,0,23,No,No
+Paneer (200g),North,2023-03,10395,99.28,24.2,Holi,1,24,Yes,Yes
+Paneer (200g),North,2023-04,9433,99.27,32.1,Baisakhi,1,23,Yes,Yes
+Paneer (200g),North,2023-05,11597,98.93,37.7,No_Festival,0,28,No,No
+Paneer (200g),North,2023-06,8713,99.15,39.6,No_Festival,0,21,No,Yes
+Paneer (200g),North,2023-07,9472,99.72,36.0,No_Festival,0,25,No,No
+Paneer (200g),North,2023-08,10069,98.63,34.0,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Paneer (200g),North,2023-09,10142,99.71,31.7,Janmashtami,1,22,Yes,Yes
+Paneer (200g),North,2023-10,11933,98.22,26.0,Gandhi Jayanti,1,21,Yes,Yes
+Paneer (200g),North,2023-11,13922,98.89,18.6,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Paneer (200g),North,2023-12,11826,98.55,14.0,Christmas,1,21,Yes,Yes
+Paneer (200g),South,2021-01,9241,91.03,26.0,Makar Sankranti,1,22,Yes,Yes
+Paneer (200g),South,2021-02,8166,90.4,26.9,No_Festival,0,20,No,No
+Paneer (200g),South,2021-03,9539,90.0,29.8,Holi,1,24,Yes,Yes
+Paneer (200g),South,2021-04,9576,90.58,32.2,No_Festival,0,24,No,No
+Paneer (200g),South,2021-05,9458,90.04,35.2,No_Festival,0,23,No,Yes
+Paneer (200g),South,2021-06,8022,89.9,29.9,No_Festival,0,19,No,No
+Paneer (200g),South,2021-07,10248,90.58,28.3,No_Festival,0,25,No,Yes
+Paneer (200g),South,2021-08,9356,90.85,27.6,Raksha Bandhan,1,22,Yes,Yes
+Paneer (200g),South,2021-09,9999,89.81,28.0,Janmashtami,1,24,Yes,Yes
+Paneer (200g),South,2021-10,12133,89.75,28.4,Navratri,1,22,Yes,Yes
+Paneer (200g),South,2021-11,13869,90.79,25.6,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Paneer (200g),South,2021-12,11887,90.31,24.5,Christmas,1,21,Yes,Yes
+Paneer (200g),South,2022-01,9559,94.1,25.7,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Paneer (200g),South,2022-02,8261,94.55,27.4,No_Festival,0,19,No,No
+Paneer (200g),South,2022-03,8670,95.0,28.6,No_Festival,0,21,No,No
+Paneer (200g),South,2022-04,10823,94.79,32.7,Baisakhi,1,26,Yes,Yes
+Paneer (200g),South,2022-05,7732,94.24,34.5,No_Festival,0,21,No,Yes
+Paneer (200g),South,2022-06,10058,94.61,29.4,No_Festival,0,22,No,No
+Paneer (200g),South,2022-07,9278,94.71,28.4,No_Festival,0,23,No,Yes
+Paneer (200g),South,2022-08,9600,94.56,27.5,"Raksha Bandhan, Independence Day, Janmashtami",3,20,Yes,Yes
+Paneer (200g),South,2022-09,8476,94.47,28.7,No_Festival,0,21,No,No
+Paneer (200g),South,2022-10,14957,94.67,28.8,Gandhi Jayanti,1,27,Yes,Yes
+Paneer (200g),South,2022-11,14537,94.48,25.9,Guru Nanak Jayanti,1,23,Yes,Yes
+Paneer (200g),South,2022-12,14842,94.2,25.3,No_Festival,0,24,No,No
+Paneer (200g),South,2023-01,11567,99.0,25.9,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Paneer (200g),South,2023-02,9331,99.39,27.2,No_Festival,0,22,No,No
+Paneer (200g),South,2023-03,9986,98.64,28.6,No_Festival,0,24,No,No
+Paneer (200g),South,2023-04,11044,98.67,32.6,Baisakhi,1,24,Yes,Yes
+Paneer (200g),South,2023-05,10012,98.63,34.1,No_Festival,0,24,No,No
+Paneer (200g),South,2023-06,9396,98.62,30.5,No_Festival,0,22,No,Yes
+Paneer (200g),South,2023-07,11152,98.91,27.4,No_Festival,0,25,No,No
+Paneer (200g),South,2023-08,9891,98.62,27.9,Independence Day,1,26,Yes,Yes
+Paneer (200g),South,2023-09,11157,99.02,28.5,Janmashtami,1,26,Yes,Yes
+Paneer (200g),South,2023-10,14145,99.01,27.8,Gandhi Jayanti,1,24,Yes,Yes
+Paneer (200g),South,2023-11,13442,99.34,27.1,"Diwali, Guru Nanak Jayanti",2,21,Yes,Yes
+Paneer (200g),South,2023-12,14763,99.38,25.3,No_Festival,0,25,No,No
+Paneer (200g),West,2021-01,9262,89.94,21.8,Makar Sankranti,1,23,Yes,Yes
+Paneer (200g),West,2021-02,10045,89.95,23.2,No_Festival,0,23,No,No
+Paneer (200g),West,2021-03,11296,89.57,27.7,Holi,1,25,Yes,Yes
+Paneer (200g),West,2021-04,8728,90.17,31.8,No_Festival,0,21,No,No
+Paneer (200g),West,2021-05,10183,89.94,35.5,No_Festival,0,25,No,No
+Paneer (200g),West,2021-06,10085,90.32,31.7,No_Festival,0,23,No,No
+Paneer (200g),West,2021-07,9519,90.02,28.8,No_Festival,0,23,No,Yes
+Paneer (200g),West,2021-08,9250,89.32,28.1,"Independence Day, Raksha Bandhan",2,19,Yes,Yes
+Paneer (200g),West,2021-09,9834,91.03,29.2,Janmashtami,1,25,Yes,Yes
+Paneer (200g),West,2021-10,15910,89.75,30.4,Navratri,1,25,Yes,Yes
+Paneer (200g),West,2021-11,14847,90.01,26.1,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Paneer (200g),West,2021-12,13837,90.44,21.8,Christmas,1,24,Yes,Yes
+Paneer (200g),West,2022-01,8782,94.74,22.0,"Makar Sankranti, Republic Day",2,21,Yes,Yes
+Paneer (200g),West,2022-02,8006,94.83,24.8,No_Festival,0,20,No,No
+Paneer (200g),West,2022-03,10933,94.49,28.0,Holi,1,26,Yes,Yes
+Paneer (200g),West,2022-04,9238,94.21,31.5,Baisakhi,1,24,Yes,Yes
+Paneer (200g),West,2022-05,10387,94.29,36.1,No_Festival,0,23,No,No
+Paneer (200g),West,2022-06,9450,94.06,32.0,No_Festival,0,24,No,No
+Paneer (200g),West,2022-07,10394,94.41,28.4,No_Festival,0,25,No,No
+Paneer (200g),West,2022-08,10651,94.32,27.5,"Raksha Bandhan, Independence Day, Janmashtami",3,22,Yes,Yes
+Paneer (200g),West,2022-09,9169,94.79,29.2,No_Festival,0,22,No,No
+Paneer (200g),West,2022-10,9570,94.88,29.5,Diwali,1,17,Yes,Yes
+Paneer (200g),West,2022-11,12962,94.38,26.6,Guru Nanak Jayanti,1,23,Yes,Yes
+Paneer (200g),West,2022-12,11259,94.47,22.2,Christmas,1,19,Yes,Yes
+Paneer (200g),West,2023-01,9393,98.93,22.2,Republic Day,1,21,Yes,Yes
+Paneer (200g),West,2023-02,8419,98.55,24.2,No_Festival,0,20,No,No
+Paneer (200g),West,2023-03,11147,99.22,27.7,Holi,1,27,Yes,Yes
+Paneer (200g),West,2023-04,9543,98.94,32.1,No_Festival,0,23,No,Yes
+Paneer (200g),West,2023-05,9608,98.58,36.2,No_Festival,0,23,No,No
+Paneer (200g),West,2023-06,8608,99.52,31.8,No_Festival,0,21,No,No
+Paneer (200g),West,2023-07,9960,98.84,29.0,No_Festival,0,24,No,No
+Paneer (200g),West,2023-08,12252,98.95,28.7,"Independence Day, Raksha Bandhan",2,27,Yes,Yes
+Paneer (200g),West,2023-09,8307,98.94,28.3,Janmashtami,1,20,Yes,Yes
+Paneer (200g),West,2023-10,12308,99.54,30.4,No_Festival,0,22,No,No
+Paneer (200g),West,2023-11,12215,99.15,25.5,Diwali,1,22,Yes,Yes
+Paneer (200g),West,2023-12,13269,98.65,21.7,Christmas,1,23,Yes,Yes
+Skimmed Milk (1L),Central,2021-01,17324,55.21,17.9,"Makar Sankranti, Republic Day",2,29,Yes,Yes
+Skimmed Milk (1L),Central,2021-02,14771,55.36,21.0,No_Festival,0,24,No,No
+Skimmed Milk (1L),Central,2021-03,13987,55.24,27.3,Holi,1,25,Yes,Yes
+Skimmed Milk (1L),Central,2021-04,12648,54.98,32.9,Baisakhi,1,22,Yes,Yes
+Skimmed Milk (1L),Central,2021-05,10381,54.83,38.3,No_Festival,0,20,No,No
+Skimmed Milk (1L),Central,2021-06,13417,54.75,36.9,No_Festival,0,23,No,No
+Skimmed Milk (1L),Central,2021-07,15787,54.72,30.7,No_Festival,0,29,No,Yes
+Skimmed Milk (1L),Central,2021-08,15177,55.13,29.5,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Skimmed Milk (1L),Central,2021-09,14751,55.13,29.7,Janmashtami,1,25,Yes,Yes
+Skimmed Milk (1L),Central,2021-10,13250,54.83,27.6,Gandhi Jayanti,1,22,Yes,Yes
+Skimmed Milk (1L),Central,2021-11,12631,55.31,22.8,"Diwali, Guru Nanak Jayanti",2,21,Yes,Yes
+Skimmed Milk (1L),Central,2021-12,14769,54.99,17.6,Christmas,1,25,Yes,Yes
+Skimmed Milk (1L),Central,2022-01,14059,57.62,17.5,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Skimmed Milk (1L),Central,2022-02,11699,57.88,21.1,No_Festival,0,21,No,No
+Skimmed Milk (1L),Central,2022-03,12424,57.58,26.5,Holi,1,24,Yes,Yes
+Skimmed Milk (1L),Central,2022-04,13162,57.88,33.6,Baisakhi,1,23,Yes,Yes
+Skimmed Milk (1L),Central,2022-05,14694,57.59,38.3,No_Festival,0,25,No,Yes
+Skimmed Milk (1L),Central,2022-06,13079,57.64,36.3,No_Festival,0,22,No,No
+Skimmed Milk (1L),Central,2022-07,13128,57.84,31.2,No_Festival,0,24,No,Yes
+Skimmed Milk (1L),Central,2022-08,14249,57.87,30.6,Independence Day,1,23,Yes,Yes
+Skimmed Milk (1L),Central,2022-09,13452,58.0,29.9,No_Festival,0,25,No,No
+Skimmed Milk (1L),Central,2022-10,10581,57.85,28.2,Gandhi Jayanti,1,18,Yes,Yes
+Skimmed Milk (1L),Central,2022-11,14935,57.68,22.7,Guru Nanak Jayanti,1,25,Yes,Yes
+Skimmed Milk (1L),Central,2022-12,13437,57.86,18.4,Christmas,1,24,Yes,Yes
+Skimmed Milk (1L),Central,2023-01,15192,60.39,17.7,Makar Sankranti,1,26,Yes,Yes
+Skimmed Milk (1L),Central,2023-02,12137,60.1,21.9,No_Festival,0,21,No,No
+Skimmed Milk (1L),Central,2023-03,13625,60.32,26.8,Holi,1,23,Yes,Yes
+Skimmed Milk (1L),Central,2023-04,13680,60.54,32.9,Baisakhi,1,23,Yes,Yes
+Skimmed Milk (1L),Central,2023-05,13024,60.42,38.2,No_Festival,0,25,No,No
+Skimmed Milk (1L),Central,2023-06,11773,60.82,36.4,No_Festival,0,21,No,Yes
+Skimmed Milk (1L),Central,2023-07,13264,60.51,31.4,No_Festival,0,23,No,No
+Skimmed Milk (1L),Central,2023-08,11958,60.69,30.0,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Skimmed Milk (1L),Central,2023-09,11486,60.04,30.0,Janmashtami,1,20,Yes,Yes
+Skimmed Milk (1L),Central,2023-10,14832,60.65,28.1,Gandhi Jayanti,1,25,Yes,Yes
+Skimmed Milk (1L),Central,2023-11,11012,60.65,22.8,Diwali,1,17,Yes,Yes
+Skimmed Milk (1L),Central,2023-12,13653,60.68,19.1,Christmas,1,22,Yes,Yes
+Skimmed Milk (1L),East,2021-01,15045,54.71,18.7,Republic Day,1,26,Yes,Yes
+Skimmed Milk (1L),East,2021-02,12390,54.89,21.3,No_Festival,0,21,No,No
+Skimmed Milk (1L),East,2021-03,13611,54.92,26.6,Holi,1,23,Yes,Yes
+Skimmed Milk (1L),East,2021-04,12028,54.95,32.3,Baisakhi,1,23,Yes,Yes
+Skimmed Milk (1L),East,2021-05,14074,54.84,34.3,No_Festival,0,25,No,Yes
+Skimmed Milk (1L),East,2021-06,10704,55.39,32.8,No_Festival,0,20,No,No
+Skimmed Milk (1L),East,2021-07,11641,55.24,29.8,No_Festival,0,23,No,Yes
+Skimmed Milk (1L),East,2021-08,13032,55.04,30.1,"Independence Day, Raksha Bandhan",2,23,Yes,Yes
+Skimmed Milk (1L),East,2021-09,14199,54.84,29.3,Janmashtami,1,24,Yes,Yes
+Skimmed Milk (1L),East,2021-10,16009,55.26,27.2,"Gandhi Jayanti, Navratri",2,25,Yes,Yes
+Skimmed Milk (1L),East,2021-11,15382,54.84,22.5,Diwali,1,26,Yes,Yes
+Skimmed Milk (1L),East,2021-12,10584,54.73,16.5,Christmas,1,20,Yes,Yes
+Skimmed Milk (1L),East,2022-01,14335,57.92,17.9,Republic Day,1,23,Yes,Yes
+Skimmed Milk (1L),East,2022-02,13167,57.75,21.6,No_Festival,0,23,No,No
+Skimmed Milk (1L),East,2022-03,13661,57.74,27.3,Holi,1,23,Yes,Yes
+Skimmed Milk (1L),East,2022-04,12071,57.72,32.4,Baisakhi,1,21,Yes,Yes
+Skimmed Milk (1L),East,2022-05,12187,57.74,34.3,No_Festival,0,22,No,Yes
+Skimmed Milk (1L),East,2022-06,13496,57.35,31.8,No_Festival,0,22,No,No
+Skimmed Milk (1L),East,2022-07,11753,57.7,30.5,No_Festival,0,21,No,Yes
+Skimmed Milk (1L),East,2022-08,16146,57.69,30.3,"Raksha Bandhan, Independence Day, Janmashtami",3,26,Yes,Yes
+Skimmed Milk (1L),East,2022-09,12429,57.52,29.2,No_Festival,0,21,No,No
+Skimmed Milk (1L),East,2022-10,17873,57.92,27.1,"Gandhi Jayanti, Diwali",2,29,Yes,Yes
+Skimmed Milk (1L),East,2022-11,13459,57.62,22.0,No_Festival,0,22,No,No
+Skimmed Milk (1L),East,2022-12,11885,57.78,17.2,Christmas,1,20,Yes,Yes
+Skimmed Milk (1L),East,2023-01,14750,60.46,18.2,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Skimmed Milk (1L),East,2023-02,11412,60.55,20.8,No_Festival,0,21,No,No
+Skimmed Milk (1L),East,2023-03,14217,60.77,27.3,Holi,1,26,Yes,Yes
+Skimmed Milk (1L),East,2023-04,14424,60.94,32.0,Baisakhi,1,24,Yes,Yes
+Skimmed Milk (1L),East,2023-05,14900,60.55,34.0,No_Festival,0,26,No,No
+Skimmed Milk (1L),East,2023-06,14987,60.46,31.5,No_Festival,0,25,No,Yes
+Skimmed Milk (1L),East,2023-07,14608,60.05,29.7,No_Festival,0,25,No,No
+Skimmed Milk (1L),East,2023-08,11845,60.61,30.6,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Skimmed Milk (1L),East,2023-09,13512,60.52,28.5,Janmashtami,1,25,Yes,Yes
+Skimmed Milk (1L),East,2023-10,11642,60.22,26.7,Gandhi Jayanti,1,21,Yes,Yes
+Skimmed Milk (1L),East,2023-11,14365,60.45,22.1,"Diwali, Guru Nanak Jayanti",2,25,Yes,Yes
+Skimmed Milk (1L),East,2023-12,14265,60.49,16.7,Christmas,1,22,Yes,Yes
+Skimmed Milk (1L),North,2021-01,13683,54.94,14.1,Makar Sankranti,1,23,Yes,Yes
+Skimmed Milk (1L),North,2021-02,12115,55.18,16.6,No_Festival,0,22,No,No
+Skimmed Milk (1L),North,2021-03,14921,54.77,23.7,Holi,1,26,Yes,Yes
+Skimmed Milk (1L),North,2021-04,16036,55.17,32.2,Baisakhi,1,27,Yes,Yes
+Skimmed Milk (1L),North,2021-05,13132,54.64,38.8,No_Festival,0,26,No,Yes
+Skimmed Milk (1L),North,2021-06,11563,55.33,39.4,No_Festival,0,21,No,No
+Skimmed Milk (1L),North,2021-07,12571,55.12,36.0,No_Festival,0,21,No,No
+Skimmed Milk (1L),North,2021-08,12845,54.42,33.2,"Independence Day, Raksha Bandhan",2,22,Yes,Yes
+Skimmed Milk (1L),North,2021-09,13140,54.84,32.2,Janmashtami,1,25,Yes,Yes
+Skimmed Milk (1L),North,2021-10,15736,54.77,26.7,"Gandhi Jayanti, Navratri",2,26,Yes,Yes
+Skimmed Milk (1L),North,2021-11,12215,54.59,18.6,"Diwali, Guru Nanak Jayanti",2,20,Yes,Yes
+Skimmed Milk (1L),North,2021-12,12214,54.92,14.6,Christmas,1,23,Yes,Yes
+Skimmed Milk (1L),North,2022-01,15584,57.95,14.3,Makar Sankranti,1,25,Yes,Yes
+Skimmed Milk (1L),North,2022-02,12414,57.4,17.0,No_Festival,0,22,No,No
+Skimmed Milk (1L),North,2022-03,13181,57.65,24.5,No_Festival,0,24,No,No
+Skimmed Milk (1L),North,2022-04,11706,58.01,31.3,No_Festival,0,21,No,No
+Skimmed Milk (1L),North,2022-05,12918,57.69,38.5,No_Festival,0,25,No,No
+Skimmed Milk (1L),North,2022-06,13156,57.67,39.6,No_Festival,0,23,No,No
+Skimmed Milk (1L),North,2022-07,10091,57.94,36.0,No_Festival,0,19,No,No
+Skimmed Milk (1L),North,2022-08,12996,57.63,34.8,"Independence Day, Janmashtami",2,23,Yes,Yes
+Skimmed Milk (1L),North,2022-09,17373,57.75,31.9,No_Festival,0,28,No,No
+Skimmed Milk (1L),North,2022-10,11446,58.08,26.2,Diwali,1,22,Yes,Yes
+Skimmed Milk (1L),North,2022-11,15291,57.67,19.3,Guru Nanak Jayanti,1,26,Yes,Yes
+Skimmed Milk (1L),North,2022-12,12122,57.55,14.4,Christmas,1,23,Yes,Yes
+Skimmed Milk (1L),North,2023-01,10058,60.45,14.2,Republic Day,1,20,Yes,Yes
+Skimmed Milk (1L),North,2023-02,10035,60.88,16.6,No_Festival,0,18,No,No
+Skimmed Milk (1L),North,2023-03,14403,60.5,24.0,Holi,1,25,Yes,Yes
+Skimmed Milk (1L),North,2023-04,11691,60.06,32.0,Baisakhi,1,22,Yes,Yes
+Skimmed Milk (1L),North,2023-05,13641,60.2,38.0,No_Festival,0,25,No,No
+Skimmed Milk (1L),North,2023-06,10864,60.74,39.8,No_Festival,0,19,No,Yes
+Skimmed Milk (1L),North,2023-07,15096,60.7,36.3,No_Festival,0,24,No,No
+Skimmed Milk (1L),North,2023-08,11041,60.74,33.9,Independence Day,1,19,Yes,Yes
+Skimmed Milk (1L),North,2023-09,10563,60.51,32.3,Janmashtami,1,19,Yes,Yes
+Skimmed Milk (1L),North,2023-10,12619,60.32,25.6,Gandhi Jayanti,1,22,Yes,Yes
+Skimmed Milk (1L),North,2023-11,13554,60.59,18.5,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Skimmed Milk (1L),North,2023-12,12972,60.57,13.8,Christmas,1,22,Yes,Yes
+Skimmed Milk (1L),South,2021-01,14523,55.07,25.7,"Makar Sankranti, Republic Day",2,23,Yes,Yes
+Skimmed Milk (1L),South,2021-02,13227,54.52,26.8,No_Festival,0,24,No,No
+Skimmed Milk (1L),South,2021-03,15282,54.82,29.9,Holi,1,27,Yes,Yes
+Skimmed Milk (1L),South,2021-04,12067,55.37,32.4,Baisakhi,1,22,Yes,Yes
+Skimmed Milk (1L),South,2021-05,13937,55.09,34.2,No_Festival,0,24,No,Yes
+Skimmed Milk (1L),South,2021-06,12361,54.88,30.2,No_Festival,0,22,No,No
+Skimmed Milk (1L),South,2021-07,14311,55.04,28.1,No_Festival,0,23,No,Yes
+Skimmed Milk (1L),South,2021-08,12559,55.05,28.2,Independence Day,1,21,Yes,Yes
+Skimmed Milk (1L),South,2021-09,13590,55.18,28.1,Janmashtami,1,23,Yes,Yes
+Skimmed Milk (1L),South,2021-10,12500,54.95,28.1,"Gandhi Jayanti, Navratri",2,23,Yes,Yes
+Skimmed Milk (1L),South,2021-11,12922,54.77,25.3,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Skimmed Milk (1L),South,2021-12,13076,55.04,25.0,Christmas,1,22,Yes,Yes
+Skimmed Milk (1L),South,2022-01,13590,57.76,25.6,Republic Day,1,24,Yes,Yes
+Skimmed Milk (1L),South,2022-02,10605,57.59,27.3,No_Festival,0,19,No,No
+Skimmed Milk (1L),South,2022-03,14669,57.76,29.1,Holi,1,27,Yes,Yes
+Skimmed Milk (1L),South,2022-04,12242,57.83,32.0,Baisakhi,1,21,Yes,Yes
+Skimmed Milk (1L),South,2022-05,11654,57.23,34.6,No_Festival,0,20,No,Yes
+Skimmed Milk (1L),South,2022-06,14290,58.0,29.3,No_Festival,0,26,No,No
+Skimmed Milk (1L),South,2022-07,13663,58.16,28.0,No_Festival,0,24,No,No
+Skimmed Milk (1L),South,2022-08,14102,57.46,27.6,Raksha Bandhan,1,23,Yes,Yes
+Skimmed Milk (1L),South,2022-09,11535,57.97,28.3,No_Festival,0,21,No,No
+Skimmed Milk (1L),South,2022-10,14661,57.76,28.4,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Skimmed Milk (1L),South,2022-11,14195,57.68,25.6,Guru Nanak Jayanti,1,24,Yes,Yes
+Skimmed Milk (1L),South,2022-12,13999,57.74,25.0,Christmas,1,25,Yes,Yes
+Skimmed Milk (1L),South,2023-01,13650,60.28,25.3,Republic Day,1,23,Yes,Yes
+Skimmed Milk (1L),South,2023-02,9678,60.89,27.4,No_Festival,0,16,No,No
+Skimmed Milk (1L),South,2023-03,15803,60.36,28.6,Holi,1,25,Yes,Yes
+Skimmed Milk (1L),South,2023-04,14481,60.9,32.9,Baisakhi,1,24,Yes,Yes
+Skimmed Milk (1L),South,2023-05,13760,60.19,33.6,No_Festival,0,22,No,No
+Skimmed Milk (1L),South,2023-06,13707,60.49,30.3,No_Festival,0,24,No,Yes
+Skimmed Milk (1L),South,2023-07,12870,60.77,27.2,No_Festival,0,20,No,No
+Skimmed Milk (1L),South,2023-08,14402,61.1,28.1,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Skimmed Milk (1L),South,2023-09,13130,60.7,28.6,Janmashtami,1,23,Yes,Yes
+Skimmed Milk (1L),South,2023-10,14867,60.39,27.9,Gandhi Jayanti,1,26,Yes,Yes
+Skimmed Milk (1L),South,2023-11,12256,60.68,26.8,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Skimmed Milk (1L),South,2023-12,15380,60.64,25.3,Christmas,1,24,Yes,Yes
+Skimmed Milk (1L),West,2021-01,14962,55.01,22.2,No_Festival,0,25,No,No
+Skimmed Milk (1L),West,2021-02,9418,55.21,23.3,No_Festival,0,18,No,No
+Skimmed Milk (1L),West,2021-03,14725,55.05,27.6,Holi,1,24,Yes,Yes
+Skimmed Milk (1L),West,2021-04,8103,55.15,31.5,No_Festival,0,16,No,No
+Skimmed Milk (1L),West,2021-05,12157,54.96,35.5,No_Festival,0,21,No,Yes
+Skimmed Milk (1L),West,2021-06,11014,54.8,31.3,No_Festival,0,21,No,No
+Skimmed Milk (1L),West,2021-07,11705,54.85,28.3,No_Festival,0,19,No,Yes
+Skimmed Milk (1L),West,2021-08,12154,54.73,28.2,Raksha Bandhan,1,21,Yes,Yes
+Skimmed Milk (1L),West,2021-09,13783,55.02,29.1,No_Festival,0,25,No,No
+Skimmed Milk (1L),West,2021-10,12696,54.84,30.7,Navratri,1,21,Yes,Yes
+Skimmed Milk (1L),West,2021-11,16100,55.02,25.6,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Skimmed Milk (1L),West,2021-12,11209,55.01,22.0,No_Festival,0,19,No,No
+Skimmed Milk (1L),West,2022-01,15928,57.8,22.1,"Makar Sankranti, Republic Day",2,27,Yes,Yes
+Skimmed Milk (1L),West,2022-02,10887,57.82,24.5,No_Festival,0,20,No,No
+Skimmed Milk (1L),West,2022-03,14785,57.67,28.0,No_Festival,0,26,No,No
+Skimmed Milk (1L),West,2022-04,12983,57.95,31.4,Baisakhi,1,23,Yes,Yes
+Skimmed Milk (1L),West,2022-05,13994,57.6,36.0,No_Festival,0,25,No,Yes
+Skimmed Milk (1L),West,2022-06,12133,58.15,31.8,No_Festival,0,22,No,No
+Skimmed Milk (1L),West,2022-07,13135,58.03,28.5,No_Festival,0,23,No,Yes
+Skimmed Milk (1L),West,2022-08,14262,58.13,27.2,"Raksha Bandhan, Independence Day, Janmashtami",3,23,Yes,Yes
+Skimmed Milk (1L),West,2022-09,12331,57.92,28.9,No_Festival,0,22,No,No
+Skimmed Milk (1L),West,2022-10,14048,57.83,30.1,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Skimmed Milk (1L),West,2022-11,14599,57.81,26.8,Guru Nanak Jayanti,1,25,Yes,Yes
+Skimmed Milk (1L),West,2022-12,12474,57.71,22.6,Christmas,1,22,Yes,Yes
+Skimmed Milk (1L),West,2023-01,13031,60.28,22.5,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Skimmed Milk (1L),West,2023-02,10881,60.54,24.5,No_Festival,0,20,No,No
+Skimmed Milk (1L),West,2023-03,13428,60.6,27.6,Holi,1,23,Yes,Yes
+Skimmed Milk (1L),West,2023-04,10369,60.41,31.9,Baisakhi,1,20,Yes,Yes
+Skimmed Milk (1L),West,2023-05,15013,60.38,36.3,No_Festival,0,24,No,No
+Skimmed Milk (1L),West,2023-06,12976,60.36,32.1,No_Festival,0,23,No,Yes
+Skimmed Milk (1L),West,2023-07,12193,60.58,28.9,No_Festival,0,21,No,No
+Skimmed Milk (1L),West,2023-08,16089,60.33,28.9,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Skimmed Milk (1L),West,2023-09,13501,60.81,28.9,Janmashtami,1,23,Yes,Yes
+Skimmed Milk (1L),West,2023-10,14072,60.58,30.7,Gandhi Jayanti,1,24,Yes,Yes
+Skimmed Milk (1L),West,2023-11,13133,60.27,25.4,"Diwali, Guru Nanak Jayanti",2,22,Yes,Yes
+Skimmed Milk (1L),West,2023-12,15083,60.54,22.0,No_Festival,0,26,No,No
+Toned Milk (500ml),Central,2021-01,22829,26.99,18.0,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Toned Milk (500ml),Central,2021-02,19930,26.95,20.8,No_Festival,0,21,No,No
+Toned Milk (500ml),Central,2021-03,29172,26.97,27.3,No_Festival,0,27,No,No
+Toned Milk (500ml),Central,2021-04,22143,26.82,33.0,Baisakhi,1,20,Yes,Yes
+Toned Milk (500ml),Central,2021-05,26161,26.84,38.2,No_Festival,0,24,No,Yes
+Toned Milk (500ml),Central,2021-06,27420,26.85,36.8,No_Festival,0,23,No,No
+Toned Milk (500ml),Central,2021-07,24825,26.95,30.3,No_Festival,0,23,No,No
+Toned Milk (500ml),Central,2021-08,26215,27.01,29.6,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Toned Milk (500ml),Central,2021-09,24855,27.03,29.5,Janmashtami,1,24,Yes,Yes
+Toned Milk (500ml),Central,2021-10,23492,26.89,28.0,"Gandhi Jayanti, Navratri",2,21,Yes,Yes
+Toned Milk (500ml),Central,2021-11,23923,26.84,22.9,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Toned Milk (500ml),Central,2021-12,25092,27.04,17.8,Christmas,1,24,Yes,Yes
+Toned Milk (500ml),Central,2022-01,28037,28.41,17.5,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Toned Milk (500ml),Central,2022-02,20962,28.52,21.9,No_Festival,0,20,No,No
+Toned Milk (500ml),Central,2022-03,26952,28.24,26.8,Holi,1,24,Yes,Yes
+Toned Milk (500ml),Central,2022-04,24534,28.33,33.1,No_Festival,0,22,No,No
+Toned Milk (500ml),Central,2022-05,24507,28.51,38.2,No_Festival,0,24,No,Yes
+Toned Milk (500ml),Central,2022-06,29808,28.4,36.2,No_Festival,0,28,No,No
+Toned Milk (500ml),Central,2022-07,25048,28.37,30.9,No_Festival,0,23,No,No
+Toned Milk (500ml),Central,2022-08,26099,28.35,30.3,"Raksha Bandhan, Janmashtami",2,24,Yes,Yes
+Toned Milk (500ml),Central,2022-09,25919,28.42,30.2,No_Festival,0,24,No,No
+Toned Milk (500ml),Central,2022-10,28252,28.25,28.3,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Toned Milk (500ml),Central,2022-11,24324,28.36,22.6,Guru Nanak Jayanti,1,22,Yes,Yes
+Toned Milk (500ml),Central,2022-12,22251,28.49,18.5,No_Festival,0,21,No,No
+Toned Milk (500ml),Central,2023-01,27047,29.78,17.9,No_Festival,0,25,No,No
+Toned Milk (500ml),Central,2023-02,22105,29.61,21.4,No_Festival,0,22,No,No
+Toned Milk (500ml),Central,2023-03,27920,29.72,26.7,Holi,1,25,Yes,Yes
+Toned Milk (500ml),Central,2023-04,26965,29.67,33.2,Baisakhi,1,24,Yes,Yes
+Toned Milk (500ml),Central,2023-05,23135,29.78,38.7,No_Festival,0,23,No,No
+Toned Milk (500ml),Central,2023-06,25988,29.7,36.6,No_Festival,0,23,No,No
+Toned Milk (500ml),Central,2023-07,23972,29.69,31.5,No_Festival,0,22,No,No
+Toned Milk (500ml),Central,2023-08,22132,29.74,29.8,Raksha Bandhan,1,21,Yes,Yes
+Toned Milk (500ml),Central,2023-09,30248,29.74,29.9,Janmashtami,1,26,Yes,Yes
+Toned Milk (500ml),Central,2023-10,22218,29.62,27.9,No_Festival,0,20,No,No
+Toned Milk (500ml),Central,2023-11,24907,29.44,22.7,"Diwali, Guru Nanak Jayanti",2,24,Yes,Yes
+Toned Milk (500ml),Central,2023-12,20649,29.83,19.4,Christmas,1,20,Yes,Yes
+Toned Milk (500ml),East,2021-01,26756,27.0,19.1,Makar Sankranti,1,25,Yes,Yes
+Toned Milk (500ml),East,2021-02,24623,26.94,21.2,No_Festival,0,22,No,No
+Toned Milk (500ml),East,2021-03,26438,27.05,26.4,No_Festival,0,25,No,No
+Toned Milk (500ml),East,2021-04,24269,26.86,32.2,Baisakhi,1,24,Yes,Yes
+Toned Milk (500ml),East,2021-05,25092,26.94,34.8,No_Festival,0,23,No,Yes
+Toned Milk (500ml),East,2021-06,21692,27.17,32.3,No_Festival,0,20,No,No
+Toned Milk (500ml),East,2021-07,24900,26.98,29.7,No_Festival,0,21,No,Yes
+Toned Milk (500ml),East,2021-08,28451,27.11,29.9,"Independence Day, Raksha Bandhan",2,26,Yes,Yes
+Toned Milk (500ml),East,2021-09,25015,27.08,29.7,No_Festival,0,23,No,No
+Toned Milk (500ml),East,2021-10,23398,26.89,27.0,Navratri,1,22,Yes,Yes
+Toned Milk (500ml),East,2021-11,22691,27.03,22.2,Guru Nanak Jayanti,1,19,Yes,Yes
+Toned Milk (500ml),East,2021-12,27592,27.06,17.0,Christmas,1,24,Yes,Yes
+Toned Milk (500ml),East,2022-01,28519,28.3,18.1,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Toned Milk (500ml),East,2022-02,23725,28.42,21.8,No_Festival,0,24,No,No
+Toned Milk (500ml),East,2022-03,21655,28.32,27.1,No_Festival,0,21,No,No
+Toned Milk (500ml),East,2022-04,29255,28.39,32.3,Baisakhi,1,27,Yes,Yes
+Toned Milk (500ml),East,2022-05,23952,28.3,34.2,No_Festival,0,20,No,No
+Toned Milk (500ml),East,2022-06,20240,28.19,32.3,No_Festival,0,19,No,No
+Toned Milk (500ml),East,2022-07,28226,28.29,30.0,No_Festival,0,25,No,Yes
+Toned Milk (500ml),East,2022-08,29063,28.54,30.5,"Independence Day, Janmashtami",2,26,Yes,Yes
+Toned Milk (500ml),East,2022-09,23371,28.22,29.5,No_Festival,0,21,No,No
+Toned Milk (500ml),East,2022-10,28271,28.43,26.9,"Gandhi Jayanti, Diwali",2,25,Yes,Yes
+Toned Milk (500ml),East,2022-11,26278,28.28,22.0,No_Festival,0,22,No,No
+Toned Milk (500ml),East,2022-12,23690,28.44,17.1,Christmas,1,22,Yes,Yes
+Toned Milk (500ml),East,2023-01,23857,29.76,18.1,Republic Day,1,23,Yes,Yes
+Toned Milk (500ml),East,2023-02,21398,29.63,20.9,No_Festival,0,18,No,No
+Toned Milk (500ml),East,2023-03,25765,29.99,27.4,Holi,1,23,Yes,Yes
+Toned Milk (500ml),East,2023-04,26787,29.8,32.3,Baisakhi,1,24,Yes,Yes
+Toned Milk (500ml),East,2023-05,27679,29.59,34.0,No_Festival,0,26,No,No
+Toned Milk (500ml),East,2023-06,24349,29.75,31.5,No_Festival,0,24,No,No
+Toned Milk (500ml),East,2023-07,26580,29.73,29.5,No_Festival,0,24,No,No
+Toned Milk (500ml),East,2023-08,33270,29.64,30.3,"Independence Day, Raksha Bandhan",2,28,Yes,Yes
+Toned Milk (500ml),East,2023-09,23486,29.58,28.9,Janmashtami,1,21,Yes,Yes
+Toned Milk (500ml),East,2023-10,28774,29.68,26.6,Gandhi Jayanti,1,27,Yes,Yes
+Toned Milk (500ml),East,2023-11,24768,29.8,21.8,Diwali,1,22,Yes,Yes
+Toned Milk (500ml),East,2023-12,25269,29.77,16.5,Christmas,1,22,Yes,Yes
+Toned Milk (500ml),North,2021-01,23700,27.13,14.0,Republic Day,1,22,Yes,Yes
+Toned Milk (500ml),North,2021-02,25683,26.85,16.6,No_Festival,0,23,No,No
+Toned Milk (500ml),North,2021-03,24411,26.89,24.0,Holi,1,24,Yes,Yes
+Toned Milk (500ml),North,2021-04,26870,26.9,32.1,Baisakhi,1,24,Yes,Yes
+Toned Milk (500ml),North,2021-05,23570,27.03,38.4,No_Festival,0,25,No,Yes
+Toned Milk (500ml),North,2021-06,23322,27.03,39.5,No_Festival,0,24,No,No
+Toned Milk (500ml),North,2021-07,24475,26.99,35.9,No_Festival,0,25,No,No
+Toned Milk (500ml),North,2021-08,26742,27.01,33.0,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Toned Milk (500ml),North,2021-09,27969,27.04,32.6,Janmashtami,1,25,Yes,Yes
+Toned Milk (500ml),North,2021-10,32273,27.03,26.6,Gandhi Jayanti,1,26,Yes,Yes
+Toned Milk (500ml),North,2021-11,25835,26.91,18.6,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Toned Milk (500ml),North,2021-12,26854,27.03,14.7,Christmas,1,23,Yes,Yes
+Toned Milk (500ml),North,2022-01,30992,28.44,14.0,"Makar Sankranti, Republic Day",2,28,Yes,Yes
+Toned Milk (500ml),North,2022-02,27026,28.3,17.1,No_Festival,0,25,No,No
+Toned Milk (500ml),North,2022-03,27180,28.29,24.3,Holi,1,26,Yes,Yes
+Toned Milk (500ml),North,2022-04,21566,28.3,31.7,Baisakhi,1,20,Yes,Yes
+Toned Milk (500ml),North,2022-05,29236,28.45,38.2,No_Festival,0,27,No,Yes
+Toned Milk (500ml),North,2022-06,25627,28.39,39.7,No_Festival,0,24,No,No
+Toned Milk (500ml),North,2022-07,25087,28.38,35.6,No_Festival,0,22,No,Yes
+Toned Milk (500ml),North,2022-08,29771,28.34,34.6,"Raksha Bandhan, Janmashtami",2,26,Yes,Yes
+Toned Milk (500ml),North,2022-09,22867,28.4,32.2,No_Festival,0,21,No,No
+Toned Milk (500ml),North,2022-10,22268,28.11,26.3,"Gandhi Jayanti, Diwali",2,22,Yes,Yes
+Toned Milk (500ml),North,2022-11,22143,28.48,18.9,Guru Nanak Jayanti,1,20,Yes,Yes
+Toned Milk (500ml),North,2022-12,29223,28.37,14.6,Christmas,1,27,Yes,Yes
+Toned Milk (500ml),North,2023-01,27227,29.85,14.1,"Makar Sankranti, Republic Day",2,25,Yes,Yes
+Toned Milk (500ml),North,2023-02,21871,29.68,17.0,No_Festival,0,21,No,No
+Toned Milk (500ml),North,2023-03,27573,29.76,24.0,No_Festival,0,25,No,No
+Toned Milk (500ml),North,2023-04,24552,29.64,32.4,Baisakhi,1,22,Yes,Yes
+Toned Milk (500ml),North,2023-05,29085,29.76,38.0,No_Festival,0,26,No,No
+Toned Milk (500ml),North,2023-06,26397,29.61,39.3,No_Festival,0,23,No,Yes
+Toned Milk (500ml),North,2023-07,24793,29.66,36.0,No_Festival,0,22,No,No
+Toned Milk (500ml),North,2023-08,26116,29.77,33.8,Independence Day,1,24,Yes,Yes
+Toned Milk (500ml),North,2023-09,23847,29.62,31.8,Janmashtami,1,21,Yes,Yes
+Toned Milk (500ml),North,2023-10,28739,29.66,26.1,Gandhi Jayanti,1,25,Yes,Yes
+Toned Milk (500ml),North,2023-11,23899,29.68,18.5,No_Festival,0,22,No,No
+Toned Milk (500ml),North,2023-12,24504,29.66,13.8,Christmas,1,23,Yes,Yes
+Toned Milk (500ml),South,2021-01,25167,26.85,25.8,"Makar Sankranti, Republic Day",2,24,Yes,Yes
+Toned Milk (500ml),South,2021-02,23850,26.92,26.5,No_Festival,0,22,No,No
+Toned Milk (500ml),South,2021-03,25588,26.76,29.9,Holi,1,24,Yes,Yes
+Toned Milk (500ml),South,2021-04,26453,27.02,32.2,Baisakhi,1,24,Yes,Yes
+Toned Milk (500ml),South,2021-05,25785,26.9,34.5,No_Festival,0,23,No,No
+Toned Milk (500ml),South,2021-06,27312,26.93,29.6,No_Festival,0,24,No,No
+Toned Milk (500ml),South,2021-07,24404,27.2,28.3,No_Festival,0,21,No,Yes
+Toned Milk (500ml),South,2021-08,28311,26.91,27.8,"Independence Day, Raksha Bandhan",2,25,Yes,Yes
+Toned Milk (500ml),South,2021-09,24536,26.98,28.0,Janmashtami,1,21,Yes,Yes
+Toned Milk (500ml),South,2021-10,18811,27.02,28.4,Navratri,1,18,Yes,Yes
+Toned Milk (500ml),South,2021-11,22206,27.01,25.5,Diwali,1,21,Yes,Yes
+Toned Milk (500ml),South,2021-12,27813,26.9,24.4,No_Festival,0,24,No,No
+Toned Milk (500ml),South,2022-01,28973,28.28,26.0,Republic Day,1,27,Yes,Yes
+Toned Milk (500ml),South,2022-02,25881,28.44,26.9,No_Festival,0,24,No,No
+Toned Milk (500ml),South,2022-03,24946,28.47,28.9,Holi,1,24,Yes,Yes
+Toned Milk (500ml),South,2022-04,16982,28.26,31.8,Baisakhi,1,17,Yes,Yes
+Toned Milk (500ml),South,2022-05,26828,28.38,34.8,No_Festival,0,25,No,Yes
+Toned Milk (500ml),South,2022-06,23272,28.37,29.6,No_Festival,0,22,No,No
+Toned Milk (500ml),South,2022-07,22907,28.28,28.2,No_Festival,0,23,No,No
+Toned Milk (500ml),South,2022-08,24226,28.49,27.4,"Independence Day, Janmashtami",2,23,Yes,Yes
+Toned Milk (500ml),South,2022-09,26900,28.3,28.8,No_Festival,0,25,No,No
+Toned Milk (500ml),South,2022-10,20002,28.42,28.6,Diwali,1,19,Yes,Yes
+Toned Milk (500ml),South,2022-11,28462,28.36,25.7,Guru Nanak Jayanti,1,26,Yes,Yes
+Toned Milk (500ml),South,2022-12,25978,28.54,25.2,Christmas,1,25,Yes,Yes
+Toned Milk (500ml),South,2023-01,26052,29.63,25.7,"Makar Sankranti, Republic Day",2,26,Yes,Yes
+Toned Milk (500ml),South,2023-02,24408,29.48,27.0,No_Festival,0,24,No,No
+Toned Milk (500ml),South,2023-03,29383,29.65,28.5,Holi,1,26,Yes,Yes
+Toned Milk (500ml),South,2023-04,25700,29.58,33.1,Baisakhi,1,22,Yes,Yes
+Toned Milk (500ml),South,2023-05,24193,29.61,34.0,No_Festival,0,22,No,No
+Toned Milk (500ml),South,2023-06,18287,29.77,30.3,No_Festival,0,18,No,No
+Toned Milk (500ml),South,2023-07,25893,29.68,27.6,No_Festival,0,23,No,No
+Toned Milk (500ml),South,2023-08,25021,29.62,28.0,"Independence Day, Raksha Bandhan",2,24,Yes,Yes
+Toned Milk (500ml),South,2023-09,25740,29.65,28.4,Janmashtami,1,23,Yes,Yes
+Toned Milk (500ml),South,2023-10,20550,29.63,28.2,Gandhi Jayanti,1,20,Yes,Yes
+Toned Milk (500ml),South,2023-11,22415,29.54,26.4,Guru Nanak Jayanti,1,22,Yes,Yes
+Toned Milk (500ml),South,2023-12,31498,29.64,25.0,Christmas,1,27,Yes,Yes
+Toned Milk (500ml),West,2021-01,26659,27.0,21.8,Makar Sankranti,1,23,Yes,Yes
+Toned Milk (500ml),West,2021-02,23405,26.98,23.3,No_Festival,0,21,No,No
+Toned Milk (500ml),West,2021-03,20425,27.08,27.6,No_Festival,0,20,No,No
+Toned Milk (500ml),West,2021-04,27683,27.04,31.7,Baisakhi,1,23,Yes,Yes
+Toned Milk (500ml),West,2021-05,24223,27.0,36.0,No_Festival,0,21,No,No
+Toned Milk (500ml),West,2021-06,21246,27.18,31.8,No_Festival,0,21,No,No
+Toned Milk (500ml),West,2021-07,23551,27.05,28.7,No_Festival,0,23,No,Yes
+Toned Milk (500ml),West,2021-08,24124,27.07,27.9,Independence Day,1,21,Yes,Yes
+Toned Milk (500ml),West,2021-09,26575,27.12,29.4,No_Festival,0,24,No,No
+Toned Milk (500ml),West,2021-10,28208,27.04,30.3,Gandhi Jayanti,1,26,Yes,Yes
+Toned Milk (500ml),West,2021-11,28285,26.81,25.7,"Diwali, Guru Nanak Jayanti",2,26,Yes,Yes
+Toned Milk (500ml),West,2021-12,21771,27.13,21.9,Christmas,1,22,Yes,Yes
+Toned Milk (500ml),West,2022-01,26619,28.36,22.0,"Makar Sankranti, Republic Day",2,22,Yes,Yes
+Toned Milk (500ml),West,2022-02,24827,28.5,24.5,No_Festival,0,22,No,No
+Toned Milk (500ml),West,2022-03,25842,28.26,28.0,Holi,1,23,Yes,Yes
+Toned Milk (500ml),West,2022-04,24979,28.32,31.5,Baisakhi,1,23,Yes,Yes
+Toned Milk (500ml),West,2022-05,24422,28.3,36.5,No_Festival,0,23,No,No
+Toned Milk (500ml),West,2022-06,24155,28.4,31.7,No_Festival,0,23,No,No
+Toned Milk (500ml),West,2022-07,25610,28.33,28.2,No_Festival,0,21,No,Yes
+Toned Milk (500ml),West,2022-08,31503,28.26,27.7,Janmashtami,1,26,Yes,Yes
+Toned Milk (500ml),West,2022-09,21501,28.35,28.7,No_Festival,0,21,No,No
+Toned Milk (500ml),West,2022-10,25303,28.36,30.1,"Gandhi Jayanti, Diwali",2,23,Yes,Yes
+Toned Milk (500ml),West,2022-11,24890,28.38,26.9,No_Festival,0,23,No,No
+Toned Milk (500ml),West,2022-12,32648,28.37,22.5,No_Festival,0,29,No,No
+Toned Milk (500ml),West,2023-01,21455,29.61,22.3,No_Festival,0,22,No,No
+Toned Milk (500ml),West,2023-02,27133,29.83,24.3,No_Festival,0,22,No,No
+Toned Milk (500ml),West,2023-03,21763,29.86,27.7,Holi,1,19,Yes,Yes
+Toned Milk (500ml),West,2023-04,26116,29.71,31.5,No_Festival,0,23,No,Yes
+Toned Milk (500ml),West,2023-05,28405,29.74,36.2,No_Festival,0,24,No,No
+Toned Milk (500ml),West,2023-06,25661,29.62,31.4,No_Festival,0,26,No,Yes
+Toned Milk (500ml),West,2023-07,25882,29.61,28.7,No_Festival,0,24,No,No
+Toned Milk (500ml),West,2023-08,22200,29.76,28.4,No_Festival,0,20,No,No
+Toned Milk (500ml),West,2023-09,31915,29.75,28.7,Janmashtami,1,27,Yes,Yes
+Toned Milk (500ml),West,2023-10,27061,29.59,30.0,Gandhi Jayanti,1,23,Yes,Yes
+Toned Milk (500ml),West,2023-11,25376,29.9,26.1,"Diwali, Guru Nanak Jayanti",2,23,Yes,Yes
+Toned Milk (500ml),West,2023-12,25905,29.82,22.1,Christmas,1,25,Yes,Yes

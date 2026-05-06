@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SDDIS — SmartDairy Demand Intelligence</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
+<style>
+:root{--bg:#0f1117;--card:#1a1d27;--card2:#21253a;--border:#2e3352;--accent:#4f8ef7;--accent2:#7c5cbf;--green:#22c98a;--orange:#f4a261;--red:#ef4444;--yellow:#fbbf24;--purple:#a855f7;--text:#e2e8f0;--muted:#8892a4;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;min-height:100vh}
+/* SIDEBAR */
+.sidebar{position:fixed;top:0;left:0;width:220px;height:100vh;background:var(--card);border-right:1px solid var(--border);display:flex;flex-direction:column;z-index:100;overflow-y:auto}
+.sidebar-logo{padding:20px 16px 14px;border-bottom:1px solid var(--border)}
+.logo-badge{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:3px 9px;border-radius:20px;display:inline-block;margin-bottom:5px}
+.logo-title{font-size:14px;font-weight:700;line-height:1.3}
+.logo-sub{font-size:10px;color:var(--muted);margin-top:2px}
+.nav-section{padding:10px 0 4px}
+.nav-label{font-size:10px;font-weight:600;color:var(--muted);letter-spacing:1.2px;padding:0 16px 5px;text-transform:uppercase}
+.nav-item{display:flex;align-items:center;gap:9px;padding:9px 16px;font-size:13px;color:var(--muted);cursor:pointer;border-left:3px solid transparent;transition:all .2s}
+.nav-item:hover{color:var(--text);background:rgba(79,142,247,.08)}
+.nav-item.active{color:var(--accent);border-left-color:var(--accent);background:rgba(79,142,247,.1);font-weight:600}
+.nav-item .icon{font-size:15px;width:18px;text-align:center}
+.sidebar-footer{margin-top:auto;padding:12px 16px;border-top:1px solid var(--border);font-size:10px;color:var(--muted);line-height:1.7}
+/* MAIN */
+.main{margin-left:220px;min-height:100vh}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 26px;background:var(--card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50}
+.topbar-title{font-size:16px;font-weight:700}
+.topbar-sub{font-size:11px;color:var(--muted);margin-top:1px}
+.topbar-pills{display:flex;gap:7px}
+.pill{padding:5px 13px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid var(--border);color:var(--muted);background:transparent;transition:all .2s}
+.pill.active,.pill:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.badge-live{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--green);background:rgba(34,201,138,.1);border:1px solid rgba(34,201,138,.25);padding:4px 11px;border-radius:20px}
+.dot-live{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+/* CONTENT */
+.content{padding:22px 26px}
+/* KPI */
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
+.kpi-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s;cursor:default}
+.kpi-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,.4)}
+.kpi-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--kc,var(--accent)),transparent)}
+.kpi-label{font-size:10px;color:var(--muted);font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:7px}
+.kpi-value{font-size:24px;font-weight:800;line-height:1}
+.kpi-sub{font-size:11px;color:var(--muted);margin-top:5px}
+.kpi-icon{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:26px;opacity:.14}
+.up{color:var(--green)}.dn{color:var(--red)}
+/* SECTIONS */
+.section{display:none}.section.active{display:block}
+/* CHART ROWS */
+.crow{display:grid;gap:14px;margin-bottom:14px}
+.c12{grid-template-columns:1fr}.c6{grid-template-columns:1fr 1fr}.c31{grid-template-columns:3fr 1fr}.c13{grid-template-columns:1fr 3fr}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:18px;transition:box-shadow .2s}
+.chart-card:hover{box-shadow:0 4px 22px rgba(0,0,0,.32)}
+.ch{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px}
+.ct{font-size:13px;font-weight:700}.cs{font-size:11px;color:var(--muted);margin-top:2px}
+.cbadge{font-size:10px;font-weight:700;padding:3px 8px;border-radius:12px;background:rgba(79,142,247,.15);color:var(--accent);border:1px solid rgba(79,142,247,.25)}
+/* TABS */
+.tabs{display:flex;gap:6px;margin-bottom:14px}
+.tab{padding:6px 15px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;background:var(--card2);border:1px solid var(--border);color:var(--muted);transition:all .2s}
+.tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* HEATMAP */
+.heatmap-wrap{overflow-x:auto}
+.heatmap-table{width:100%;border-collapse:collapse;font-size:11px}
+.heatmap-table th{padding:6px 8px;color:var(--muted);font-weight:600;font-size:10px;white-space:nowrap}
+.heatmap-table th:first-child{text-align:left}
+.heatmap-table td{padding:5px 7px;border-radius:3px;font-size:11px;text-align:right;white-space:nowrap}
+.heatmap-table td:first-child{text-align:left;color:var(--muted);font-size:10px}
+/* MODEL TABLE */
+.model-table{width:100%;border-collapse:collapse;font-size:12px}
+.model-table th{padding:9px 12px;text-align:left;color:var(--muted);font-size:10px;font-weight:600;border-bottom:1px solid var(--border);text-transform:uppercase;letter-spacing:.5px}
+.model-table td{padding:10px 12px;border-bottom:1px solid rgba(46,51,82,.4)}
+.model-table .best td{color:var(--accent);font-weight:700}
+.mbadge{padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700}
+.mb-best{background:rgba(34,201,138,.15);color:var(--green)}
+.mb-good{background:rgba(79,142,247,.15);color:var(--accent)}
+.mb-ok{background:rgba(251,191,36,.15);color:var(--yellow)}
+/* INSIGHT CARDS */
+.insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px}
+.insight-card{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:13px 15px;display:flex;gap:10px;align-items:flex-start}
+.insight-card .ico{font-size:20px;flex-shrink:0}
+.insight-card .title{font-size:12px;font-weight:700;margin-bottom:3px}
+.insight-card .body{font-size:11px;color:var(--muted);line-height:1.5}
+/* FORECAST SECTION */
+.fstat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+.fstat{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:13px 15px;text-align:center}
+.fstat-val{font-size:20px;font-weight:800;color:var(--accent)}
+.fstat-label{font-size:10px;color:var(--muted);margin-top:3px}
+
+/* ═══════════════════════════════════════════
+   LIVE FORECAST ENGINE
+═══════════════════════════════════════════ */
+.forecast-engine{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:22px;margin-bottom:14px}
+.fe-title{font-size:15px;font-weight:700;margin-bottom:4px}
+.fe-sub{font-size:11px;color:var(--muted);margin-bottom:18px}
+.fe-controls{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:12px;align-items:end;margin-bottom:20px}
+.fe-group label{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
+.fe-select,.fe-input{width:100%;background:var(--card2);border:1px solid var(--border);color:var(--text);padding:9px 12px;border-radius:8px;font-size:12px;outline:none;transition:border-color .2s}
+.fe-select:focus,.fe-input:focus{border-color:var(--accent)}
+.fe-select option{background:var(--card2)}
+.fe-btn{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none;padding:10px 22px;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;transition:opacity .2s;white-space:nowrap;height:38px}
+.fe-btn:hover{opacity:.88}
+.fe-btn:disabled{opacity:.5;cursor:not-allowed}
+.fe-result{display:none}
+.fe-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
+.fe-stat{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center}
+.fe-stat-val{font-size:20px;font-weight:800}
+.fe-stat-label{font-size:10px;color:var(--muted);margin-top:3px}
+.fe-loading{text-align:center;padding:30px;color:var(--muted);font-size:13px;display:none}
+.spinner{display:inline-block;width:20px;height:20px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;margin-right:8px;vertical-align:middle}
+@keyframes spin{to{transform:rotate(360deg)}}
+.trend-up{color:var(--green)}.trend-dn{color:var(--red)}
+
+/* ═══════════════════════════════════════════
+   AI CHATBOT
+═══════════════════════════════════════════ */
+.chatbot-wrap{background:var(--card);border:1px solid var(--border);
+border-radius:var(--r);display:flex;flex-direction:column;height:580px}
+.c13 {
+  grid-template-columns: 3fr 1fr;
+  gap: 18px;
+}
+
+.chat-header{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px}
+.chat-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.chat-header-text .name{font-size:14px;font-weight:700}
+.chat-header-text .status{font-size:11px;color:var(--green);display:flex;align-items:center;gap:4px}
+.chat-messages{flex:1;overflow-y:auto;padding:18px 20px;display:flex;flex-direction:column;gap:14px}
+.chat-messages::-webkit-scrollbar{width:4px}
+.chat-messages::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.msg{max-width:82%;display:flex;flex-direction:column;gap:4px}
+.msg.user{align-self:flex-end;align-items:flex-end}
+.msg.bot{align-self:flex-start;align-items:flex-start}
+.msg-bubble{padding:10px 14px;border-radius:14px;font-size:12px;line-height:1.6;white-space:pre-wrap}
+.msg.user .msg-bubble{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-bottom-right-radius:4px}
+.msg.bot .msg-bubble{background:var(--card2);border:1px solid var(--border);border-bottom-left-radius:4px}
+.msg-time{font-size:10px;color:var(--muted);padding:0 4px}
+.typing-indicator{display:none;align-self:flex-start}
+.typing-dots{background:var(--card2);border:1px solid var(--border);border-radius:14px;border-bottom-left-radius:4px;padding:12px 16px;display:flex;gap:5px;align-items:center}
+.typing-dots span{width:7px;height:7px;background:var(--muted);border-radius:50%;animation:bounce .9s infinite}
+.typing-dots span:nth-child(2){animation-delay:.15s}
+.typing-dots span:nth-child(3){animation-delay:.3s}
+@keyframes bounce{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
+.chat-input-wrap{padding:14px 18px;border-top:1px solid var(--border);display:flex;gap:10px;align-items:center}
+.chat-input{flex:1;background:var(--card2);border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:10px;font-size:13px;outline:none;transition:border-color .2s}
+.chat-input:focus{border-color:var(--accent)}
+.chat-send{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none;width:38px;height:38px;border-radius:10px;font-size:16px;cursor:pointer;transition:opacity .2s;flex-shrink:0}
+.chat-send:hover{opacity:.85}
+.chat-send:disabled{opacity:.5;cursor:not-allowed}
+.quick-btns{display:flex;gap:7px;flex-wrap:wrap;padding:8px 18px 0;border-top:1px solid rgba(46,51,82,.4)}
+.quick-btn{font-size:10px;padding:4px 10px;border-radius:16px;background:rgba(79,142,247,.1);border:1px solid rgba(79,142,247,.2);color:var(--accent);cursor:pointer;transition:all .2s;white-space:nowrap}
+.quick-btn:hover{background:var(--accent);color:#fff}
+/* scrollbar */
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    {% comment %} <div class="logo-badge">SDDIS v2.0</div> {% endcomment %}
+    <div class="logo-title">SmartDairy<br>Intelligence</div>
+    <div class="logo-sub">Demand Forecasting System</div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-label">Analytics</div>
+    <div class="nav-item active" onclick="showSec('overview',this)"><span class="icon">◻</span>Overview</div>
+    <div class="nav-item" onclick="showSec('products',this)"><span class="icon">◻</span>Products</div>
+    <div class="nav-item" onclick="showSec('regions',this)"><span class="icon">◻</span>Regional</div>
+    <div class="nav-item" onclick="showSec('seasonal',this)"><span class="icon">◻</span>Seasonal & Festivals</div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-label">AI Features</div>
+    <div class="nav-item" onclick="showSec('forecast',this)"><span class="icon">◻</span>Live Forecast</div>
+    <div class="nav-item" onclick="showSec('chatbot',this)"><span class="icon">◻</span>AI Data Chatbot</div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-label">Reports</div>
+    <div class="nav-item" onclick="showSec('insights',this)"><span class="icon">◻</span>Insights</div>
+  </div>
+  <div class="sidebar-footer">
+    Dataset: 2021–2023<br>
+    50,000 records<br>
+    12 products · 19 states<br>
+    AI-Powered Forecasting
+  </div>
+</aside>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="topbar">
+    <div>
+      <div class="topbar-title">SmartDairy Demand Intelligence System</div>
+      {% comment %} <div class="topbar-sub">India · 2021–2023 · SARIMA + Prophet + LSTM + AI Chatbot</div> {% endcomment %}
+    </div>
+    <div style="display:flex;gap:10px;align-items:center">
+      <div class="topbar-pills">
+        <button class="pill active" onclick="setYear('all',this)">All Years</button>
+        <button class="pill" onclick="setYear('2021',this)">2021</button>
+        <button class="pill" onclick="setYear('2022',this)">2022</button>
+        <button class="pill" onclick="setYear('2023',this)">2023</button>
+      </div>
+      {% comment %} <div class="badge-live"><div class="dot-live"></div>Live</div> {% endcomment %}
+    </div>
+  </div>
+
+  <div class="content">
+
+    <!-- KPIs -->
+    <div class="kpi-grid">
+      <div class="kpi-card" style="--kc:#4f8ef7">
+        <div class="kpi-label">Total Units Sold</div>
+        <div class="kpi-value">{{ kpis.total_units }}</div>
+        <div class="kpi-sub"><span class="up">▲ {{ kpis.growth_23 }}</span> vs 2022</div>
+        {% comment %} <div class="kpi-icon">📦</div> {% endcomment %}
+      </div>
+      <div class="kpi-card" style="--kc:#22c98a">
+        <div class="kpi-label">Total Revenue</div>
+        <div class="kpi-value">{{ kpis.total_revenue }}</div>
+        <div class="kpi-sub"><span class="up">▲ {{ kpis.growth_22 }}</span> 2021→2022</div>
+        {% comment %} <div class="kpi-icon">💰</div> {% endcomment %}
+      </div>
+      <div class="kpi-card" style="--kc:#f4a261">
+        <div class="kpi-label">Avg Price / Unit</div>
+        <div class="kpi-value">{{ kpis.avg_price }}</div>
+        <div class="kpi-sub">Across {{ kpis.num_products }} products</div>
+        <div class="kpi-icon"></div>
+      </div>
+      <div class="kpi-card" style="--kc:#a855f7">
+        <div class="kpi-label">Festival Uplift</div>
+        <div class="kpi-value" style="color:var(--green)">{{ kpis.fest_uplift }}</div>
+        <div class="kpi-sub">vs non-festival days</div>
+        {% comment %} <div class="kpi-icon">🎉</div> {% endcomment %}
+      </div>
+    </div>
+
+    <!-- ══ OVERVIEW ══ -->
+    <div id="sec-overview" class="section active">
+      <div class="crow c12">
+        <div class="chart-card">
+          <div class="ch">
+            <div><div class="ct">Monthly Demand Trend — All Products</div><div class="cs">Total units sold per month across all regions</div></div>
+            <div style="display:flex;gap:7px">
+              <span class="cbadge" id="tog-units" style="cursor:pointer" onclick="toggleMonthly()">Switch to Revenue ₹</span>
+            </div>
+          </div>
+          <div style="height:250px"><canvas id="cMonthly"></canvas></div>
+        </div>
+      </div>
+      <div class="crow c6">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Units by Product</div><div class="cs">All 12 SKUs ranked</div></div></div>
+          <div style="height:270px"><canvas id="cProducts"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Regional Share</div><div class="cs">5 regions distribution</div></div><span class="cbadge">Donut</span></div>
+          <div style="height:240px"><canvas id="cRegDonut"></canvas></div>
+          <div id="regLegend" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px"></div>
+        </div>
+      </div>
+      <div class="crow c6">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Year-over-Year</div><div class="cs">Revenue & units comparison</div></div></div>
+          <div style="height:210px"><canvas id="cYoY"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Temperature vs Demand</div><div class="cs">Monthly correlation</div></div></div>
+          <div style="height:210px"><canvas id="cTemp"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ PRODUCTS ══ -->
+    <div id="sec-products" class="section">
+      <div class="crow c12">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Revenue by Product (₹ Millions)</div><div class="cs">Total revenue per SKU over 3 years</div></div></div>
+          <div style="height:250px"><canvas id="cProdRev"></canvas></div>
+        </div>
+      </div>
+      <div class="crow c6">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Weekly Demand — Top Products</div><div class="cs">Week-by-week sales</div></div></div>
+          <div class="tabs" id="wkTabs"></div>
+          <div style="height:230px"><canvas id="cWeekly"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Product × Region Heatmap</div><div class="cs">Units sold matrix</div></div></div>
+          <div class="heatmap-wrap"><table class="heatmap-table" id="heatmapTbl"></table></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ REGIONAL ══ -->
+    <div id="sec-regions" class="section">
+      <div class="crow c6">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Units by Region</div></div></div>
+          <div style="height:250px"><canvas id="cRegBar"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Revenue by Region (₹M)</div></div></div>
+          <div style="height:250px"><canvas id="cRegRev"></canvas></div>
+        </div>
+      </div>
+      <div class="crow c12">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Top 10 States by Demand</div></div></div>
+          <div style="height:270px"><canvas id="cStates"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ SEASONAL ══ -->
+    <div id="sec-seasonal" class="section">
+      <div class="crow c6">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Demand by Season</div></div></div>
+          <div style="height:250px"><canvas id="cSeason"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Day of Week Pattern</div></div></div>
+          <div style="height:250px"><canvas id="cDOW"></canvas></div>
+        </div>
+      </div>
+      <div class="crow c12">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Festival Impact on Sales</div><div class="cs">Avg units during festivals vs normal days</div></div></div>
+          <div style="height:270px"><canvas id="cFestival"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ LIVE FORECAST ENGINE ══ -->
+    <div id="sec-forecast" class="section">
+
+      <div class="forecast-engine">
+        <div class="fe-title">Live Demand Forecast Engine</div>
+        <div class="fe-sub">Select a product, region and forecast horizon — get real SARIMA predictions instantly</div>
+
+        <div class="fe-controls">
+          <div class="fe-group">
+            <label>Product</label>
+            <select class="fe-select" id="fe-product">
+              {% for p in products_list %}<option value="{{ p }}">{{ p }}</option>{% endfor %}
+            </select>
+          </div>
+          <div class="fe-group">
+            <label>Region</label>
+            <select class="fe-select" id="fe-region">
+              {% for r in regions_list %}<option value="{{ r }}">{{ r }}</option>{% endfor %}
+            </select>
+          </div>
+          <div class="fe-group">
+            <label>Forecast Months</label>
+            <select class="fe-select" id="fe-months">
+              <option value="3">Next 3 Months</option>
+              <option value="6" selected>Next 6 Months</option>
+              <option value="9">Next 9 Months</option>
+              <option value="12">Next 12 Months</option>
+            </select>
+          </div>
+          <div class="fe-group">
+            <label>&nbsp;</label>
+            <button class="fe-btn" id="fe-btn" onclick="runForecast()">Predict Now</button>
+          </div>
+        </div>
+
+        <div class="fe-loading" id="fe-loading">
+          <span class="spinner"></span> Running SARIMA model…
+        </div>
+
+        <div class="fe-result" id="fe-result">
+          <div class="fe-stats" id="fe-stats"></div>
+          <div style="height:300px"><canvas id="cForecastLive"></canvas></div>
+          <div id="fe-advice" style="margin-top:14px;padding:12px 16px;background:rgba(79,142,247,.08);border:1px solid rgba(79,142,247,.2);border-radius:10px;font-size:12px;line-height:1.7;color:var(--text)"></div>
+        </div>
+      </div>
+
+      <!-- Static model comparison -->
+      <div class="fstat-grid">
+        <div class="fstat"><div class="fstat-val">SARIMA</div><div class="fstat-label">Best Model</div></div>
+        <div class="fstat"><div class="fstat-val" style="color:var(--green)">~8.2%</div><div class="fstat-label">Best MAPE</div></div>
+        <div class="fstat"><div class="fstat-val" style="color:var(--orange)">60</div><div class="fstat-label">Trained Models</div></div>
+        <div class="fstat"><div class="fstat-val" style="color:var(--purple)">4</div><div class="fstat-label">ML Algorithms</div></div>
+      </div>
+
+      <div class="crow c6">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Model Performance Comparison</div></div></div>
+          <table class="model-table"><thead><tr><th>Model</th><th>MAE</th><th>RMSE</th><th>MAPE</th><th>Grade</th></tr></thead>
+          <tbody>
+            <tr class="best"><td>SARIMA(1,1,1)(1,1,1,12)</td><td>412</td><td>539</td><td>8.2%</td><td><span class="mbadge mb-best">Best</span></td></tr>
+            <tr><td>Facebook Prophet</td><td>478</td><td>612</td><td>9.8%</td><td><span class="mbadge mb-good">Good</span></td></tr>
+            <tr><td>LSTM (Deep Learning)</td><td>489</td><td>627</td><td>10.1%</td><td><span class="mbadge mb-good">Good</span></td></tr>
+            <tr><td>ARIMA(1,1,1)</td><td>531</td><td>698</td><td>11.4%</td><td><span class="mbadge mb-ok">Baseline</span></td></tr>
+          </tbody></table>
+        </div>
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">MAPE Comparison</div><div class="cs">Lower is better</div></div></div>
+          <div style="height:230px"><canvas id="cMAPE"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ AI CHATBOT ══ -->
+    <div id="sec-chatbot" class="section">
+      <div class="crow c13">
+        <!-- Chat window -->
+        <div class="chart-card" style="padding:0;overflow:hidden">
+          <div class="chatbot-wrap">
+            <div class="chat-header">
+              {% comment %} <div class="chat-avatar">🤖</div> {% endcomment %}
+              <div class="chat-header-text">
+                <div class="name">SDDIS AI Analyst</div>
+                <div class="status"><div class="dot-live"></div> Online · Dairy Data Expert</div>
+              </div>
+            </div>
+            <div class="quick-btns">
+              <span class="quick-btn" onclick="quickAsk('Which product sells the most?')">Top product?</span>
+              <span class="quick-btn" onclick="quickAsk('What is the festival impact on sales?')">Festival impact?</span>
+              <span class="quick-btn" onclick="quickAsk('Which region has highest dairy demand?')">Top region?</span>
+              <span class="quick-btn" onclick="quickAsk('What are seasonal demand patterns?')">Seasonal trends?</span>
+              <span class="quick-btn" onclick="quickAsk('Which model gives best forecast accuracy?')">Best model?</span>
+              <span class="quick-btn" onclick="quickAsk('Give me 5 business recommendations')">Recommendations?</span>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+              <div class="msg bot">
+                <div class="msg-bubble">Hello! I'm your <strong>SDDIS AI Analyst</strong>.<br><br>I have full access to <strong>50,000 dairy sales records</strong> across 12 products, 5 regions & 19 Indian states (2021–2023).<br><br>Ask me anything about demand trends, festivals, seasonal patterns, revenue, or forecasting!</div>
+                <div class="msg-time">Just now</div>
+              </div>
+            </div>
+            <div class="typing-indicator" id="typingIndicator">
+              <div class="typing-dots"><span></span><span></span><span></span></div>
+            </div>
+            <div class="chat-input-wrap">
+              <input class="chat-input" id="chatInput" placeholder="Ask anything about dairy demand data…" onkeydown="if(event.key==='Enter')sendChat()">
+              <button class="chat-send" id="chatSend" onclick="sendChat()">➤</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats panel beside chat -->
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div class="chart-card">
+            <div class="ch"><div><div class="ct">Quick Data Stats</div><div class="cs">Key numbers at a glance</div></div></div>
+            <div id="quickStats" style="display:flex;flex-direction:column;gap:8px;font-size:12px"></div>
+          </div>
+          <div class="chart-card">
+            <div class="ch"><div><div class="ct">Conversation Tips</div></div></div>
+            <div style="font-size:11px;color:var(--muted);line-height:1.8">
+              Try asking:<br>
+              • "Which product is most profitable?"<br>
+              • "How does Diwali affect sales?"<br>
+              • "Compare North vs South region"<br>
+              • "What happens to milk in winter?"<br>
+              • "Recommend production plan for December"<br>
+              • "Why is Ghee price so high?"<br>
+              • "What is MAPE of SARIMA model?"
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ INSIGHTS ══ -->
+    <div id="sec-insights" class="section">
+      <div class="insight-grid">
+        <div class="insight-card"><div class="ico"></div><div><div class="title">Temperature Drives Demand</div><div class="body">Milk demand peaks in winter (15–18°C). Buttermilk & ice cream spike above 35°C. Use weather forecasts as model inputs.</div></div></div>
+        <div class="insight-card"><div class="ico"></div><div><div class="title">Festival Uplift: {{ kpis.fest_uplift }}</div><div class="body">Festival days show {{ kpis.fest_uplift }} higher sales. Diwali & Republic Day top the list. Plan 2 weeks ahead.</div></div></div>
+        <div class="insight-card"><div class="ico"></div><div><div class="title">Consistent YoY Growth</div><div class="body">Sales grew {{ kpis.growth_22 }} in 2022 and {{ kpis.growth_23 }} in 2023. Stable market expansion with revenue keeping pace.</div></div></div>
+        <div class="insight-card"><div class="ico"></div><div><div class="title">North & South Dominate</div><div class="body">North and South are highest volume regions. East is fastest-growing. Invest in cold chain infrastructure here first.</div></div></div>
+        <div class="insight-card"><div class="ico"></div><div><div class="title">Winter = Peak Season</div><div class="body">Oct–Feb sees peak milk, butter, ghee demand. Plan 15–20% inventory buffer for October through December.</div></div></div>
+        <div class="insight-card"><div class="ico"></div><div><div class="title">SARIMA Best Model</div><div class="body">SARIMA achieves ~8.2% MAPE by capturing annual seasonality. Use Prophet for festival-adjusted planning.</div></div></div>
+      </div>
+      <div class="crow c6">
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Revenue vs Volume Bubble</div><div class="cs">Price-volume trade-off per product</div></div></div>
+          <div style="height:260px"><canvas id="cBubble"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="ch"><div><div class="ct">Business Recommendations</div></div></div>
+          <div id="recoList" style="padding:4px 0"></div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /content -->
+</div><!-- /main -->
+
+<script>
+// ── DATA ──────────────────────────────────────────────────────────────
+const D = {{ chart_data|safe }};
+const COLORS = ['#4f8ef7','#22c98a','#f4a261','#7c5cbf','#ef4444','#fbbf24','#06b6d4','#ec4899','#84cc16','#f97316','#a855f7','#14b8a6'];
+const RCOLS  = ['#4f8ef7','#22c98a','#f4a261','#7c5cbf','#ef4444'];
+Chart.register(ChartDataLabels);
+Chart.defaults.plugins.datalabels = { display: false }; 
+Chart.defaults.color = '#8892a4';
+Chart.defaults.borderColor = '#2e3352';
+Chart.defaults.font.family = 'Segoe UI, sans-serif';
+Chart.defaults.font.size = 11;
+
+function fmtU(v){return v>=1e6?(v/1e6).toFixed(1)+'M':v>=1e3?(v/1e3).toFixed(0)+'K':v}
+function grad(ctx,c1,c2){const g=ctx.createLinearGradient(0,0,0,300);g.addColorStop(0,c1);g.addColorStop(1,c2);return g}
+function now(){const d=new Date();return d.getHours()+':'+String(d.getMinutes()).padStart(2,'0')}
+
+// ── NAV ───────────────────────────────────────────────────────────────
+function showSec(name, el){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  document.getElementById('sec-'+name).classList.add('active');
+  document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+  el.classList.add('active');
+}
+
+// ── MONTHLY CHART ─────────────────────────────────────────────────────
+let showUnits=true;
+const ctxM=document.getElementById('cMonthly').getContext('2d');
+const chartMonthly=new Chart(ctxM,{type:'line',data:{labels:D.monthly.labels,datasets:[{label:'Units Sold',data:D.monthly.units,borderColor:'#4f8ef7',backgroundColor:grad(ctxM,'rgba(79,142,247,.25)','rgba(79,142,247,.01)'),borderWidth:2.5,pointRadius:3,fill:true,tension:0.4}]},
+  options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+    plugins:{legend:{display:false},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1,callbacks:{label:c=>`  ${c.dataset.label}: ${fmtU(c.raw)}`}}},
+    scales:{x:{grid:{display:false},ticks:{maxRotation:45,maxTicksLimit:18}},y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}}}}});
+
+function toggleMonthly(){showUnits=!showUnits;chartMonthly.data.datasets[0].data=showUnits?D.monthly.units:D.monthly.revenue;chartMonthly.data.datasets[0].label=showUnits?'Units Sold':'Revenue (₹M)';chartMonthly.data.datasets[0].borderColor=showUnits?'#4f8ef7':'#f4a261';chartMonthly.update();document.getElementById('tog-units').textContent=showUnits?'Switch to Revenue ₹':'Switch to Units'}
+
+// ── PRODUCTS BAR ──────────────────────────────────────────────────────
+new Chart(document.getElementById('cProducts'),{type:'bar',data:{labels:D.products.labels.map(l=>l.replace(' (','\n(')),datasets:[{label:'Units',data:D.products.units,backgroundColor:COLORS,borderRadius:5}]},
+  options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1},datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:9},formatter:v=>fmtU(v)}},scales:{x:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}},y:{grid:{display:false},ticks:{font:{size:10}}}}}});
+
+// ── REGION DONUT ──────────────────────────────────────────────────────
+new Chart(document.getElementById('cRegDonut'),{type:'doughnut',data:{labels:D.regions.labels,datasets:[{data:D.regions.units,backgroundColor:RCOLS,borderWidth:2,borderColor:'#1a1d27',hoverOffset:8}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'65%', layout: {
+    padding: {
+      right: 10,
+      left: 10,
+      top: 10,
+      bottom: 40
+    }
+  },plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'end',offset: 10,clamp: true,color:'#ffffff',font:{size:9},formatter:v=>fmtU(v)},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1,callbacks:{label:c=>`  ${c.label}: ${fmtU(c.raw)}`}}}}});
+const rl=document.getElementById('regLegend');
+D.regions.labels.forEach((l,i)=>{rl.innerHTML+=`<div style="display:flex;align-items:center;gap:5px;font-size:11px;color:var(--muted)"><div style="width:9px;height:9px;border-radius:50%;background:${RCOLS[i]}"></div>${l}</div>`});
+
+// ── YOY ───────────────────────────────────────────────────────────────
+{% comment %} new Chart(document.getElementById('cYoY'),{type:'bar',data:{labels:D.yoy.years,datasets:[{label:'Units',data:D.yoy.units,backgroundColor:'#4f8ef7',borderRadius:7,yAxisID:'y'},{label:'Revenue (₹M)',data:D.yoy.revenue,backgroundColor:'#f4a261',borderRadius:7,yAxisID:'y2'}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#8892a4'}},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1},datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:8},formatter:v=>fmtU(v)}},scales:{y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}},y2:{grid:{display:false},ticks:{callback:v=>'₹'+v+'M'},position:'right'},x:{grid:{display:false}}}}}); {% endcomment %}
+new Chart(document.getElementById('cYoY'), {
+  type: 'bar',
+  data: {
+    labels: D.yoy.years,
+    datasets: [
+      {
+        label: 'Units',
+        data: D.yoy.units,
+        backgroundColor: '#4f8ef7',
+        borderRadius: 7,
+        yAxisID: 'y'
+      },
+      {
+        label: 'Revenue (₹M)',
+        data: D.yoy.revenue,
+        backgroundColor: '#f4a261',
+        borderRadius: 7,
+        yAxisID: 'y2'
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    layout: {
+      padding: {
+        top: 30,  
+        bottom: 10
+      }
+    },
+
+    plugins: {
+      legend: {
+        position: 'bottom',  
+        labels: {
+          color: '#8892a4',
+          padding: 15
+        }
+      },
+
+      tooltip: {
+        backgroundColor: '#1a1d27',
+        borderColor: '#2e3352',
+        borderWidth: 1
+      },
+
+      datalabels: {
+        display: true,
+        anchor: 'end',
+        align: 'top',  
+        offset: 6,     
+        color: '#ffffff',
+        font: {
+          size: 9
+        },
+        formatter: v => fmtU(v)
+      }
+    },
+
+    scales: {
+      y: {
+        grid: {
+          color: 'rgba(46,51,82,.4)'
+        },
+        ticks: {
+          callback: v => fmtU(v)
+        }
+      },
+
+      y2: {
+        grid: {
+          display: false
+        },
+        ticks: {
+          callback: v => '₹' + v + 'M'
+        },
+        position: 'right'
+      },
+
+      x: {
+        grid: {
+          display: false
+        }
+      }
+    }
+  }
+});
+
+// ── TEMP ──────────────────────────────────────────────────────────────
+new Chart(document.getElementById('cTemp'),{type:'line',data:{labels:D.temp.labels,datasets:[{label:'Units',data:D.temp.units,borderColor:'#4f8ef7',yAxisID:'y',tension:0.4,pointRadius:2,borderWidth:2},{label:'Temp °C',data:D.temp.temps,borderColor:'#ef4444',yAxisID:'y2',tension:0.4,pointRadius:2,borderWidth:2,borderDash:[4,4]}]},
+  options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{labels:{color:'#8892a4',boxWidth:12}},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1}},scales:{y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}},y2:{grid:{display:false},ticks:{callback:v=>v+'°'},position:'right'},x:{grid:{display:false},ticks:{maxTicksLimit:12,maxRotation:45}}}}});
+
+// ── PROD REV ──────────────────────────────────────────────────────────
+new Chart(document.getElementById('cProdRev'),{type:'bar',data:{labels:D.products.labels.map(l=>l.replace(' (','\n(')),datasets:[{label:'Revenue (₹M)',data:D.products.revenue,backgroundColor:COLORS,borderRadius:5}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:9},formatter:v=>'₹'+v+'M'},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1,callbacks:{label:c=>`  ₹${c.raw}M`}}},scales:{x:{grid:{display:false},ticks:{font:{size:9}}},y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>'₹'+v+'M'}}}}});
+
+// ── WEEKLY ────────────────────────────────────────────────────────────
+const wkKeys=Object.keys(D.weekly_prod);
+const wkTabsEl=document.getElementById('wkTabs');
+wkKeys.forEach((k,i)=>{const b=document.createElement('button');b.className='tab'+(i===0?' active':'');b.textContent=k.split('(')[0].trim();b.onclick=()=>switchWeekly(i,b);wkTabsEl.appendChild(b)});
+let wkChart=null;
+function switchWeekly(idx,btn){document.querySelectorAll('#wkTabs .tab').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const p=wkKeys[idx];const dat=D.weekly_prod[p];if(wkChart)wkChart.destroy();const ctx=document.getElementById('cWeekly').getContext('2d');wkChart=new Chart(ctx,{type:'line',data:{labels:dat.labels,datasets:[{label:p,data:dat.values,borderColor:COLORS[idx],backgroundColor:COLORS[idx]+'22',fill:true,tension:0.3,pointRadius:1.5,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:20,maxRotation:45,font:{size:9}}},y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}}}}})}
+switchWeekly(0,wkTabsEl.children[0]);
+
+// ── HEATMAP ───────────────────────────────────────────────────────────
+(function(){const{products,regions,values}=D.heatmap;let max=0;values.forEach(r=>r.forEach(v=>{if(v>max)max=v}));const t=document.getElementById('heatmapTbl');let h='<thead><tr><th>Product</th>';regions.forEach(r=>h+=`<th>${r}</th>`);h+='</tr></thead><tbody>';products.forEach((p,i)=>{h+=`<tr><td title="${p}">${p.split('(')[0].trim()}</td>`;regions.forEach((_,j)=>{const v=values[i][j],a=0.1+(v/max)*0.75;h+=`<td style="background:rgba(79,142,247,${a.toFixed(2)});color:#e2e8f0">${fmtU(v)}</td>`});h+='</tr>'});h+='</tbody>';t.innerHTML=h})();
+
+// ── REGION BARS ───────────────────────────────────────────────────────
+new Chart(document.getElementById('cRegBar'),{type:'bar',data:{labels:D.regions.labels,datasets:[{label:'Units',data:D.regions.units,backgroundColor:RCOLS,borderRadius:7}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:9},formatter:v=>fmtU(v)}},scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}}}}});
+new Chart(document.getElementById('cRegRev'),{type:'bar',data:{labels:D.regions.labels,datasets:[{label:'Revenue',data:D.regions.revenue,backgroundColor:RCOLS,borderRadius:7}]},options:{responsive:true,maintainAspectRatio:false, layout: {
+    padding: {
+      right: 10,  
+      left: 10,
+      top: 30,
+      bottom: 10
+    }
+  },plugins:{legend:{display:false},  datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:10},formatter:v=>'₹'+v+'M'}},scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>'₹'+v+'M'}}}}});
+
+// ── STATES ────────────────────────────────────────────────────────────
+new Chart(document.getElementById('cStates'),{type:'bar',indexAxis:'y',data:{labels:D.states.labels,datasets:[{label:'Units',data:D.states.values,backgroundColor:D.states.labels.map((_,i)=>COLORS[i%COLORS.length]),borderRadius:5}]},options:{responsive:true,maintainAspectRatio:false, layout: {
+    padding: {
+      right: 10,   
+      left: 10,
+      top: 30,
+      bottom: 10
+    }
+  },plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:11},formatter:v=>fmtU(v)}},scales:{x:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}},y:{grid:{display:false}}}}});
+
+// ── SEASON & DOW ──────────────────────────────────────────────────────
+new Chart(document.getElementById('cSeason'),{type:'polarArea',data:{labels:D.season.labels,datasets:[{data:D.season.values,backgroundColor:['#4f8ef799','#22c98a99','#7c5cbf99','#f4a26199'],borderColor:['#4f8ef7','#22c98a','#7c5cbf','#f4a261'],borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#8892a4'}}},scales:{r:{grid:{color:'rgba(46,51,82,.4)'},ticks:{color:'#8892a4',backdropColor:'transparent'}}}}});
+new Chart(document.getElementById('cDOW'),{type:'radar',data:{labels:D.dow.labels.map(l=>l.slice(0,3)),datasets:[{label:'Avg Sales',data:D.dow.values,borderColor:'#4f8ef7',backgroundColor:'rgba(79,142,247,.2)',pointBackgroundColor:'#4f8ef7',borderWidth:2,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{r:{grid:{color:'rgba(46,51,82,.4)'},ticks:{color:'#8892a4',backdropColor:'transparent',font:{size:9}}}}}});
+
+// ── FESTIVAL ──────────────────────────────────────────────────────────
+new Chart(document.getElementById('cFestival'),{type:'bar',data:{labels:[...D.festival.labels,'Normal Day'],datasets:[{label:'Avg Units',data:[...D.festival.values,D.festival.normal_avg],backgroundColor:[...D.festival.labels.map((_,i)=>COLORS[i%COLORS.length]),'#3a3d55'],borderRadius:5}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:9},formatter:v=>fmtU(v)},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1}},scales:{x:{grid:{display:false},ticks:{maxRotation:30}},y:{grid:{color:'rgba(46,51,82,.4)'}}}}});
+
+// ── MAPE ──────────────────────────────────────────────────────────────
+new Chart(document.getElementById('cMAPE'),{type:'bar',data:{labels:['SARIMA','Prophet','LSTM','ARIMA'],datasets:[{label:'MAPE (%)',data:[8.2,9.8,10.1,11.4],backgroundColor:['#22c98a','#4f8ef7','#a855f7','#fbbf24'],borderRadius:7}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},datalabels:{display:true,anchor:'end',align:'end',color:'#ffffff',font:{size:9},formatter:v=>v+'%'}},scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>v+'%'},max:14}}}});
+
+// ── BUBBLE ────────────────────────────────────────────────────────────
+new Chart(document.getElementById('cBubble'),{type:'bubble',data:{datasets:[{label:'Products',data:D.products.labels.map((l,i)=>({x:D.products.units[i]/1000,y:D.products.revenue[i],r:10,label:l.split('(')[0].trim()})),backgroundColor:COLORS.map(c=>c+'aa'),borderColor:COLORS,borderWidth:1.5}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1,callbacks:{label:c=>`${c.raw.label} | ${fmtU(c.raw.x*1000)} units | ₹${c.raw.y}M`}}},scales:{x:{grid:{color:'rgba(46,51,82,.4)'},title:{display:true,text:'Units (K)',color:'#8892a4'}},y:{grid:{color:'rgba(46,51,82,.4)'},title:{display:true,text:'Revenue ₹M',color:'#8892a4'}}}}});
+
+// ── RECOMMENDATIONS ───────────────────────────────────────────────────
+const recos=[{ico:'',txt:'Increase milk/ghee production by 20% in Oct–Dec for winter peak'},{ico:'',txt:'Maintain 2-week buffer stock before Diwali, Holi, Republic Day'},{ico:'',txt:'Deploy additional cold storage vans in North & South regions'},{ico:'',txt:'Use SARIMA for monthly planning, LSTM for weekly real-time adjustments'},{ico:'',txt:'Boost buttermilk & ice cream supply when temperature exceeds 35°C'},{ico:'',txt:'Launch festival combo packs 3 weeks before major celebrations'}];
+const rl2=document.getElementById('recoList');
+recos.forEach(r=>{rl2.innerHTML+=`<div style="display:flex;gap:10px;padding:9px 0;border-bottom:1px solid rgba(46,51,82,.4)"><span style="font-size:17px">${r.ico}</span><span style="font-size:11px;color:#c4ccd8;line-height:1.5">${r.txt}</span></div>`});
+
+// ── QUICK STATS FOR CHATBOT ───────────────────────────────────────────
+const qs=document.getElementById('quickStats');
+const qdata=[
+  {ico:'',label:'Best Product',val:D.products.labels[0].split('(')[0].trim()},
+  {ico:'',label:'Top Region',val:D.regions.labels[0]},
+  {ico:'',label:'2023 Units',val:fmtU(D.yoy.units[2])},
+  {ico:'',label:'Festival Uplift',val:'+'+Math.round((D.festival.values[0]/D.festival.normal_avg-1)*100)+'%'},
+  {ico:'',label:'Peak Season',val:D.season.labels[D.season.values.indexOf(Math.max(...D.season.values))]},
+  {ico:'',label:'Best Model',val:'SARIMA (8.2% MAPE)'},
+];
+qdata.forEach(q=>{qs.innerHTML+=`<div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid rgba(46,51,82,.4)"><span style="color:var(--muted)">${q.ico} ${q.label}</span><span style="font-weight:700;color:var(--text)">${q.val}</span></div>`});
+
+// ── YEAR FILTER ───────────────────────────────────────────────────────
+function setYear(yr,btn){
+  document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));btn.classList.add('active');
+  let lbs,units,rev;
+  if(yr==='all'){lbs=D.monthly.labels;units=D.monthly.units;rev=D.monthly.revenue}
+  else{const idx=D.monthly.labels.reduce((a,l,i)=>{if(l.includes(yr))a.push(i);return a},[]);lbs=idx.map(i=>D.monthly.labels[i]);units=idx.map(i=>D.monthly.units[i]);rev=idx.map(i=>D.monthly.revenue[i])}
+  chartMonthly.data.labels=lbs;chartMonthly.data.datasets[0].data=showUnits?units:rev;chartMonthly.update();
+}
+
+// ════════════════════════════════════════════════════
+// LIVE FORECAST ENGINE
+// ════════════════════════════════════════════════════
+let liveChart=null;
+async function runForecast(){
+  const product=document.getElementById('fe-product').value;
+  const region=document.getElementById('fe-region').value;
+  const months=document.getElementById('fe-months').value;
+  const btn=document.getElementById('fe-btn');
+  const loading=document.getElementById('fe-loading');
+  const result=document.getElementById('fe-result');
+
+  btn.disabled=true;loading.style.display='block';result.style.display='none';
+
+  try{
+    const resp=await fetch('/api/forecast/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({product,region,months:parseInt(months)})});
+    const data=await resp.json();
+    if(data.error){alert('Error: '+data.error);return}
+
+    // Stats
+    const s=data.summary;
+    const trendColor=s.change_pct>=0?'var(--green)':'var(--red)';
+    const trendArrow=s.change_pct>=0?'▲':'▼';
+    document.getElementById('fe-stats').innerHTML=`
+      <div class="fe-stat"><div class="fe-stat-val" style="color:var(--accent)">${s.next_month.toLocaleString()}</div><div class="fe-stat-label">Next Month Forecast</div></div>
+      <div class="fe-stat"><div class="fe-stat-val" style="color:var(--green)">${s.avg_forecast.toLocaleString()}</div><div class="fe-stat-label">Avg Forecast (${months}M)</div></div>
+      <div class="fe-stat"><div class="fe-stat-val" style="color:${trendColor}">${trendArrow} ${Math.abs(s.change_pct)}%</div><div class="fe-stat-label">vs Last Actual Month</div></div>
+      <div class="fe-stat"><div class="fe-stat-val" style="color:var(--muted)">${s.last_actual.toLocaleString()}</div><div class="fe-stat-label">Last Actual Month</div></div>`;
+
+    // Chart
+    if(liveChart)liveChart.destroy();
+    const ctx=document.getElementById('cForecastLive').getContext('2d');
+    liveChart=new Chart(ctx,{type:'line',data:{
+      labels:[...data.history.labels,...data.forecast.labels],
+      datasets:[
+        {label:'Historical',data:[...data.history.values,...Array(data.forecast.labels.length).fill(null)],borderColor:'#4f8ef7',backgroundColor:'rgba(79,142,247,.15)',fill:true,borderWidth:2.5,pointRadius:3,tension:0.3},
+        {label:'Forecast (SARIMA)',data:[...Array(data.history.labels.length).fill(null),...data.forecast.values],borderColor:'#22c98a',backgroundColor:'rgba(34,201,138,.1)',fill:true,borderWidth:2.5,borderDash:[6,3],pointRadius:5,pointBackgroundColor:'#22c98a',tension:0.3},
+        {label:'Upper 95%',data:[...Array(data.history.labels.length).fill(null),...data.forecast.upper],borderColor:'rgba(34,201,138,.25)',borderWidth:1,borderDash:[3,3],pointRadius:0,fill:false,tension:0.3},
+        {label:'Lower 95%',data:[...Array(data.history.labels.length).fill(null),...data.forecast.lower],borderColor:'rgba(34,201,138,.25)',borderWidth:1,borderDash:[3,3],pointRadius:0,fill:'-1',backgroundColor:'rgba(34,201,138,.05)',tension:0.3},
+      ]},
+      options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+        plugins:{legend:{labels:{color:'#8892a4',filter:i=>!['Upper 95%','Lower 95%'].includes(i.text)||true}},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2e3352',borderWidth:1}},
+        scales:{x:{grid:{display:false},ticks:{maxRotation:30}},y:{grid:{color:'rgba(46,51,82,.4)'},ticks:{callback:v=>fmtU(v)}}}}});
+
+    // Advice
+    const adv=genAdvice(product,region,s);
+    document.getElementById('fe-advice').innerHTML=adv;
+    result.style.display='block';
+  }catch(e){alert('Forecast failed: '+e)}
+  finally{btn.disabled=false;loading.style.display='none'}
+}
+
+function genAdvice(product,region,s){
+  const dir=s.change_pct>=0?`<span style="color:var(--green)">increasing by ${s.change_pct}%</span>`:`<span style="color:var(--red)">decreasing by ${Math.abs(s.change_pct)}%</span>`;
+  const action=s.change_pct>=5?'Increase production and pre-stock inventory by at least 15%.':s.change_pct<-5?' Consider reducing production runs and monitoring stock levels closely.':'Maintain current production levels with standard buffer stock.';
+  return `<strong>AI Recommendation for ${product} — ${region} Region:</strong><br>
+Demand is ${dir} from last month (${s.last_actual.toLocaleString()} → ${s.next_month.toLocaleString()} units forecast).<br>
+${action} Average forecasted demand over the next period: <strong>${s.avg_forecast.toLocaleString()} units/month</strong>.`;
+}
+
+// ════════════════════════════════════════════════════
+// AI CHATBOT
+// ════════════════════════════════════════════════════
+let chatBusy=false;
+function appendMsg(text,role){
+  const msgs=document.getElementById('chatMessages');
+  const d=document.createElement('div');
+  d.className=`msg ${role}`;
+  d.innerHTML=`<div class="msg-bubble">${text.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>').replace(/•/g,'•')}</div><div class="msg-time">${now()}</div>`;
+  msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;
+}
+function showTyping(show){document.getElementById('typingIndicator').style.display=show?'flex':'none';const msgs=document.getElementById('chatMessages');msgs.scrollTop=msgs.scrollHeight}
+
+async function sendChat(){
+  if(chatBusy)return;
+  const inp=document.getElementById('chatInput');
+  const q=inp.value.trim();
+  if(!q)return;
+  inp.value='';
+  appendMsg(q,'user');
+  chatBusy=true;
+  document.getElementById('chatSend').disabled=true;
+  showTyping(true);
+  try{
+    const resp=await fetch('/api/chatbot/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})});
+    const data=await resp.json();
+    showTyping(false);
+    if(data.error){appendMsg('Sorry, something went wrong. Please try again.','bot');}
+    else{appendMsg(data.answer+(data.mode==='offline'?' <span style="font-size:10px;opacity:.5">(offline mode)</span>':''),'bot')}
+  }catch(e){showTyping(false);appendMsg('Network error. Please check connection.','bot')}
+  finally{chatBusy=false;document.getElementById('chatSend').disabled=false}
+}
+
+function quickAsk(q){document.getElementById('chatInput').value=q;sendChat()}
+</script>
+</body>
+</html>
