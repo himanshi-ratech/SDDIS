@@ -19,3 +19,4 @@ tqdm
 plotly
 ipykernel
 nbformat
+gunicorn
